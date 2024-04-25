@@ -41,9 +41,10 @@
 ```
 ####  js的动态类型
 	一个变量可以多次重复声明改变数据类型
-#### js的
+#### js的typeof
+	与C语言不同，typeof运算符在js里返回声明的数据类型。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU4OTMzMjksLTU2NTU3MjcwMCwxNT
-I3ODI4MDMsLTgwMzYxMDE0MF19
+eyJoaXN0b3J5IjpbMjA1MDAxNDYxNiwtNTY1NTcyNzAwLDE1Mj
+c4MjgwMywtODAzNjEwMTQwXX0=
 -->
