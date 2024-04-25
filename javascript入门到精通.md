@@ -11,7 +11,13 @@
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>
 点击我！</button>
 ```
-#### 使用js改变wen'b
+#### 使用js改变文本显示
+```javascript
+<p id="demo">JavaScript 能够隐藏 HTML 元素。</p>
+<button type="button" onclick="document.getElementById('demo').style.display='none'">
+点击我！</button>
+```
+#### 使用js对
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzczNzA4MTQxXX0=
+eyJoaXN0b3J5IjpbLTgwMzYxMDE0MF19
 -->
