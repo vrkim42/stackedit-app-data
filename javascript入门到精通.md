@@ -23,7 +23,11 @@
 ```js
 -window.alert(1+1)
 -document.write(1+1)
--document.getElementById(id).style
+-document.getElementById(id).innerHTML(1+1)
+-console.log(1+1)
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjU1MjY5MSwtODAzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
 -->
