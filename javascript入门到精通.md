@@ -66,9 +66,9 @@ document.getElementById("demo").innerHTML = person.fullName();
 ```
 #### js的HTML特殊事件
 ![输入图片说明](/imgs/2024-04-25/iVIi36GgH7A0g6JI.png)
-	用在
+	用在```<button onclick=""></button>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNjIzNjI3MywtMTkzMzYyMTkwNCwtMT
-I1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgy
-ODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbMTI1OTU1NzQsMTUwNjIzNjI3MywtMTkzMz
+YyMTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3
+MDAsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
 -->
