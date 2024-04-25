@@ -92,9 +92,18 @@ var y = new String("Bill");
 ![输入图片说明](/imgs/2024-04-25/ouwT8EwcPuR3LWv7.png)
 使用lastIndexOf()可以检索最后一次出现的位置，未找到二者均返回-1；二者也均接受第二个参数元素：var pos = str.lastIndexOf("China", 50);
 请记住，lastIndexOf（）方法向后搜索，因此位置 50 表示在第 50 位开始搜索，并搜索到开头。
+```js
+<p id="demo"></p>
+
+<script>
+var str = "The full name of China is the People's Republic of China.";
+var pos = str.search("China");
+document.getElementById("demo").innerHTML = pos;
+</script>
+`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNDI1NTc2LC01MjU4MzU1MCwtMjkzNz
-E1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5MDQsLTEyNTE5MDk1
-MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtOD
-AzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbMTA4NTI2MDkxNSwtNTI1ODM1NTAsLTI5Mz
+cxNTQxMywxNTA2MjM2MjczLC0xOTMzNjIxOTA0LC0xMjUxOTA5
+NTA4LC05MjM0ODcwNDcsLTU2NTU3MjcwMCwxNTI3ODI4MDMsLT
+gwMzYxMDE0MF19
 -->
