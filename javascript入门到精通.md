@@ -105,10 +105,51 @@ document.getElementById("demo").innerHTML = pos;
 search返回第一次找到的位置。
 这两种方法是不相等的。区别在于：
 
-search() 方法无法设置第二个开始位置参数。
-indexOf() 方法无法设置更强大的搜索值（正则表达式）。
+- search() 方法无法设置第二个开始位置参数。
+- indexOf() 方法无法设置更强大的搜索值（正则表达式）。
+#### js字符串的读取
+```js
+1.slice(初始位置，终止位置)
+如果省略第二个参数，将裁剪字符串的剩余部分。
+- 从头读取：var res = str.slice(7)
+- 从尾读取：var res = str.slice(-13)
+2.substring(初始位置，终止位置)
+用法与slice相同，但是不能接受负的索引。
+3.substr(初始位置，字符串长度)
+如果省略第二个参数，则substr将裁剪字符串的剩余部分。
+- 如果首个参数为负，则将从末尾计算位置，读取到结尾。
+```
+#### js字符串内容的替换
+```js
+replace("目标字符串"，"要替换成的字符串")
+特点：对大小写敏感，默认只替换首个字符串，不会改变调用的字符串，返回新的字符串。
+- 但是可以使用正则表达式使其对大小写不敏感：
+var n = str.replace(/MICROSOFT/i,"w3cschools");
+- 也可以使用正则表达式使其对所有元素进行替换：
+var n = str.replace(/MICROSOFT/g,"w3cschools");
+```
+#### 转换大小写
+```js
+通过toUpperCase()将字符串转换为大写：
+var text1 = "Hello World!"
+var text2 = text1.toUpperCase();//text2即为被转化为大写的text1
+```
+```js
+通过toLowerCase()把字符串转换为小写：
+var text1 = "Hello World!"
+var text2 = text1.toLowerCase();//text2是被转换为小写的text1
+```
+#### 字符串的连接空白符删除
+```js
+var text = "Hello" + " " + "World!";
+var text = "Hello".concat(" ","World!")
+二者等价。
+```
+#### 输出已经删除两端空白符的字符串
+```js
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM3ODM4MDcsLTUyNTgzNTUwLC0yOT
+eyJoaXN0b3J5IjpbLTEwNTgzMjUyODksLTUyNTgzNTUwLC0yOT
 M3MTU0MTMsMTUwNjIzNjI3MywtMTkzMzYyMTkwNCwtMTI1MTkw
 OTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgyODAzLC
 04MDM2MTAxNDBdfQ==
