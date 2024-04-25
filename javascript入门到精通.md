@@ -50,9 +50,10 @@ function toCelsius(fahrenhrit){
 	return (5/9) * (fahrenheit - 32);
 	}
 ```
-#### 
+#### js对象的创建he'xi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTE5MDk1MDgsLTkyMzQ4NzA0NywtNT
-Y1NTcyNzAwLDE1Mjc4MjgwMywtODAzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbMTQ5ODUxODM4NywtMTI1MTkwOTUwOCwtOT
+IzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgyODAzLC04MDM2MTAx
+NDBdfQ==
 -->
