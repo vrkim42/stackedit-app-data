@@ -73,9 +73,18 @@ var x = "中国是瓷器的故乡，因此 china 与\"China（中国）\"同名�
 #### js的转译字符
 ![输入图片说明](/imgs/2024-04-25/sElG7tfMOE8CMyeA.png)
 如图所示即为常用转义字符
-#### js的
+#### js的数据类型相等判断的特例
+
+```js
+var x = "Bill";             
+var y = new String("Bill");
+
+// (x === y) 为 false，因为 x 和 y 的类型不同（字符串与对象）
+```
+zhe
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzcxNTQxMywxNTA2MjM2MjczLC0xOT
-MzNjIxOTA0LC0xMjUxOTA5NTA4LC05MjM0ODcwNDcsLTU2NTU3
-MjcwMCwxNTI3ODI4MDMsLTgwMzYxMDE0MF19
+eyJoaXN0b3J5IjpbLTgxNDQyMjM3OCwtMjkzNzE1NDEzLDE1MD
+YyMzYyNzMsLTE5MzM2MjE5MDQsLTEyNTE5MDk1MDgsLTkyMzQ4
+NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtODAzNjEwMTQwXX
+0=
 -->
