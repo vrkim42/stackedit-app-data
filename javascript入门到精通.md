@@ -19,7 +19,7 @@
 ```
 #### 使用js对目标进行输出
 ![输入图片说明](/imgs/2024-04-25/aFW397yHAhSoUrt3.png)
-
+输出方式：
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4ODYxNzQ4LC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbLTEwMjA4MTE2NDUsLTgwMzYxMDE0MF19
 -->
