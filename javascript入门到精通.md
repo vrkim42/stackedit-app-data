@@ -66,9 +66,11 @@ document.getElementById("demo").innerHTML = person.fullName();
 ```
 #### js的HTML特殊事件
 ![输入图片说明](/imgs/2024-04-25/iVIi36GgH7A0g6JI.png)
-	用在```<button onclick=""></button>
+	用在 button onclick=""> /button>上。
+#### js的单双引号
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1OTU1NzQsMTUwNjIzNjI3MywtMTkzMz
-YyMTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3
-MDAsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbLTE1NzM2MjIwNjAsMTUwNjIzNjI3MywtMT
+kzMzYyMTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1
+NzI3MDAsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
 -->
