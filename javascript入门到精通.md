@@ -82,8 +82,15 @@ var y = new String("Bill");
 // (x === y) 为 false，因为 x 和 y 的类型不同（字符串与对象）
 ```
 这里使用new 关键字将字符串声明为对象，所以二者不相等。所以说new 关键字使代码复杂化。也可能产生一些意想不到的结果，甚至更糟。对象无法比较：
+```js
+var x = new String("Bill");             
+var y = new String("Bill");
+
+// (x == y) 为 false，因为 x 和 y 是不同的对象
+```
+#### js字符串的cha'zh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTM0Nzc3MjcsLTI5MzcxNTQxMywxNT
+eyJoaXN0b3J5IjpbLTExNDI3NDgxNzQsLTI5MzcxNTQxMywxNT
 A2MjM2MjczLC0xOTMzNjIxOTA0LC0xMjUxOTA5NTA4LC05MjM0
 ODcwNDcsLTU2NTU3MjcwMCwxNTI3ODI4MDMsLTgwMzYxMDE0MF
 19
