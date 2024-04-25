@@ -26,8 +26,9 @@
 -document.getElementById(id).innerHTML(1+1)
 -console.log(1+1)
 ```
-
+#### j
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbOTI0NzE0ODI1LDE1Mjc4MjgwMywtODAzNj
+EwMTQwXX0=
 -->
