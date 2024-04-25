@@ -165,7 +165,7 @@ function myFunction() {
   document.getElementById("demo").innerHTML = arr[0];
 }//返回a;
 
-
+直接拆分成字母：
 <p id="demo"></p>
 
 <script>
@@ -178,9 +178,11 @@ for (i = 0; i < arr.length; i++) {
 }
 document.getElementById("demo").innerHTML = text;
 </script>
+```
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA2OTgzNTgsLTEwNTgzMjUyODksLT
-UyNTgzNTUwLC0yOTM3MTU0MTMsMTUwNjIzNjI3MywtMTkzMzYy
-MTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MD
-AsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbODYwMDQ5OTAzLC0xMDU4MzI1Mjg5LC01Mj
+U4MzU1MCwtMjkzNzE1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5
+MDQsLTEyNTE5MDk1MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLD
+E1Mjc4MjgwMywtODAzNjEwMTQwXX0=
 -->
