@@ -30,9 +30,10 @@
 #### js的特殊运算
 ```js
 - var x = 5;
-- var z  = Math.pow(x,
+- var z  = Math.pow(x,2); // var z = x ** 2;
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTk4MjUzMiwxNTI3ODI4MDMsLTgwMz
+eyJoaXN0b3J5IjpbLTU2NTU3MjcwMCwxNTI3ODI4MDMsLTgwMz
 YxMDE0MF19
 -->
