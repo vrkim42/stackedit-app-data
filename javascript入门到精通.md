@@ -43,8 +43,11 @@
 	一个变量可以多次重复声明改变数据类型
 #### js的typeof
 	与C语言不同，typeof运算符在js里返回声明的数据类型，尚未声明值的变量类型为Undefined，将undefined或者null赋值给变量可以清空对象。
+#### 通过function声明函数调用
+```js
+function toCelsius(fahren
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mj
-c4MjgwMywtODAzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbMTI1OTUxMDkwOCwtOTIzNDg3MDQ3LC01Nj
+U1NzI3MDAsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
 -->
