@@ -50,10 +50,23 @@ function toCelsius(fahrenhrit){
 	return (5/9) * (fahrenheit - 32);
 	}
 ```
-#### js对象的创建he'xi
+#### js对象的创建和显示
+```js
+var person = {
+    firstName: "Bill",
+    lastName : "Gates",
+    id       : 12345,
+    fullName : function() {
+       return this.firstName + " " + this.lastName;
+    }
+};
 
+// 显示对象中的数据：
+document.getElementById("demo").innerHTML = person.fullName();
+```
+#### js
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODUxODM4NywtMTI1MTkwOTUwOCwtOT
-IzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgyODAzLC04MDM2MTAx
-NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5MzM2MjE5MDQsLTEyNTE5MDk1MDgsLT
+kyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtODAzNjEw
+MTQwXX0=
 -->
