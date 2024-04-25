@@ -27,9 +27,12 @@
 -console.log(1+1)
 ```
 #### js注释方式与C语言一致
-#### js
+#### js的特殊运算
+```js
+- var x = 5;
+- var z  = Math.pow(x,
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTM4NzY3NDMsMTUyNzgyODAzLC04MD
-M2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbMTEwMTk4MjUzMiwxNTI3ODI4MDMsLTgwMz
+YxMDE0MF19
 -->
