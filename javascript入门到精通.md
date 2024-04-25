@@ -40,9 +40,10 @@
 - var x = {firstName:"Bill", lastName:"Gates"}; // 对象
 ```
 ####  js的动态类型
-	一个变量可以多次chong'fe'shneg
+	一个变量可以多次重复声明改变数据类型
+#### js的
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODE5MjQwMCwtNTY1NTcyNzAwLDE1Mj
-c4MjgwMywtODAzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbLTE1MzU4OTMzMjksLTU2NTU3MjcwMCwxNT
+I3ODI4MDMsLTgwMzYxMDE0MF19
 -->
