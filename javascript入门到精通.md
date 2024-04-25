@@ -37,9 +37,12 @@
 - var a = 7;//数字
 - var lastName = "Gates";// 字符串
 - var cars = ["Porsche" "Volvo" "BMW"]// 数组
-- var x = {firstName:"Bill", lastName:
+- var x = {firstName:"Bill", lastName:"Gates"}; // 对象
+```
+####  js的动态类型
+	一个变量可以多次chong'fe'shneg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTQwNDIwOSwtNTY1NTcyNzAwLDE1Mj
+eyJoaXN0b3J5IjpbMjExODE5MjQwMCwtNTY1NTcyNzAwLDE1Mj
 c4MjgwMywtODAzNjEwMTQwXX0=
 -->
