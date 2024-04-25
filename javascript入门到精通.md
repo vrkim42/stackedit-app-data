@@ -149,8 +149,12 @@ var text = "Hello".concat(" ","World!")
 ```js
 var str = "                Hello World!              ";
 alert(str.trim());
+```
+#### 返回指定下标字符串
+```js
+var s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NzY3NDU1NCwtMTA1ODMyNTI4OSwtNT
+eyJoaXN0b3J5IjpbLTY1ODM1MjM2NSwtMTA1ODMyNTI4OSwtNT
 I1ODM1NTAsLTI5MzcxNTQxMywxNTA2MjM2MjczLC0xOTMzNjIx
 OTA0LC0xMjUxOTA5NTA4LC05MjM0ODcwNDcsLTU2NTU3MjcwMC
 wxNTI3ODI4MDMsLTgwMzYxMDE0MF19
