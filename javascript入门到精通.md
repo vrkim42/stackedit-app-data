@@ -26,9 +26,10 @@
 -document.getElementById(id).innerHTML(1+1)
 -console.log(1+1)
 ```
-#### j
+#### js注释方式与C语言一致
+#### js
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NzE0ODI1LDE1Mjc4MjgwMywtODAzNj
-EwMTQwXX0=
+eyJoaXN0b3J5IjpbLTE5OTM4NzY3NDMsMTUyNzgyODAzLC04MD
+M2MTAxNDBdfQ==
 -->
