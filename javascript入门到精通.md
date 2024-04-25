@@ -159,9 +159,15 @@ str[0]; //返回H
 ```
 #### 把字符串替换为数组
 ```js
-
+function myFunction() {
+  var str = "a,b,c,d,e,f";
+  var arr = str.split(",");
+  document.getElementById("demo").innerHTML = arr[0];
+}//返回a;
+```
+#### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzk3OTYzLC0xMDU4MzI1Mjg5LC01Mj
+eyJoaXN0b3J5IjpbMjY0NjIwMzAwLC0xMDU4MzI1Mjg5LC01Mj
 U4MzU1MCwtMjkzNzE1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5
 MDQsLTEyNTE5MDk1MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLD
 E1Mjc4MjgwMywtODAzNjEwMTQwXX0=
