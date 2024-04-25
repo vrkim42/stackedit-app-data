@@ -90,11 +90,11 @@ var y = new String("Bill");
 ```
 #### js字符串的查找
 ![输入图片说明](/imgs/2024-04-25/ouwT8EwcPuR3LWv7.png)
-使用lastIndexOf()可以检索最后一次出现的位置，未找到二者均返回-1；
+使用lastIndexOf()可以检索最后一次出现的位置，未找到二者均返回-1；二者也均接受第二个参数元素：![输入图片说明](/imgs/2024-04-25/eckCeaGMvV6Vidgq.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNTAxMzAyLC01MjU4MzU1MCwtMjkzNz
-E1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5MDQsLTEyNTE5MDk1
-MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtOD
-AzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbLTM3MjA5OTI3NywtNTI1ODM1NTAsLTI5Mz
+cxNTQxMywxNTA2MjM2MjczLC0xOTMzNjIxOTA0LC0xMjUxOTA5
+NTA4LC05MjM0ODcwNDcsLTU2NTU3MjcwMCwxNTI3ODI4MDMsLT
+gwMzYxMDE0MF19
 -->
