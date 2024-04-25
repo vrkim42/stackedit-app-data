@@ -20,6 +20,10 @@
 #### 使用js对目标进行输出
 ![输入图片说明](/imgs/2024-04-25/aFW397yHAhSoUrt3.png)
 输出方式：
+```js
+-window.alert(1+1)
+-document.write(1+1)
+-document.getElementById(id).style
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjA4MTE2NDUsLTgwMzYxMDE0MF19
+eyJoaXN0b3J5IjpbLTY2MjU1MjY5MSwtODAzNjEwMTQwXX0=
 -->
