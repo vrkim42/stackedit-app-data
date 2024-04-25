@@ -164,11 +164,23 @@ function myFunction() {
   var arr = str.split(",");
   document.getElementById("demo").innerHTML = arr[0];
 }//返回a;
-```
-#### 
+
+
+<p id="demo"></p>
+
+<script>
+var str = "Hello";
+var arr = str.split("");
+var text = "";
+var i;
+for (i = 0; i < arr.length; i++) {
+  text += arr[i] + "<br>"
+}
+document.getElementById("demo").innerHTML = text;
+</script>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NjIwMzAwLC0xMDU4MzI1Mjg5LC01Mj
-U4MzU1MCwtMjkzNzE1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5
-MDQsLTEyNTE5MDk1MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLD
-E1Mjc4MjgwMywtODAzNjEwMTQwXX0=
+eyJoaXN0b3J5IjpbLTEyNDA2OTgzNTgsLTEwNTgzMjUyODksLT
+UyNTgzNTUwLC0yOTM3MTU0MTMsMTUwNjIzNjI3MywtMTkzMzYy
+MTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MD
+AsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
 -->
