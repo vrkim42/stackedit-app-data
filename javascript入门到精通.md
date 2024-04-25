@@ -90,9 +90,10 @@ var y = new String("Bill");
 ```
 #### js字符串的查找
 ![输入图片说明](/imgs/2024-04-25/ouwT8EwcPuR3LWv7.png)
-使用lastIndexOf()可以检索最后一次出现的位置，未找到二者均返回-1；二者也均接受第二个参数元素：var pos = str.;
+使用lastIndexOf()可以检索最后一次出现的位置，未找到二者均返回-1；二者也均接受第二个参数元素：var pos = str.lastIndexOf("China", 50);
+请记住，lastIndexOf（）方法向后搜索，因此位置 50 表示在第 50 位开始搜索，并搜索到开头。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNTE5OTUwLC01MjU4MzU1MCwtMjkzNz
+eyJoaXN0b3J5IjpbMzAxNDI1NTc2LC01MjU4MzU1MCwtMjkzNz
 E1NDEzLDE1MDYyMzYyNzMsLTE5MzM2MjE5MDQsLTEyNTE5MDk1
 MDgsLTkyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtOD
 AzNjEwMTQwXX0=
