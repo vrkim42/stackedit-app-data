@@ -96,14 +96,20 @@ var y = new String("Bill");
 <p id="demo"></p>
 
 <script>
-var str = "The full name of China is the People's Republic of China.";
+var str = "The full name of China is the People's Republic of \
+China.";
 var pos = str.search("China");
 document.getElementById("demo").innerHTML = pos;
 </script>
-`
+```
+search返回第一次找到的位置。
+这两种方法是不相等的。区别在于：
+
+search() 方法无法设置第二个开始位置参数。
+indexOf() 方法无法设置更强大的搜索值（正则表达式）。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTI2MDkxNSwtNTI1ODM1NTAsLTI5Mz
-cxNTQxMywxNTA2MjM2MjczLC0xOTMzNjIxOTA0LC0xMjUxOTA5
-NTA4LC05MjM0ODcwNDcsLTU2NTU3MjcwMCwxNTI3ODI4MDMsLT
-gwMzYxMDE0MF19
+eyJoaXN0b3J5IjpbLTE4NzM3ODM4MDcsLTUyNTgzNTUwLC0yOT
+M3MTU0MTMsMTUwNjIzNjI3MywtMTkzMzYyMTkwNCwtMTI1MTkw
+OTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgyODAzLC
+04MDM2MTAxNDBdfQ==
 -->
