@@ -7,7 +7,11 @@
 ```
 #### 使用js改变HTML内容
 ```javascript
-<p id="demo"> JavaScript可以gai'bian'mu'bia
+<p id="demo"> JavaScript可以改变目标段落的内容。 </p>
+<button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>
+点击我！</button>
+```
+#### 使用js改变wen'b
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNTM5MTY1XX0=
+eyJoaXN0b3J5IjpbNzczNzA4MTQxXX0=
 -->
