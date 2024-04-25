@@ -88,10 +88,12 @@ var y = new String("Bill");
 
 // (x == y) 为 false，因为 x 和 y 是不同的对象
 ```
-#### js字符串的cha'zh
+#### js字符串的查找
+```js
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI3NDgxNzQsLTI5MzcxNTQxMywxNT
-A2MjM2MjczLC0xOTMzNjIxOTA0LC0xMjUxOTA5NTA4LC05MjM0
-ODcwNDcsLTU2NTU3MjcwMCwxNTI3ODI4MDMsLTgwMzYxMDE0MF
-19
+eyJoaXN0b3J5IjpbMTYyNzEzOTE2MSwtMjkzNzE1NDEzLDE1MD
+YyMzYyNzMsLTE5MzM2MjE5MDQsLTEyNTE5MDk1MDgsLTkyMzQ4
+NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtODAzNjEwMTQwXX
+0=
 -->
