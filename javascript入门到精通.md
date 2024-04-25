@@ -64,9 +64,11 @@ var person = {
 // 显示对象中的数据：
 document.getElementById("demo").innerHTML = person.fullName();
 ```
-#### js
+#### js的HTML特殊事件
+![输入图片说明](/imgs/2024-04-25/iVIi36GgH7A0g6JI.png)
+	用在
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM2MjE5MDQsLTEyNTE5MDk1MDgsLT
-kyMzQ4NzA0NywtNTY1NTcyNzAwLDE1Mjc4MjgwMywtODAzNjEw
-MTQwXX0=
+eyJoaXN0b3J5IjpbMTUwNjIzNjI3MywtMTkzMzYyMTkwNCwtMT
+I1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MDAsMTUyNzgy
+ODAzLC04MDM2MTAxNDBdfQ==
 -->
