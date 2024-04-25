@@ -68,9 +68,11 @@ document.getElementById("demo").innerHTML = person.fullName();
 ![输入图片说明](/imgs/2024-04-25/iVIi36GgH7A0g6JI.png)
 	用在 button onclick=""> /button>上。
 #### js的单双引号
-
+var x = "中国是瓷器的故乡，因此 china 与\"China（中国）\"同名。"
+一般情况下，双引号不能同时出现多次，但是通过转义字符可以实现多个双引号的并用。
+#### js的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM2MjIwNjAsMTUwNjIzNjI3MywtMT
-kzMzYyMTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1
-NzI3MDAsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbMTUwNTc4OTkxMSwxNTA2MjM2MjczLC0xOT
+MzNjIxOTA0LC0xMjUxOTA5NTA4LC05MjM0ODcwNDcsLTU2NTU3
+MjcwMCwxNTI3ODI4MDMsLTgwMzYxMDE0MF19
 -->
