@@ -31,9 +31,14 @@
 ```js
 - var x = 5;
 - var z  = Math.pow(x,2); // var z = x ** 2;
+```
+#### js的数据类型
+```js
+- var a = 7;//数字
+- var lastName = "Gates"
 - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NTU3MjcwMCwxNTI3ODI4MDMsLTgwMz
-YxMDE0MF19
+eyJoaXN0b3J5IjpbLTUwMjAwMTMwNSwtNTY1NTcyNzAwLDE1Mj
+c4MjgwMywtODAzNjEwMTQwXX0=
 -->
