@@ -17,7 +17,9 @@
 <button type="button" onclick="document.getElementById('demo').style.display='none'">
 点击我！</button>
 ```
-#### 使用js对
+#### 使用js对目标进行输出
+![输入图片说明](/imgs/2024-04-25/aFW397yHAhSoUrt3.png)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzYxMDE0MF19
+eyJoaXN0b3J5IjpbNTY4ODYxNzQ4LC04MDM2MTAxNDBdfQ==
 -->
