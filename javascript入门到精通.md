@@ -35,10 +35,11 @@
 #### js的数据类型
 ```js
 - var a = 7;//数字
-- var lastName = "Gates"
-- 
+- var lastName = "Gates";// 字符串
+- var cars = ["Porsche" "Volvo" "BMW"]// 数组
+- var x = {firstName:"Bill", lastName:
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjAwMTMwNSwtNTY1NTcyNzAwLDE1Mj
+eyJoaXN0b3J5IjpbLTM0NTQwNDIwOSwtNTY1NTcyNzAwLDE1Mj
 c4MjgwMywtODAzNjEwMTQwXX0=
 -->
