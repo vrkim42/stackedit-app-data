@@ -148,10 +148,10 @@ var text = "Hello".concat(" ","World!")
 #### 输出已经删除两端空白符的字符串
 ```js
 var str = "                Hello World!              ";
-alert(str.tri
+alert(str.trim());
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg0MjI2NzQsLTEwNTgzMjUyODksLT
-UyNTgzNTUwLC0yOTM3MTU0MTMsMTUwNjIzNjI3MywtMTkzMzYy
-MTkwNCwtMTI1MTkwOTUwOCwtOTIzNDg3MDQ3LC01NjU1NzI3MD
-AsMTUyNzgyODAzLC04MDM2MTAxNDBdfQ==
+eyJoaXN0b3J5IjpbLTI5NzY3NDU1NCwtMTA1ODMyNTI4OSwtNT
+I1ODM1NTAsLTI5MzcxNTQxMywxNTA2MjM2MjczLC0xOTMzNjIx
+OTA0LC0xMjUxOTA5NTA4LC05MjM0ODcwNDcsLTU2NTU3MjcwMC
+wxNTI3ODI4MDMsLTgwMzYxMDE0MF19
 -->
