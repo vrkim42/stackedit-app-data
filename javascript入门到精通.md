@@ -70,9 +70,12 @@ document.getElementById("demo").innerHTML = person.fullName();
 #### js的单双引号
 var x = "中国是瓷器的故乡，因此 china 与\"China（中国）\"同名。"
 一般情况下，双引号不能同时出现多次，但是通过转义字符可以实现多个双引号的并用。
+#### js的转译字符
+![输入图片说明](/imgs/2024-04-25/sElG7tfMOE8CMyeA.png)
+如图所示即为常用转义字符
 #### js的
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTc4OTkxMSwxNTA2MjM2MjczLC0xOT
+eyJoaXN0b3J5IjpbLTI5MzcxNTQxMywxNTA2MjM2MjczLC0xOT
 MzNjIxOTA0LC0xMjUxOTA5NTA4LC05MjM0ODcwNDcsLTU2NTU3
 MjcwMCwxNTI3ODI4MDMsLTgwMzYxMDE0MF19
 -->
