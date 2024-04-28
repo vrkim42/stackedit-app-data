@@ -17,7 +17,9 @@ scanf("%d", &n);
 ### 创建链表结构
 ```c
 for(int i = 1; i <= n; i++){
-
+p = (struct Student*)malloc(sizeof(struct Studeent));
+scanf("%s", &p -> name);
+scanf(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTA4Njg4N119
+eyJoaXN0b3J5IjpbLTMzODA4MjM3NV19
 -->
