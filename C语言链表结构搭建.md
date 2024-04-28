@@ -20,12 +20,15 @@ for(int i = 1; i <= n; i++){
 p = (struct Student*)malloc(sizeof(struct Student));//为p申请内存
 scanf("%s", &p -> name);//赋值给name
 scanf("%d", &p -> id);//赋值给id
-tail -> next = p;//将
+tail -> next = p;//将next指向p的地址
 tail = p;//将原先tail的位置更新到申请的p的地址
-tail -> next = NULL;
+tail -> next = NULL;//将此链表的next指针指向空，以便下一次插入链表
 }
 ```
+### 链表的访问
+```c
+p = head
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDQ1NzY0Ml19
+eyJoaXN0b3J5IjpbLTgyMjg5NDU4NF19
 -->
