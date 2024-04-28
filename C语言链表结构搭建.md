@@ -10,11 +10,13 @@ typedef struct Student{
 ```c
 STU *p, *head, *tail;//创建头节点，尾节点，动态访问节点。
 head = NULL;
-tail = NULL;//shou'ge'jie'dian
+tail = NULL;//首个节点不存储信息
+int n;// 链表的个数
+scanf("%d", &n);
 
 ### 创建收割链表结构
 ```c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjkzMTc5NzFdfQ==
+eyJoaXN0b3J5IjpbMTkyOTMyMjY1N119
 -->
