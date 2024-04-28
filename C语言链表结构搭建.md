@@ -30,8 +30,11 @@ tail -> next = NULL;//将此链表的next指针指向空，以便下一次插入
 p = head -> next//这样做跳过了第一个节点，因为第一个节点没有元素，也可以直接 p = head 使p的位置更新到头节点访问第一个链表元素。
 while(p != NULL){
 //我们每次最后将p的位置更新到结构体的next，当读取到最后时，next指向NULL，即p = NULL，循环结束。
-printf("%s", p -
+printf("%s\t", p -> name);//输出姓名
+printf("%d\n", p -> id);// 输出id
+p = p -> next;//将p的位置更新到
+}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE4MDg1MDkwXX0=
+eyJoaXN0b3J5IjpbODI2MTY4NzgwXX0=
 -->
