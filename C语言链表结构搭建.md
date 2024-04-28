@@ -17,15 +17,15 @@ scanf("%d", &n);
 ### 创建链表结构
 ```c
 for(int i = 1; i <= n; i++){
-p = (struct Student*)malloc(sizeof(struct Student));
-scanf("%s", &p -> name);//赋值gei
-scanf("%d", &p -> id);
-tail -> next = p;
-tail = p;
+p = (struct Student*)malloc(sizeof(struct Student));//为p申请内存
+scanf("%s", &p -> name);//赋值给name
+scanf("%d", &p -> id);//赋值给id
+tail -> next = p;//将
+tail = p;//将原先tail的位置更新到申请的p的地址
 tail -> next = NULL;
 }
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDExNDQ4NjFdfQ==
+eyJoaXN0b3J5IjpbLTI1NDQ1NzY0Ml19
 -->
