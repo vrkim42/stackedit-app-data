@@ -14,9 +14,10 @@ tail = NULL;//首个节点不存储信息
 int n;// 链表的个数
 scanf("%d", &n);
 
-### 创建收割链表结构
+### 创建链表结构
 ```c
+for(int i = 1; i <= n; i++){
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyOTMyMjY1N119
+eyJoaXN0b3J5IjpbMTMxMTA4Njg4N119
 -->
