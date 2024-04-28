@@ -6,7 +6,12 @@ typedef struct Student{
 	struct Student* next; //创建中间指针实现链表跳转
 	} STU;//将结构体重命名为STU
 ```
+### main函数内准备部分
+```c
+STU *p, *head, *tail;//创建头jie
+### 创建收割链表结构
+```c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzMxMTQxMF19
+eyJoaXN0b3J5IjpbLTE0MzY2NTY4MDZdfQ==
 -->
