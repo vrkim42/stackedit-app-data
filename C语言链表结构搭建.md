@@ -32,9 +32,10 @@ while(p != NULL){
 //我们每次最后将p的位置更新到结构体的next，当读取到最后时，next指向NULL，即p = NULL，循环结束。
 printf("%s\t", p -> name);//输出姓名
 printf("%d\n", p -> id);// 输出id
-p = p -> next;//将p的位置更新到
+p = p -> next;//将p的位置更新到next以便于下次链表数据的读取，或者判断循环是否结束。
 }
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI2MTY4NzgwXX0=
+eyJoaXN0b3J5IjpbLTUwMTk2MjUyOF19
 -->
