@@ -8,10 +8,13 @@ typedef struct Student{
 ```
 ### main函数内准备部分
 ```c
-STU *p, *head, *tail;//创建头jie
+STU *p, *head, *tail;//创建头节点，尾节点，动态访问节点。
+head = NULL;
+tail = NULL;//shou'ge'jie'dian
+
 ### 创建收割链表结构
 ```c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzY2NTY4MDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MjkzMTc5NzFdfQ==
 -->
