@@ -41,7 +41,7 @@ STU *q;//新建节点
 scanf("%s", &q -> name);
 scanf("%d",&q -> id);
 p = head;//从头节点开始遍历查找位置
-while(p != NULL){
+while(p -> next != NULL){
 	if(p -> next -> id > q -> id){// 插入条件
 		q -> next = p -> next;// 将q的next指针位置更新到p的next指针位置
 		p -> next = q;//将q接入到链表中
@@ -55,7 +55,7 @@ while(p != NULL){
 int x;
 scanf("%d", & x);//根据id 删除对应链表
 p -> head;
-while(p != NULL){
+while(p -> next != NULL){
 if(p -> id == x){
 STU *t;//新建一个结构体指针存放对应指针位置
 t = p -> next;//将t指向目标节点
@@ -67,5 +67,6 @@ p = p -> next;
 }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MDMwODQ3MSwtNTAxOTYyNTI4XX0=
+eyJoaXN0b3J5IjpbMTgxNjE3ODEyMSwtMjgwMzA4NDcxLC01MD
+E5NjI1MjhdfQ==
 -->
