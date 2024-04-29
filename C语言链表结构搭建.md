@@ -59,7 +59,12 @@ while(p != NULL){
 if(p -> id == x){
 STU *t;
 t = p -> next;
-p -> ne
+p -> next = p ->next -> next;
+free(t);
+}
+p = p -> next;
+}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDcxMDQzOSwtNTAxOTYyNTI4XX0=
+eyJoaXN0b3J5IjpbLTE4NDc1NTc5NzUsLTUwMTk2MjUyOF19
 -->
