@@ -35,7 +35,11 @@ printf("%d\n", p -> id);// 输出id
 p = p -> next;//将p的位置更新到next以便于下次链表数据的读取，或者判断循环是否结束。
 }
 ```
-
+### 链表的插入
+```c
+STU *q;//新建节点
+scanf("%s", &q -> name);
+scanf("%d",&q -> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbLTEyMTE0NzUyNDYsLTUwMTk2MjUyOF19
 -->
