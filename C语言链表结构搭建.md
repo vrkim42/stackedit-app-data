@@ -18,7 +18,7 @@ scanf("%d", &n);
 ```c
 for(int i = 1; i <= n; i++){
 p = (struct Student*)malloc(sizeof(struct Student));//为p申请内存
-scanf("%s", &p -> name);//赋值给name
+scanf("%s", p->name); // 修正：移除了&，因为数组名本身就是地址
 scanf("%d", &p -> id);//赋值给id
 tail -> next = p;//将next指向p的地址
 tail = p;//将原先tail的位置更新到申请的p的地址
@@ -67,6 +67,6 @@ p = p -> next;
 }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjE3ODEyMSwtMjgwMzA4NDcxLC01MD
-E5NjI1MjhdfQ==
+eyJoaXN0b3J5IjpbMTA4NTU2NTc1OCwxODE2MTc4MTIxLC0yOD
+AzMDg0NzEsLTUwMTk2MjUyOF19
 -->
