@@ -57,7 +57,7 @@ scanf("%d", & x);//根据id 删除对应链表
 p -> head;
 while(p != NULL){
 if(p -> id == x){
-STU *t;
+STU *t;//新建一个结构体指针存放dui'yin
 t = p -> next;
 p -> next = p ->next -> next;
 free(t);
@@ -66,5 +66,5 @@ p = p -> next;
 }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc1NTc5NzUsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbLTE2NzQxMzI3OTcsLTUwMTk2MjUyOF19
 -->
