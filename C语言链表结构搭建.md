@@ -18,7 +18,7 @@ scanf("%d", &n);
 ```c
 for(int i = 1; i <= n; i++){
 p = (struct Student*)malloc(sizeof(struct Student));//为p申请内存
-scanf("%s", p->name); // 修正：移除了&，因为数组名本身就是地址
+scanf("%s", p->name); // 这里不要&，因为数组名本身就是地址
 scanf("%d", &p -> id);//赋值给id
 tail -> next = p;//将next指向p的地址
 tail = p;//将原先tail的位置更新到申请的p的地址
@@ -38,7 +38,7 @@ p = p -> next;//将p的位置更新到next以便于下次链表数据的读取�
 ### 链表的插入
 ```c
 STU *q;//新建节点
-scanf("%s", &q -> name);
+scanf("%s", p->name); // 数组名本身就是地址
 scanf("%d",&q -> id);
 p = head;//从头节点开始遍历查找位置
 while(p -> next != NULL){
@@ -67,6 +67,6 @@ p = p -> next;
 }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTU2NTc1OCwxODE2MTc4MTIxLC0yOD
-AzMDg0NzEsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbODgyMTUyMDI4LDE4MTYxNzgxMjEsLTI4MD
+MwODQ3MSwtNTAxOTYyNTI4XX0=
 -->
