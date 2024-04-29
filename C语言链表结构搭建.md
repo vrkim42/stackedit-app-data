@@ -42,12 +42,14 @@ scanf("%s", &q -> name);
 scanf("%d",&q -> id);
 p = head;//从头节点开始遍历查找位置
 while(p != NULL){
-	if(p -> next -> id > q -> id){
-		q -> next = p -> next;
+	if(p -> next -> id > q -> id){// 插入条件
+		q -> next = p -> next;// 将q的next指针位置
 		p -> next = q;
 		break;
 		}
-	
+		p = p -> next;
+	}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDIyODkxMjcsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbMTcxOTE4MDQ2NCwtNTAxOTYyNTI4XX0=
 -->
