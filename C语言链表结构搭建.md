@@ -54,7 +54,10 @@ while(p != NULL){
 ```c
 int x;
 scanf("%d", & x);//根据id 删除对应链表
-p -> 
+p -> head;
+while(p != NULL){
+if(p -> id == x){
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM3NDY4NzQsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbMTE2MDI4ODA5MiwtNTAxOTYyNTI4XX0=
 -->
