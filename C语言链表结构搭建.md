@@ -57,7 +57,9 @@ scanf("%d", & x);//根据id 删除对应链表
 p -> head;
 while(p != NULL){
 if(p -> id == x){
-
+STU *t;
+t = p -> next;
+p -> ne
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MDI4ODA5MiwtNTAxOTYyNTI4XX0=
+eyJoaXN0b3J5IjpbMjAxNDcxMDQzOSwtNTAxOTYyNTI4XX0=
 -->
