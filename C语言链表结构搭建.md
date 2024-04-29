@@ -59,12 +59,13 @@ while(p != NULL){
 if(p -> id == x){
 STU *t;//新建一个结构体指针存放对应指针位置
 t = p -> next;//将t指向目标节点
-p -> next = p ->next -> next;//
-free(t);
+p -> next = p ->next -> next;//将next节点略过对应的t节点
+free(t);//释放t节点内存
+break;
 }
 p = p -> next;
 }
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIwNDA5NzEsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbLTI4MDMwODQ3MSwtNTAxOTYyNTI4XX0=
 -->
