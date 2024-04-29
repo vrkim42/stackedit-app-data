@@ -39,7 +39,10 @@ p = p -> next;//将p的位置更新到next以便于下次链表数据的读取�
 ```c
 STU *q;//新建节点
 scanf("%s", &q -> name);
-scanf("%d",&q -> 
+scanf("%d",&q -> id);
+p = head;//从头节点开始遍历查找位置
+while(p != NULL){
+	if(p -> next ->
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTE0NzUyNDYsLTUwMTk2MjUyOF19
+eyJoaXN0b3J5IjpbLTgzMjMwOTI0NiwtNTAxOTYyNTI4XX0=
 -->
