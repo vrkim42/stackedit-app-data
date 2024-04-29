@@ -47,9 +47,14 @@ while(p != NULL){
 		p -> next = q;//将q接入到链表中
 		break;
 		}
-		p = p -> next;//更新到next便于下一步c
+		p = p -> next;//更新到next便于下一步操作
 	}
-
+```
+### 链表的删除
+```c
+int x;
+scanf("%d", & x);//根据id 删除对应链表
+p -> 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDk2MDEyMCwtNTAxOTYyNTI4XX0=
+eyJoaXN0b3J5IjpbLTE1ODM3NDY4NzQsLTUwMTk2MjUyOF19
 -->
