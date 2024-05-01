@@ -14,8 +14,12 @@
 		css代码
 		}
 ```
-对这个部分就能
+对这个部分进行操作：
+```html
+<div class="one">元素选择器</div>
+```
+后续均采用css➕html的方式展示。
+>2.对于id
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA5OTI5NDIsLTE0OTkzMDg3MDddfQ
-==
+eyJoaXN0b3J5IjpbMTExMDQ1MzYyNywtMTQ5OTMwODcwN119
 -->
