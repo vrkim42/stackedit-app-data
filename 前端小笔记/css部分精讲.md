@@ -6,7 +6,7 @@
 3. 在外部文件中新建链接，样式为<link rel="stylesheet" type="text/css" href="css/style.css"/>类似的
 ### 选择器讲解
 > 1.对于最普通的class标签元素
-
+wo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTkzMDg3MDddfQ==
+eyJoaXN0b3J5IjpbMTUxNzc3NjA2OSwtMTQ5OTMwODcwN119
 -->
