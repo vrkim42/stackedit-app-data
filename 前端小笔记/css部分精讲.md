@@ -5,7 +5,7 @@
 2. 在head部分使用选择器对body中的html进行相关css操作。
 3. 在外部文件中新建链接，样式为<link rel="stylesheet" type="text/css" href="css/style.css"/>类似的
 ### 选择器讲解
-####  > 1.对于最普通的class标签元素
+####  > 1.对于最普通的class标签元素(类选择器)
 
 我们选择用"."的形式进行访问
 如下所示：
@@ -34,5 +34,6 @@
 
 #### >3.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
+eyJoaXN0b3J5IjpbMTMxMTY1MDcyOCwxNjU5OTMwNzQ4LC0xND
+k5MzA4NzA3XX0=
 -->
