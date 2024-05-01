@@ -33,8 +33,17 @@
 ```
 
 #### >3.元素选择器
-
+我们可以zhi'ji
+```css
+p {
+    color: blue;
+    font-size: 16px;
+}
+```
+```HTML 
+<p>这段文本将显示为蓝色，字体大小为16px。</p>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDg5MjU4NSwxNjU5OTMwNzQ4LC0xND
+eyJoaXN0b3J5IjpbLTM5NjU1MDIxNiwxNjU5OTMwNzQ4LC0xND
 k5MzA4NzA3XX0=
 -->
