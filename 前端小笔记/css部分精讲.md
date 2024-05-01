@@ -33,7 +33,7 @@
 ```
 
 #### >3.元素选择器
-我们可以zhi'ji
+我们可以直接选取对应的内容如p或者h标题。
 ```css
 p {
     color: blue;
@@ -44,6 +44,6 @@ p {
 <p>这段文本将显示为蓝色，字体大小为16px。</p>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NjU1MDIxNiwxNjU5OTMwNzQ4LC0xND
-k5MzA4NzA3XX0=
+eyJoaXN0b3J5IjpbLTE0NzI1NDgxMjYsMTY1OTkzMDc0OCwtMT
+Q5OTMwODcwN119
 -->
