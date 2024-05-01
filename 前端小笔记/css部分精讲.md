@@ -45,7 +45,7 @@ p {
 ```
 
 #### >4.后代选择器
-它用于选择位于另一个元素内的特定元素，无论这些元素之间有多少层次。后代选择器由两个或更多选择器组成，中间用空格分隔。它选择所有符合最左端选择器的元素，然后选择这些元素的后代中符合后续选择器的元素。
+它用于选择位于另一个元素内的特定元素，**无论这些元素之间有多少层次**。后代选择器由两个或更多选择器组成，中间用空格分隔。它选择所有符合最左端选择器的元素，然后选择这些元素的后代中符合后续选择器的元素。
 ```css
 ul li {
     color: blue;
@@ -58,7 +58,9 @@ ul li {
     <li>这段文本也将显示为蓝色，字体大小为16px。</li>
 </ul>
 ```
+
+#### >5.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYwNTM3NDY1LC0xNDcyNTQ4MTI2LDE2NT
-k5MzA3NDgsLTE0OTkzMDg3MDddfQ==
+eyJoaXN0b3J5IjpbLTkyMTEwNTAyNiwtMTQ3MjU0ODEyNiwxNj
+U5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
