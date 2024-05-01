@@ -43,7 +43,10 @@ p {
 ```HTML 
 <p>这段文本将显示为蓝色，字体大小为16px。</p>
 ```
+
+#### >4.后代选择器
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzI1NDgxMjYsMTY1OTkzMDc0OCwtMT
-Q5OTMwODcwN119
+eyJoaXN0b3J5IjpbLTEyODU2ODU1NTksLTE0NzI1NDgxMjYsMT
+Y1OTkzMDc0OCwtMTQ5OTMwODcwN119
 -->
