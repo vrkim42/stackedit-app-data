@@ -58,9 +58,11 @@ ul li {
     <li>这段文本也将显示为蓝色，字体大小为16px。</li>
 </ul>
 ```
+同时，也可以和其他选择器结合使用。
+```css
 
 #### >5.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTEwNTAyNiwtMTQ3MjU0ODEyNiwxNj
+eyJoaXN0b3J5IjpbMTU3NzE4OTg2NCwtMTQ3MjU0ODEyNiwxNj
 U5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
