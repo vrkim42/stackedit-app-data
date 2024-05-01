@@ -60,9 +60,21 @@ ul li {
 ```
 同时，也可以和其他选择器结合使用。
 ```css
+.container .highlight {
+    background-color: yellow;
+}
+```
+```html
+<div class="container">
+    <p class="highlight">这段文本将有黄色背景。</p>
+    <section>
+        <p class="highlight">这段文本也将有黄色背景。</p>
+    </section>
+</div>
+```
 
 #### >5.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzE4OTg2NCwtMTQ3MjU0ODEyNiwxNj
+eyJoaXN0b3J5IjpbMTY0NzA0NzY1NiwtMTQ3MjU0ODEyNiwxNj
 U5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
