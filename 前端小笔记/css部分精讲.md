@@ -20,7 +20,7 @@
 ```
 后续均采用css➕html的方式展示。
 
-#### >2.对于id属性的元素
+#### >2.对于id属性的元素(id选择器)
 
 我们选择用“#”的方式进行访问
 ```css
@@ -32,8 +32,9 @@
 <div id="number">清华大学新雅书院</div>
 ```
 
-#### >3.
+#### >3.元素选择器
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTY1MDcyOCwxNjU5OTMwNzQ4LC0xND
+eyJoaXN0b3J5IjpbMTcyMDg5MjU4NSwxNjU5OTMwNzQ4LC0xND
 k5MzA4NzA3XX0=
 -->
