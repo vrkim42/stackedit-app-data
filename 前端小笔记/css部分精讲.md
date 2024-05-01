@@ -24,8 +24,12 @@
 
 我们选择用“#”的方式进行访问
 ```css
-
+#number{
+		代码
+	}
+```
+```html
+<div id="number">清华大学</div>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjczNTIzMjksLTE0OTkzMDg3MDddfQ
-==
+eyJoaXN0b3J5IjpbMTM0NDg5MjQ2LC0xNDk5MzA4NzA3XX0=
 -->
