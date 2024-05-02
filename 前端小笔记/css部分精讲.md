@@ -96,8 +96,32 @@ ul li {
 #### >6.UI伪类选择器
 很抽象的一个选择器（纯吐槽），他是专门为用户界面元素设计的，它们可以根据用户的交互状态来选择元素。这些伪类选择器通常与表单元素、链接等相关，但也可以用于其他UI元素。
 包括以下的几种类型：
+1. `:hover`
+   - 当用户将鼠标悬停在元素上时，这个选择器会匹配元素。
+2. `:active`
+   - 当元素被激活（例如，在鼠标点击时按下的状态）时，这个选择器会匹配元素。
+3. `:focus`
+   - 当元素获得焦点（通常是表单元素通过键盘导航获得焦点）时，这个选择器会匹配元素。
+4. `:focus-within`
+   - 当元素本身或它的后代元素获得焦点时，这个选择器会匹配元素。
+5. `:enabled`
+   - 匹配所有启用的表单元素。
+6. `:disabled`
+   - 匹配所有禁用的表单元素。
+7. `:checked`
+   - 匹配所有选中的复选框或单选按钮。
+8. `:default`
+   - 匹配一组表单元素中的默认元素（例如，提交按钮或者表单中的默认选中的单选按钮或复选框）。
+9. `:valid` 和 `:invalid`
+   - `:valid` 匹配输入值通过验证的表单元素，而 `:invalid` 匹配输入值不满足验证条件的表单元素。
+10. `:required` 和 `:optional`
+    - `:required` 匹配必填的表单元素，而 `:optional` 匹配非必填的表单元素。
+11. `:read-only` 和 `:read-write`
+    - `:read-only` 匹配只读的表单元素，而 `:read-write` 匹配非只读的表单元素。
+这些伪类选择器可以帮助开发者根据用户的交互行为来改变UI元素的样式，从而提供更好的用户体验。例如，可以使用`:focus`伪类为获得焦点的输入框添加边框，或者使用`:hover`伪类为链接添加悬停效果。
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NzMxMjQ1LDE2NDcwNDc2NTYsLTE0Nz
+eyJoaXN0b3J5IjpbNjc1NjkxMTkxLDE2NDcwNDc2NTYsLTE0Nz
 I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
 -->
