@@ -82,17 +82,19 @@ ul li {
 		div > p{
 		color : red;
 		font-family: "宋体";
-		background-color: yellow;
+		
 	}
 </style>
 ```
 ```html
 <div>
-    	软件学院
-        <p>软件工程系</p>
-        <p>网络工程系</p>
+    	新雅书院
+        <p>这段文字将变成红色，宋体</p>
+        <p>这段文字将变成红色，宋体</p>
 </div>
+```
+#### >6.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1ODcxNDYyLDE2NDcwNDc2NTYsLTE0Nz
-I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
+eyJoaXN0b3J5IjpbMTAxNzc0NDI0MSwxNjQ3MDQ3NjU2LC0xND
+cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
 -->
