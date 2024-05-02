@@ -135,18 +135,19 @@ input[type="password"]:hover {
     密码：<input type="password" placeholder="请输入密码">  
 </form>  
 ```
-#### >last.辩证divp、div>p、div,p
-在CSS中，选择器用于选择页面上的元素，以便应用样式。你提到的`divp`、`div>p`和`div,p`是三种不同的选择器，它们的作用各不相同：
-1. `divp`（没有空格或组合器）
-   - 这不是一个有效的CSS选择器。在CSS中，选择器通常由元素类型、类名、ID或其他属性组成，并且它们之间需要有适当的分隔符。如果你尝试选择一个类名为`divp`的元素，你应该使用`.divp`（前面有一个点，表示它是一个类选择器）。
+#### >last.辩证div p、div>p、div,p
+
+在CSS中，选择器用于选择页面上的元素，以便应用样式。你提到的`div p`、`div>p`和`div,p`是三种不同的选择器，它们的作用各不相同：
+1. `div p`
+   - 这是一个后代选择器（Descendant combinator），用于选择所有属于`div`元素后代的`p`元素，无论它们在DOM树中的层级有多深。这意味着，如果`p`元素是`div`元素的子元素、孙元素或其他更低层级的后代元素，它都会被这个选择器选中。
 2. `div>p`
-   - 这是一个子代选择器（Child combinator），用于选择父元素为`div`的直接子元素`p`。这意味着只有当`<p>`标签紧随`<div>`标签之后，并且是它的直接子元素时，才会应用样式。不会选择`<div>`的孙子元素或其他更低层级中的`<p>`元素。
+   - 这是一个子代选择器（Child combinator），用于选择父元素为`div`的直接子元素`p`。这意味着只有当`p`元素紧随`div`元素之后，并且是它的直接子元素时，才会应用样式。不会选择`div`的孙子元素或其他更低层级中的`p`元素。
 3. `div,p`
-   - 这是一个分组选择器（Grouping selector），用于将多个选择器组合在一起，以便为它们应用相同的样式。在这种情况下，`div,p`选择器会选择所有的`<div>`元素和所有的`<p>`元素，并将相同的样式规则应用于它们。这个选择器实际上是`div`和`p`两个选择器的并集。
+   - 这是一个分组选择器（Grouping selector），用于将多个选择器组合在一起，以便为它们应用相同的样式。在这种情况下，`div,p`选择器会选择所有的`div`元素和所有的`p`元素，并将相同的样式规则应用于它们。这个选择器实际上是`div`和`p`两个选择器的并集。
 下面是一个例子，展示了如何使用这些选择器：
 ```css
-/* 这将选择类名为 'divp' 的元素 */
-.divp {
+/* 这将选择所有是 div 后代的 p 元素 */
+div p {
   color: red;
 }
 /* 这将选择所有是 div 的直接子元素的 p 元素 */
@@ -160,19 +161,17 @@ div, p {
 ```
 在实际的HTML中使用时，这些选择器将如下所示：
 ```html
-<div class="divp">This is a div with class 'divp'.</div>
 <div>
-  <p>This is a direct child p of a div.</p>
-  <p>This is another direct child p of a div.</p>
+  <p>This is a child p of a div.</p>
   <div>
-    <p>This is a grandchild p, not a direct child.</p>
+    <p>This is a grandchild p, still a descendant of the initial div.</p>
   </div>
 </div>
 <p>This is a standalone p element.</p>
 ```
-在这个例子中，第一个`<div>`会有红色的文本，因为它有类名`divp`。紧随`<div>`之后的两个`<p>`标签会有粗体文本，因为它们是`<div>`的直接子元素。所有的`<div>`和`<p>`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。而嵌套在另一个`<div>`中的`<p>`则不会是粗体，因为它不是`<div>`的直接子元素。
+在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU0NjkxODAsMTY0NzA0NzY1NiwtMT
+eyJoaXN0b3J5IjpbLTEzNTEzMDU1MjUsMTY0NzA0NzY1NiwtMT
 Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
