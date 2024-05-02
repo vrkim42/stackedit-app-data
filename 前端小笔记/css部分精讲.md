@@ -121,7 +121,9 @@ ul li {
 这些伪类选择器可以帮助开发者根据用户的交互行为来改变UI元素的样式，从而提供更好的用户体验。例如，可以使用`:focus`伪类为获得焦点的输入框添加边框，或者使用`:hover`伪类为链接添加悬停效果。
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NjkxMTkxLDE2NDcwNDc2NTYsLTE0Nz
-I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
+eyJoaXN0b3J5IjpbMTMwNTMwMTAxMSwxNjQ3MDQ3NjU2LC0xND
+cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
 -->
