@@ -93,8 +93,9 @@ ul li {
         <p>这段文字将变成红色，宋体</p>
 </div>
 ```
-#### >6.
+#### >6.UI伪类选择器
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzc0NDI0MSwxNjQ3MDQ3NjU2LC0xND
-cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
+eyJoaXN0b3J5IjpbLTE0MTQ5MDU4MTAsMTY0NzA0NzY1NiwtMT
+Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
