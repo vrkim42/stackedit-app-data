@@ -135,7 +135,7 @@ input[type="password"]:hover {
     密码：<input type="password" placeholder="请输入密码">  
 </form>  
 ```
-#### 7.结构性伪类选择器
+#### 7.结构性伪类选择器（归属伪类选择器，但是单列出来强调一下）
 包括E:after、E:before、E:nth-child()、E:first-child、E:last-child等，它们用于选择和样式化文档中的特定元素，基于它们的位置、状态或其他条件。下面是每个选择器的解释：
 1. `E:after` 和 `E:before`
    - 这两个伪元素用于在指定的元素`E`的内容前或后插入内容。它们通常与`content`属性一起使用，来添加装饰性内容或生成内容。例如，可以使用`:before`伪元素来添加前置图标，而使用`:after`伪元素来清除浮动。
@@ -166,7 +166,7 @@ input[type="password"]:hover {
    }
    ```
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
-#### 
+#### 8.
 #### >last1.辩证div p、div>p、div,p
 1. `div p`
    - 这是一个后代选择器（Descendant combinator），用于选择所有属于`div`元素后代的`p`元素，无论它们在DOM树中的层级有多深。这意味着，如果`p`元素是`div`元素的子元素、孙元素或其他更低层级的后代元素，它都会被这个选择器选中。
@@ -202,6 +202,7 @@ div, p {
 在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI0NzcxMTc4LDE2NDcwNDc2NTYsLTE0Nz
-I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
+eyJoaXN0b3J5IjpbLTE5MjUzNDk2ODYsMjI0NzcxMTc4LDE2ND
+cwNDc2NTYsLTE0NzI1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMw
+ODcwN119
 -->
