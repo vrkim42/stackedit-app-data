@@ -77,8 +77,18 @@ ul li {
 子代选择器是一种用于选择某个元素的直接子元素的选择器。它由两个选择器构成，中间用大于号（>）连接。第一个选择器是父元素，第二个选择器是要匹配的子元素。
 
 子代选择器与后代选择器（由空格分隔）的不同之处在于，后代选择器会选择所有符合条件的后代元素，无论它们在DOM树中的层级有多深。而子代选择器**只选择直接子元素，即紧随其后的子元素，不包括孙元素或其他更低层级后代**。
+```css
+<style>
+		div > p{
+		color : red;
+		font-family: "宋体";
+		background-color: yellow;
+	}
+</style>
+```
+```html
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjkyNjE3NzcsMTY0NzA0NzY1NiwtMT
+eyJoaXN0b3J5IjpbLTE5NDM3ODkzNDgsMTY0NzA0NzY1NiwtMT
 Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
