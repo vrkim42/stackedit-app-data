@@ -120,10 +120,22 @@ ul li {
     - `:read-only` 匹配只读的表单元素，而 `:read-write` 匹配非只读的表单元素。
 这些伪类选择器可以帮助开发者根据用户的交互行为来改变UI元素的样式，从而提供更好的用户体验。例如，可以使用`:focus`伪类为获得焦点的输入框添加边框，或者使用`:hover`伪类为链接添加悬停效果。
 
-
-
-
+```css
+/* 当鼠标悬停在文本框上时，文本框背景变为红色 */
+input[type="text"]:hover,
+input[type="password"]:hover {
+    background-color: red;
+}
+```
+```html
+<form>  
+    姓名：<input type="text" placeholder="请输入姓名">  
+    <br/>  
+    <br/>  
+    密码：<input type="password" placeholder="请输入密码">  
+</form>  
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTMwMTAxMSwxNjQ3MDQ3NjU2LC0xND
-cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
+eyJoaXN0b3J5IjpbLTEwNjE0MDQ4MTEsMTY0NzA0NzY1NiwtMT
+Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
 -->
