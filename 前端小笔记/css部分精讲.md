@@ -135,9 +135,9 @@ input[type="password"]:hover {
     密码：<input type="password" placeholder="请输入密码">  
 </form>  
 ```
-#### >last.辩证div p、div>p、div,p
-
-在CSS中，选择器用于选择页面上的元素，以便应用样式。你提到的`div p`、`div>p`和`div,p`是三种不同的选择器，它们的作用各不相同：
+#### 7.结构性伪类选择器
+bao
+#### >last1.辩证div p、div>p、div,p
 1. `div p`
    - 这是一个后代选择器（Descendant combinator），用于选择所有属于`div`元素后代的`p`元素，无论它们在DOM树中的层级有多深。这意味着，如果`p`元素是`div`元素的子元素、孙元素或其他更低层级的后代元素，它都会被这个选择器选中。
 2. `div>p`
@@ -172,6 +172,6 @@ div, p {
 在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTEzMDU1MjUsMTY0NzA0NzY1NiwtMT
-Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
+eyJoaXN0b3J5IjpbLTIwOTQzMjYzNCwxNjQ3MDQ3NjU2LC0xND
+cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
 -->
