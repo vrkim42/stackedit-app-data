@@ -94,8 +94,10 @@ ul li {
 </div>
 ```
 #### >6.UI伪类选择器
+很抽象的一个选择器（纯吐槽），他是专门为用户界面元素设计的，它们可以根据用户的交互状态来选择元素。这些伪类选择器通常与表单元素、链接等相关，但也可以用于其他UI元素。
+包括以下的几种类型：
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTQ5MDU4MTAsMTY0NzA0NzY1NiwtMT
-Q3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4NzA3XX0=
+eyJoaXN0b3J5IjpbMzk3NzMxMjQ1LDE2NDcwNDc2NTYsLTE0Nz
+I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
 -->
