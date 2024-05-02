@@ -43,11 +43,13 @@ p {
 ```HTML 
 <p>这段文本将显示为蓝色，字体大小为16px。</p>
 ```
+当然我们也可以用*对本文所有元素进行操作。
 ```css
 /!-- 我们也可以使用这种方式对全部元素进行操作--/
 * {
-css
+	css代码;
 }
+```
 #### >4.后代选择器
 它用于选择位于另一个元素内的特定元素，**无论这些元素之间有多少层次**。后代选择器由两个或更多选择器组成，中间用空格分隔。它选择所有符合最左端选择器的元素，然后选择这些元素的后代中符合后续选择器的元素。
 ```css
@@ -206,7 +208,7 @@ div, p {
 在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTcyMzM2NzQsMjI0NzcxMTc4LDE2ND
-cwNDc2NTYsLTE0NzI1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMw
-ODcwN119
+eyJoaXN0b3J5IjpbLTE4MjAxOTA2OCwyMjQ3NzExNzgsMTY0Nz
+A0NzY1NiwtMTQ3MjU0ODEyNiwxNjU5OTMwNzQ4LC0xNDk5MzA4
+NzA3XX0=
 -->
