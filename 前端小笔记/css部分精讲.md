@@ -136,7 +136,37 @@ input[type="password"]:hover {
 </form>  
 ```
 #### 7.结构性伪类选择器
-包括E:after、E:before、E:nth-child()、E:first-child、E:last-child等；
+包括E:after、E:before、E:nth-child()、E:first-child、E:last-child等，它们用于选择和样式化文档中的特定元素，基于它们的位置、状态或其他条件。下面是每个选择器的解释：
+1. `E:after` 和 `E:before`
+   - 这两个伪元素用于在指定的元素`E`的内容前或后插入内容。它们通常与`content`属性一起使用，来添加装饰性内容或生成内容。例如，可以使用`:before`伪元素来添加前置图标，而使用`:after`伪元素来清除浮动。
+   ```css
+   .icon:after {
+     content: '†';
+   }
+   ```
+2. `E:nth-child()`
+   - 这个伪类选择器用于匹配一组兄弟元素中的第n个`E`元素。`n`可以是数字、关键词（如`even`或`odd`）或公式（如`2n+1`）。例如，`li:nth-child(3)`会选择一组列表中的第三个`<li>`元素。
+   ```css
+   li:nth-child(2n) {
+     background-color: yellow;
+   }
+   ```
+3. `E:first-child`
+   - 这个伪类选择器用于匹配一组兄弟元素中的第一个`E`元素。如果`E`是其父元素的第一个子元素，它就会被选中。
+   ```css
+   p:first-child {
+     font-size: 120%;
+   }
+   ```
+4. `E:last-child`
+   - 这个伪类选择器用于匹配一组兄弟元素中的最后一个`E`元素。如果`E`是其父元素的最后一个子元素，它就会被选中。
+   ```css
+   p:last-child {
+     margin-bottom: 0;
+   }
+   ```
+这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
+#### 
 #### >last1.辩证div p、div>p、div,p
 1. `div p`
    - 这是一个后代选择器（Descendant combinator），用于选择所有属于`div`元素后代的`p`元素，无论它们在DOM树中的层级有多深。这意味着，如果`p`元素是`div`元素的子元素、孙元素或其他更低层级的后代元素，它都会被这个选择器选中。
@@ -172,6 +202,6 @@ div, p {
 在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjk5OTg2MywxNjQ3MDQ3NjU2LC0xND
-cyNTQ4MTI2LDE2NTk5MzA3NDgsLTE0OTkzMDg3MDddfQ==
+eyJoaXN0b3J5IjpbMjI0NzcxMTc4LDE2NDcwNDc2NTYsLTE0Nz
+I1NDgxMjYsMTY1OTkzMDc0OCwtMTQ5OTMwODcwN119
 -->
