@@ -36,7 +36,23 @@ typedef struct LemonTree{
 这里我们声明了这个结构体，它含有两个指针结构，分别对应以后的左节点和右节点，同时包含着一个属于自己的信息。
 
 2. - [ ] 其次,我们开始对二叉树的写入
-3. 
+```c
+T* getTree(){ //创建一个返回值为结构体指针的函数
+    T *tree; // 创建一个访问指针
+    char ch;// 接受对应要写入的值
+    
+    printf("输入A结束输入：");
+    scanf(" %c", &ch); // 注意前面的空格，用于跳过任何前面的空白字符
+    if(ch == 'A'){
+        tree = NULL; 
+    } else {
+        tree = (struct LemonTree*)malloc(sizeof(struct LemonTree));
+        tree -> id = ch; // 使用读取的字符
+        tree -> left = getTree();
+        tree -> right = getTree();
+    }
+    return tree;
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODI4ODI0Nl19
+eyJoaXN0b3J5IjpbMTYwNjgzMTkwOF19
 -->
