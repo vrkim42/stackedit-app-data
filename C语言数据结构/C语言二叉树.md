@@ -77,6 +77,7 @@ void insert(TreeNode** root, int value) {
 }
 ```
 4. - [ ] 二叉树的打印
+```c
 // 打印二叉树
 void printTree(TreeNode* root) {
     if (root == NULL) { // 如果根节点为空，则返回
@@ -87,7 +88,28 @@ void printTree(TreeNode* root) {
     printTree(root->right); // 递归打印右子树
 }
 ```
-5. - [ ] 
+6. - [ ] 主函数部分
+```c
+// 主函数
+int main() {
+    TreeNode* root = NULL; // 初始化根节点为空
+    insert(&root, 5); // 向树中插入节点5，作为根节点
+    insert(&root, 3); // 向树中插入节点3，作为根节点的左子节点
+    insert(&root, 8); // 向树中插入节点8，作为根节点的右子节点
+    insert(&root, 1); // 向树中插入节点1，作为节点3的左子节点
+    insert(&root, 4); // 向树中插入节点4，作为节点3的右子节点
+    insert(&root, 7); // 向树中插入节点7，作为节点8的左子节点
+    insert(&root, 10); // 向树中插入节点10，作为节点8的右子节点
+
+    printf("二叉树遍历结果：\n"); // 打印树中的节点
+    printTree(root); // 调用函数打印二叉树
+
+    // 删除节点（例如，删除值为5的节点）
+    // deleteNode(&root, 5); // 调用函数删除值为5的节点
+
+    return 0; // 程序正常结束
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5NjA0NDUxLC0xMzg4ODQ4MjkwXX0=
+eyJoaXN0b3J5IjpbODQwNjI5NDE1LC0xMzg4ODQ4MjkwXX0=
 -->
