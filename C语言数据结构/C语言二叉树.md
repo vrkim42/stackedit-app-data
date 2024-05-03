@@ -34,7 +34,9 @@ typedef struct LemonTree{
 } T; 
 ```
 这里我们声明了这个结构体，它含有两个指针结构，分别对应以后的左节点和右节点，同时包含着一个属于自己的信息。
-2. -[ ] <
+
+2. - [ ] 其次,我们开始对二叉树的写入
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjQ2Njg1M119
+eyJoaXN0b3J5IjpbMTQwODI4ODI0Nl19
 -->
