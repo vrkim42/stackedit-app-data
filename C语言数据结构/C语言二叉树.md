@@ -3,7 +3,9 @@
 ### 什么是二叉树
 ```mermaid
 graph LR
-A(父节点<br>左节点 右节点) 
+A(父节点<br>左节点 右节点) --> B(子节点一<br>左节点 右节点)
+A --> C(子节点二<br>左节点 右节点)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjQ0MDU2MTZdfQ==
+eyJoaXN0b3J5IjpbLTI0MTI0OTM4NF19
 -->
