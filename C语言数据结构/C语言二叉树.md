@@ -16,8 +16,13 @@
 graph LR
 A(父节点<br>左节点 右节点) --> B(子节点一<br>左节点 右节点)
 A --> C(子节点二<br>左节点 右节点)
+B --> D(孙节点一<br>左节点 右节点)
+B --> E(孙节点二<br>左节点 右节点)
+C --> F(曾孙节点一<br>左节点 右节点)
+C --> G(曾孙节点二<br>左节点 右节点)
+
 ```
 像这样的一个树状结构，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMzk5MzMzMl19
+eyJoaXN0b3J5IjpbLTg5NzA5NjJdfQ==
 -->
