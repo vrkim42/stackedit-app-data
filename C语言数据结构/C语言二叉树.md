@@ -26,14 +26,15 @@ C --> G(曾孙节点二<br>左节点 右节点)
 
 ### 怎么实现二叉树
 可以看出，思路与之前文章讲到的链表结构相仿，大体就是next指针从一个变成了left和right两个指针，也说明了知识的进步是循序渐进的。
-首先，创建二叉树所需的结构体。
+1. - [ ] 首先，创建二叉树所需的结构体。
 ```c
 typedef struct LemonTree{
     char id;
     struct LemonTree* left, *right;
 } T; 
 ```
-这里我们声明了这个结构体，
+这里我们声明了这个结构体，它含有两个指针结构，分别对应以后的左节点和右节点，同时包含着一个属于自己的信息。
+2. -[ ] <
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzUxMDI1Ml19
+eyJoaXN0b3J5IjpbLTQ4MjQ2Njg1M119
 -->
