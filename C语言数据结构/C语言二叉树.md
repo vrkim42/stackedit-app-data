@@ -88,7 +88,79 @@ void printTree(TreeNode* root) {
     printTree(root->right); // 递归打印右子树
 }
 ```
-6. - [ ] 主函数部分
+5. - [ ] 删除函数部分
+```c
+// 删除节点
+void deleteNode(TreeNode** root, int value) {
+    if (*root == NULL) {
+        return; // 树为空，无法删除
+    }
+    TreeNode* current = *root;
+    TreeNode* parent = NULL;
+    while (current != NULL && current->value != value) {
+        parent = current;
+        if (value < current->value) {
+            current = current->left;
+        } else {
+            current = current->right;
+        }
+    }
+    if (current == NULL) {
+        return; // 未找到要删除的节点
+    }
+    if (current->left == NULL && current->right == NULL) {
+        // 当前节点是叶子节点
+        if (parent == NULL) {
+            // 当前节点是根节点
+            *root = NULL;
+        } else if (current == parent->left) {
+            // 当前节点是其父节点的左子节点
+            parent->left = NULL;
+        } else {
+            // 当前节点是其父节点的右子节点
+            parent->right = NULL;
+        }
+        free(current); // 释放当前节点的内存
+    } else if (current->left == NULL) {
+        // 当前节点只有一个右子节点
+        if (parent == NULL) {
+            // 当前节点是根节点
+            *root = current->right;
+        } else if (current == parent->left) {
+            // 当前节点是其父节点的左子节点
+            parent->left = current->right;
+        } else {
+            // 当前节点是其父节点的右子节点
+            parent->right = current->right;
+        }
+        current->right->parent = parent; // 更新右子节点的父节点指针
+        free(current); // 释放当前节点的内存
+    } else if (current->right == NULL) {
+        // 当前节点只有一个左子节点
+        if (parent == NULL) {
+            // 当前节点是根节点
+            *root = current->left;
+        } else if (current == parent->left) {
+            // 当前节点是其父节点的左子节点
+            parent->left = current->left;
+        } else {
+            // 当前节点是其父节点的右子节点
+            parent->right = current->left;
+        }
+        current->left->parent = parent; // 更新左子节点的父节点指针
+        free(current); // 释放当前节点的内存
+    } else {
+        // 当前节点有两个子节点
+        TreeNode* succ = current->right;
+        while (succ->left != NULL) {
+            succ = succ->left;
+        }
+        current->value = succ->value; // 复制右子树中的最小值到当前节点
+        deleteNode(&current->right, succ->value); // 递归删除右子树中的最小值节点
+    }
+}
+```
+7. - [ ] 主函数部分
 ```c
 // 主函数
 int main() {
@@ -111,5 +183,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwNjI5NDE1LC0xMzg4ODQ4MjkwXX0=
+eyJoaXN0b3J5IjpbLTE0NjE5NzU5NDAsODQwNjI5NDE1LC0xMz
+g4ODQ4MjkwXX0=
 -->
