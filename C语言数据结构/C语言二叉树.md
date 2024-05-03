@@ -3,7 +3,7 @@
 ### 什么是二叉树
 ```mermaid
 graph LR
-A(圆形<b>)
+A(父节点<br>左节点 右节点) 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzODA3MTU4Ml19
+eyJoaXN0b3J5IjpbLTE1NjQ0MDU2MTZdfQ==
 -->
