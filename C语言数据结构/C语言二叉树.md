@@ -40,11 +40,10 @@ typedef struct LemonTree{
 T* getTree(){ //创建一个返回值为结构体指针的函数
     T *tree; // 创建一个访问指针
     char ch;// 接受对应要写入的值
-    
     printf("输入A结束输入：");
     scanf(" %c", &ch); // 注意前面的空格，用于跳过任何前面的空白字符
     if(ch == 'A'){
-        tree = NULL; 
+        tree = NULL; // 读取到A我们返回null表明没有值写入。
     } else {
         tree = (struct LemonTree*)malloc(sizeof(struct LemonTree));
         tree -> id = ch; // 使用读取的字符
@@ -54,5 +53,5 @@ T* getTree(){ //创建一个返回值为结构体指针的函数
     return tree;
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjgzMTkwOF19
+eyJoaXN0b3J5IjpbLTEzODg4NDgyOTBdfQ==
 -->
