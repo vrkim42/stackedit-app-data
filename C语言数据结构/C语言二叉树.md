@@ -51,7 +51,43 @@ TreeNode* createNode(int value) {
     return newNode; // 返回新创建的节点指针
 }
 ```
-3. - [ ] 
+3. - [ ] 节点的插入
+```c
+// 插入节点
+void insert(TreeNode** root, int value) {
+    if (*root == NULL) { // 如果根节点为空，则创建新节点作为根节点
+        *root = createNode(value);
+        return;
+    }
+    TreeNode* current = *root; // 当前节点初始指向根节点
+    TreeNode* parent = NULL; // 父节点初始为空
+    while (current != NULL) { // 循环查找插入位置
+        parent = current; // 记录当前节点为父节点
+        if (value < current->value) { // 如果要插入的值小于当前节点的值
+            current = current->left; // 移动到左子节点
+        } else { // 如果要插入的值大于当前节点的值
+            current = current->right; // 移动到右子节点
+        }
+    }
+    if (value < parent->value) { // 如果要插入的值小于父节点的值
+        parent->left = createNode(value); // 在父节点的左子节点位置创建新节点
+    } else { // 如果要插入的值大于父节点的值
+        parent->right = createNode(value); // 在父节点的右子节点位置创建新节点
+    }
+}
+```
+4. - [ ] 二叉树的打印
+// 打印二叉树
+void printTree(TreeNode* root) {
+    if (root == NULL) { // 如果根节点为空，则返回
+        return;
+    }
+    printTree(root->left); // 递归打印左子树
+    printf("%d ", root->value); // 打印当前节点的值
+    printTree(root->right); // 递归打印右子树
+}
+```
+5. - [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1NzkwMTgwLC0xMzg4ODQ4MjkwXX0=
+eyJoaXN0b3J5IjpbNjM5NjA0NDUxLC0xMzg4ODQ4MjkwXX0=
 -->
