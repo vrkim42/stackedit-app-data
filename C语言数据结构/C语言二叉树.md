@@ -28,30 +28,30 @@ C --> G(曾孙节点二<br>左节点 右节点)
 可以看出，思路与之前文章讲到的链表结构相仿，大体就是next指针从一个变成了left和right两个指针，也说明了知识的进步是循序渐进的。
 1. - [ ] 首先，创建二叉树所需的结构体。
 ```c
-typedef struct LemonTree{
-    char id;
-    struct LemonTree* left, *right;
-} T; 
+// 定义二叉树节点
+typedef struct TreeNode {
+    int value; // 节点的值
+    struct TreeNode *left; // 指向左子节点的指针
+    struct TreeNode *right; // 指向右子节点的指针
+} TreeNode;
 ```
 这里我们声明了这个结构体，它含有两个指针结构，分别对应以后的左节点和右节点，同时包含着一个属于自己的信息。
 
-2. - [ ] 其次,我们开始对二叉树的写入
+2. - [ ] 其次,我们开始对二叉树的新节点的创建
 ```c
-T* getTree(){ //创建一个返回值为结构体指针的函数
-    T *tree; // 创建一个访问指针
-    char ch;// 接受对应要写入的值
-    printf("输入A结束输入：");
-    scanf(" %c", &ch); // 注意前面的空格，用于跳过任何前面的空白字符
-    if(ch == 'A'){
-        tree = NULL; // 读取到A我们返回null表明没有值写入。
-    } else {
-        tree = (struct LemonTree*)malloc(sizeof(struct LemonTree));
-        tree -> id = ch; // 使用读取的字符
-        tree -> left = getTree();
-        tree -> right = getTree();
+// 创建新节点
+TreeNode* createNode(int value) {
+    TreeNode* newNode = (TreeNode*)malloc(sizeof(TreeNode)); // 分配新节点的内存
+    if (newNode == NULL) { // 检查内存分配是否成功
+        printf("内存分配失败\n");
+        exit(1); // 如果分配失败，则退出程序
     }
-    return tree;
+    newNode->value = value; // 设置新节点的值
+    newNode->left = newNode->right = NULL; // 初始化新节点的左右子节点为空
+    return newNode; // 返回新创建的节点指针
 }
+```
+3. - [ ] 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDU3NDcwNiwtMTM4ODg0ODI5MF19
+eyJoaXN0b3J5IjpbOTY1NzkwMTgwLC0xMzg4ODQ4MjkwXX0=
 -->
