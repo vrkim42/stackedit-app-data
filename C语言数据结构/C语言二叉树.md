@@ -22,7 +22,7 @@ C --> F(曾孙节点一<br>左节点 右节点)
 C --> G(曾孙节点二<br>左节点 右节点)
 
 ```
-像这样的一个树状结构，
+像这样的一个树状结构，由一个父节点开始，每一个父节点
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzA5NjJdfQ==
+eyJoaXN0b3J5IjpbMTM4MDIwMDU3OV19
 -->
