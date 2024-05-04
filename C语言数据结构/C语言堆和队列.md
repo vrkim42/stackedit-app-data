@@ -66,7 +66,7 @@ int top = 0;
 void push(char c)
 {
 	stack[top++] = c;
-}
+}//读取字母fang'r
 
 char pop(void)
 {
@@ -92,5 +92,6 @@ int main(void)
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Nzk4NzIwNCwtMTMzMTc0MjIxMF19
+eyJoaXN0b3J5IjpbLTEzMTM5MDk4MzYsMjA3Nzk4NzIwNCwtMT
+MzMTc0MjIxMF19
 -->
