@@ -43,7 +43,17 @@ int main(){
 ## 队列
 ![输入图片说明](/imgs/2024-05-04/e7AC5wOy8Hpmb4xN.png)
 ```c
-
+int a[100] = {1,2,3,4,5,6,7,8,9,0},head,tail;
+head = 0;//队首位置，以零开始 
+tail = 10;//队尾位置，队首+总数，方便后来的交换数值 
+while(head < tail){
+	printf("%d", a[head]);//先打印此时队首的元素 
+	head++;//移到下一位 
+	a[tail] = a[head];//将此时的偶数位放到队尾 
+	tail++;//移动队尾位置 
+	head++;
+} 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE3NDIyMTBdfQ==
+eyJoaXN0b3J5IjpbLTE5ODA4MDQzNjQsLTEzMzE3NDIyMTBdfQ
+==
 -->
