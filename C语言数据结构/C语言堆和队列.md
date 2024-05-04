@@ -55,6 +55,42 @@ while(head < tail){
 	head++;
 } 
 ```
+
+### 最纯的堆栈
+```c
+#include <stdio.h>
+
+char stack[512];
+int top = 0;
+
+void push(char c)
+{
+	stack[top++] = c;
+}
+
+char pop(void)
+{
+	return stack[--top];
+}
+
+int is_empty(void)
+{
+	return top == 0;
+}
+
+int main(void)
+{
+	push('a');
+	push('b');
+	push('c');
+	
+	while(!is_empty())
+		putchar(pop());
+	putchar('\n');
+
+	return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIzODU5MDEyLC0xMzMxNzQyMjEwXX0=
+eyJoaXN0b3J5IjpbMjA3Nzk4NzIwNCwtMTMzMTc0MjIxMF19
 -->
