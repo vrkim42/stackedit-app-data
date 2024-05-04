@@ -6,17 +6,18 @@ int main(){
 	int n = sizeof(arr) / sizeof(arr[0]);//得出数组的大小
 	for(int i = 0; i < n - 1; i++){//一共n个数，但是只需要比较n-1次即可
 		for(int j = i; j < n - i - 1; j++){//这个循环进行每一次的比较，前面已经排完序号的数不需要再进行比较所以从i开始，一共执行n-i-1次结束
-			if(arr[j] > arr[j + 1]){//交换
+			if(arr[j] > arr[j + 1]){//交换数组中数的经典办法
 				int temp = arr[j];
 				arr[j] = arr[j+1];
 				arr[j+1] = temp;
 			}
 		}
 	}
-	for(int i = 0; i< n; i++){
+	for(int i = 0; i< n; i++){//打印排完序号后的数组
 		printf("%d\t", arr[i]);
 	} 
 } 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0ODgzMTc2MywtMjExOTI4NjY5N119
+eyJoaXN0b3J5IjpbLTgxMDYzNzc5LC0yMTE5Mjg2Njk3XX0=
 -->
