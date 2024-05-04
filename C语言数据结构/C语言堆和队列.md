@@ -87,11 +87,11 @@ int main(void)
 	while(!is_empty())
 		putchar(pop());
 	putchar(10);//换行
-
+	
 	return 0;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTgyMTAzOSwyMDc3OTg3MjA0LC0xMz
+eyJoaXN0b3J5IjpbLTkyODYyOTA0OSwyMDc3OTg3MjA0LC0xMz
 MxNzQyMjEwXX0=
 -->
