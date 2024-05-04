@@ -66,17 +66,17 @@ int top = 0;
 void push(char c)
 {
 	stack[top++] = c;
-}//读取字母fang'r
+}//读取字母放入数组
 
 char pop(void)
 {
 	return stack[--top];
-}
+}//将数组的数取出
 
 int is_empty(void)
 {
 	return top == 0;
-}
+}//判断数组是否为空
 
 int main(void)
 {
@@ -86,12 +86,12 @@ int main(void)
 	
 	while(!is_empty())
 		putchar(pop());
-	putchar('\n');
+	putchar(10);//换行
 
 	return 0;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM5MDk4MzYsMjA3Nzk4NzIwNCwtMT
-MzMTc0MjIxMF19
+eyJoaXN0b3J5IjpbMTIyNTgyMTAzOSwyMDc3OTg3MjA0LC0xMz
+MxNzQyMjEwXX0=
 -->
