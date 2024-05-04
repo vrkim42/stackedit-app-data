@@ -42,6 +42,7 @@ int main(){
 ```
 ## 队列
 ![输入图片说明](/imgs/2024-05-04/e7AC5wOy8Hpmb4xN.png)
+代码实现：
 ```c
 int a[100] = {1,2,3,4,5,6,7,8,9,0},head,tail;
 head = 0;//队首位置，以零开始 
@@ -53,7 +54,7 @@ while(head < tail){
 	tail++;//移动队尾位置 
 	head++;
 } 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODA4MDQzNjQsLTEzMzE3NDIyMTBdfQ
-==
+eyJoaXN0b3J5IjpbNjIzODU5MDEyLC0xMzMxNzQyMjEwXX0=
 -->
