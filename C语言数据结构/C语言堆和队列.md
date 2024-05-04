@@ -1,4 +1,7 @@
-栈
+# 区别
+栈相当于一个弹匣，只能从入口放入和取出物品，所以正序放入倒叙取出，而队列相当于一个
+
+## 栈
 ```c
 #include<stdio.h>
 
@@ -13,7 +16,7 @@ int main(){
 	}
 } 
 ```
-
+## 队列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMDAwMDUwNl19
+eyJoaXN0b3J5IjpbLTIwNDgyMzAwOTVdfQ==
 -->
