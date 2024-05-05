@@ -28,13 +28,12 @@ int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
  
 	//跳出循环，将基准值放入数据a[i]中
 	a[i] = key;
-	//对基准值左边 的所有数据 再次进行快速查找（递归）
-	if (i-1 > low) 
+	//这个部分和前面归并一样，将数组划分为无数个小部分，使的其可以应对所有一般情况
+	if (i-1 > low) //i - 1
 	{
 		quick_sort(a, low, i-1);
 	}
- 
-	//对基准值右边的所有数据再次进行快速查找（递归）
+
 	if (i+1 < high)
 	{
 		quick_sort(a, i+1, high);
@@ -147,6 +146,5 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA0ODE4MTksLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbMTgzOTM1MDIxMCwtMjA4ODc0NjYxMl19
 -->
