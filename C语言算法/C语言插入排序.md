@@ -3,8 +3,6 @@
 ```c
 #include<stdio.h>
 
-using namespace std;
-
 void InsertSort(int a[],int l)
 {
     int temp;
@@ -32,12 +30,11 @@ void InsertSort(int a[],int l)
 int main()
 {
     int a[10]={2,5,8,3,6,9,1,4,7};
-    int b[10]={1,2,3,4,5,6,7,8,9};
     int len=9;
     InsertSort(a,len);
     return 0;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NDU3Mzc4MV19
+eyJoaXN0b3J5IjpbLTEyMTkyMjIzODFdfQ==
 -->
