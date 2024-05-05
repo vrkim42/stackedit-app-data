@@ -1,4 +1,5 @@
 ## 快速排序
+快排的思路是找到一个基准值，然后将大于基准值的放在右边，小于基准值的放在左边，完成排序，没错，也要进行微分达到宏观处理一切数据的办法。
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -8,7 +9,7 @@ int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
 {
 	int i = low;	//左端点
 	int j = high;	//右端点
-	int key = a[i]; //将第一个数作为基准值，快排的灵魂所在,后面会将
+	int key = a[i]; //将第一个数作为基准值，快排的灵魂所在。
 	while (i < j)
 	{
 		//下面的循环执行的条件是 如果右面的比基准值大，就赋一下值，否则继续向前移动
@@ -155,5 +156,6 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDM0ODA3NCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2Mjc1MTgyNjAsLTIwODg3NDY2MTJdfQ
+==
 -->
