@@ -10,13 +10,12 @@ int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
 	int i = low;	//左端点
 	int j = high;	//右端点
 	int key = a[i]; //将第一个数作为基准值，快排的灵魂所在。
-	while (i < j)//直到pai'wan'xv
+	while (i < j)//直到排完序结束
 	{
 		while(i < j && a[j] >= key)//i<j防止出现越界，a[j] >= key是要找出基准值右边比基准值小的数与基准值互换位置，直到右边都比基准值大为止。
 		{
 			j--;
-		}//如果不成立，也就是 a[j] <= key;右面的比key小了，那就换个位置
-		//把a[j]的数据给a[i]	
+		}//如果不成立a[j] <= key;右面的比key小了，那就换个位置把a[j]的数据给a[i]	
 		a[i] = a[j];	
  
 		//将事先保存好的基准值与左边的值进行比较，如果基准值大，保持不变，i往前
@@ -151,5 +150,5 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MjA5MDUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbOTg0NTkxNDE3LC0yMDg4NzQ2NjEyXX0=
 -->
