@@ -1,4 +1,4 @@
-先初始化0-9十个桶，先根据个位的数，将个位0与桶编号相同的数fang'jin
+先初始化序号为0-9十个桶，先根据个位的数，将个位0与桶编号相同的数放进对应的桶中，按照0 - 9 的顺序将数然后根据十位数
 ```c
 #include <stdio.h>
 
@@ -74,5 +74,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDU1OTUxODFdfQ==
+eyJoaXN0b3J5IjpbLTIwODI5ODk4MThdfQ==
 -->
