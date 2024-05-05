@@ -1,4 +1,4 @@
-
+## 
 ```c
 #include <stdio.h>
 //选择排序，挑出其中一个数，和他相邻的数比较，满足相应要求后选择将那个数变成所选数或者保持不变，以此循环
@@ -21,5 +21,5 @@ int main(){
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTY5OTc4NV19
+eyJoaXN0b3J5IjpbNjQ5NzE2MjkzXX0=
 -->
