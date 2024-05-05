@@ -1,6 +1,6 @@
 插入排序
 ```c
-#include<bits/stdc++.h>
+#include<std>
 
 using namespace std;
 
@@ -38,5 +38,5 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5ODY1MTAzM119
+eyJoaXN0b3J5IjpbMTE3NjY2Mzk3NV19
 -->
