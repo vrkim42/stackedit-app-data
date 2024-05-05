@@ -12,12 +12,7 @@ int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
 	int key = a[i]; //将第一个数作为基准值，快排的灵魂所在。
 	while (i < j)
 	{
-		//下面的循环执行的条件是 如果右面的比基准值大，就赋一下值，否则继续向前移动
-                //---如果直接把循环写成下面这样---
-		//while(a[j] >= key) //如果下面的不写这个i<j,这个就出错、越界，并且排序不准--理由：
-		//如果i<j,并且： 右面的值 大于 基准值 时，j往前移动一个
-					//i 跟 j 的可能情况 只有 i<j i==j
-		while(i < j && a[j] >= key)//i<j 是 当前while循环的结束条件，如果没有这个，i会大于j，出现越界，错误 
+		while(i < j && a[j] >= key)//i<j防止出现越界，
 		{
 			j--;//继续走
 		}//如果不成立，也就是 a[j] <= key;右面的比key小了，那就换个位置
@@ -156,6 +151,5 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mjc1MTgyNjAsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTM5Njk2NDU0LC0yMDg4NzQ2NjEyXX0=
 -->
