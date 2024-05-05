@@ -4,12 +4,11 @@
 #include <stdlib.h>
 #define  N  10//宏定义数组大小
  
-int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点{
-	int i = low;	//第一位
-	int j = high;	//最后一位
-	int key = a[i]; //将第一个数作为基准值-- 先找到一个基准值
- 
-	//进行排序---> 最终结果就是 左面的 都比基准值小 ，右面的都比 基准值大，所以这是所有循环的结束条件
+int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
+{
+	int i = low;	//左端点
+	int j = high;	//右端点
+	int key = a[i]; //将第一个数作为基准值，快排的灵魂所在,后面会将
 	while (i < j)
 	{
 		//下面的循环执行的条件是 如果右面的比基准值大，就赋一下值，否则继续向前移动
@@ -156,6 +155,5 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM2MTAyNjIsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTM2NDM0ODA3NCwtMjA4ODc0NjYxMl19
 -->
