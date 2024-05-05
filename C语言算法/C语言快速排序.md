@@ -15,12 +15,9 @@ int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点
 		while(i < j && a[j] >= key)//i<j防止出现越界，a[j] >= key是要找出基准值右边比基准值小的数与基准值互换位置，直到右边都比基准值大为止。
 		{
 			j--;
-		}//如果不成立a[j] <= key;右面的比key小了，那就换个位置把a[j]的数据给a[i]	
+		}//如果不成立，那么a[j] <= key;右面的比基准值小了，那就把a[j]的数据给a[i]	
 		a[i] = a[j];	
- 
-		//将事先保存好的基准值与左边的值进行比较，如果基准值大，保持不变，i往前
-		//然后 判断一下这个新的a[i]，也就是之前的a[j]跟key值的关系---> 一定是 a[i]<key
-		//所以把i向前移动一下，i++
+ //这一步同理找出左边比基准值大的数和基准值互换直到都小于基准值为止。
 		while(i < j && a[i] <= key)
 		{
 			i++;
@@ -150,5 +147,6 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NTkxNDE3LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTIxNDA0ODE4MTksLTIwODg3NDY2MTJdfQ
+==
 -->
