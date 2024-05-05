@@ -2,12 +2,9 @@
 ```c
 #include <stdio.h>
 #include <stdlib.h>
+#define  N  10//宏定义数组大小
  
-#define  N  10
- 
-//快速排序法
-int quick_sort(int *a, int low, int high)
-{
+int quick_sort(int *a, int low, int high)//导入数组，左端点和右端点{
 	int i = low;	//第一位
 	int j = high;	//最后一位
 	int key = a[i]; //将第一个数作为基准值-- 先找到一个基准值
@@ -159,5 +156,6 @@ int main(int argc, const char *argv[])
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0ODQ0ODIyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEwNzM2MTAyNjIsLTIwODg3NDY2MTJdfQ
+==
 -->
