@@ -4,11 +4,10 @@
 #include<stdio.h>
 
 void InsertSort(int a[],int l) {
-	int temp;
-	int j;
-	for(int i=1; i<l; i++) {
+	for(int i=1; i<l; i++) {//从第二个数开始
 		if(a[i]<a[i-1]) {
-			temp=a[i];
+			int temp=a[i];
+			int j;
 			for(j=i-1; j>=0&&temp<a[j]; j--) {
 				a[j+1]=a[j];
 			}
@@ -30,5 +29,5 @@ int main() {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjg1NTk2MV19
+eyJoaXN0b3J5IjpbLTM0MjMxODcxOV19
 -->
