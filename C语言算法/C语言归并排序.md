@@ -4,9 +4,9 @@
 #include <stdio.h>
 
 void merge(int arr[], int L, int M, int R) {
-    int LEFT_SIZE = M - L;保存左数组
-    int RIGHT_SIZE = R - M + 1;
-    int left[LEFT_SIZE];
+    int LEFT_SIZE = M - L;保存左数组大小
+    int RIGHT_SIZE = R - M + 1;//右数组大小
+    int left[LEFT_SIZE];chuang'jian
     int right[RIGHT_SIZE];
     //fill in the left sub array;
     int i ,j , k;
@@ -42,6 +42,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ0NzQyMTUsLTIwODg3NDY2MTIsND
-QwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbNDU5MjA0ODk1LC0yMDg4NzQ2NjEyLDQ0MD
+kwNTYxOV19
 -->
