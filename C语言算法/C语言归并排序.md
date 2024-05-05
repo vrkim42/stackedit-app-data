@@ -42,7 +42,7 @@ int main(void) {
     return 0;
 }
 ```
-那么如果yua
+那么如果原数组没有已经排好序的部分而是一片混乱怎么办，简单，利用微分的思想，将他彻底打散成单个数组成分，利用递归进行排序。
 ```c
 完全体归并排序。
 #include <stdio.h>
@@ -105,7 +105,7 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NTE4OTYyLC00OTIwMDE1NTUsMTMyNT
-k5NTAzOCwtNTEzNDM5NDY5LC0yMDg4NzQ2NjEyLDQ0MDkwNTYx
-OV19
+eyJoaXN0b3J5IjpbMTcxMjgzNTMwOSwtNDkyMDAxNTU1LDEzMj
+U5OTUwMzgsLTUxMzQzOTQ2OSwtMjA4ODc0NjYxMiw0NDA5MDU2
+MTldfQ==
 -->
