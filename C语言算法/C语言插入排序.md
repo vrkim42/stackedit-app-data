@@ -1,4 +1,5 @@
 插入排序
+思路：设定第一个数有序，分为第一个数和后面无序的数两部分，然后把后面的数按序插入到前面有序的部分中。
 ```c
 #include<stdio.h>
 
@@ -38,5 +39,5 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTYxNjY3MTVdfQ==
+eyJoaXN0b3J5IjpbLTI2NDU3Mzc4MV19
 -->
