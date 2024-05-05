@@ -11,7 +11,7 @@ void merge(int arr[], int L, int M, int R) {
     //fill in the left sub array;
     int i ,j , k;
     for(i = L;i < M; i++){
-        left[i - L] = arr[i];
+        left[i - L] = arr[i];//i - L
     }
     //fill in the right array
     for(i = M; i <= R; i++){
@@ -42,6 +42,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkwOTAyNzk5LC0yMDg4NzQ2NjEyLDQ0MD
+eyJoaXN0b3J5IjpbNzkyMzk1NjI5LC0yMDg4NzQ2NjEyLDQ0MD
 kwNTYxOV19
 -->
