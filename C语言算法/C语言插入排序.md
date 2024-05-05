@@ -3,38 +3,32 @@
 ```c
 #include<stdio.h>
 
-void InsertSort(int a[],int l)
-{
-    int temp;
-    int j;
-    for(int i=1;i<l;i++)
-    {
-        if(a[i]<a[i-1])
-        {
-            temp=a[i];
-            for(j=i-1;j>=0&&temp<a[j];j--)
-            {
-                a[j+1]=a[j];
-            }
-            a[j+1]=temp;
+void InsertSort(int a[],int l) {
+	int temp;
+	int j;
+	for(int i=1; i<l; i++) {
+		if(a[i]<a[i-1]) {
+			temp=a[i];
+			for(j=i-1; j>=0&&temp<a[j]; j--) {
+				a[j+1]=a[j];
+			}
+			a[j+1]=temp;
 
-        }
-        for(int k=0;k<l;k++)
-            printf("%d ", k);
-        putchar(10);
-
-    }
+		}
+	}
+	for(int k=0; k<l; k++)
+		printf("%d ", k);
 }
 
 
-int main()
-{
-    int a[10]={2,5,8,3,6,9,1,4,7};
-    int len=9;
-    InsertSort(a,len);
-    return 0;
+int main() {
+	int a[10]= {2,5,8,3,6,9,1,4,7};
+	int len=9;
+	InsertSort(a,len);
+	return 0;
 }
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTkyMjIzODFdfQ==
+eyJoaXN0b3J5IjpbMTkwNjg1NTk2MV19
 -->
