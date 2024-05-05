@@ -1,4 +1,4 @@
-基数排序是一种非比较型整数排序算法，其原理是将整数按位数切割成不同的数字，然后按每个位数分别比较。
+先初始化0-9十个桶，先根据个位的数，将个位0与桶编号相同的数fang'jin
 ```c
 #include <stdio.h>
 
@@ -74,5 +74,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTI5NjM1OF19
+eyJoaXN0b3J5IjpbLTE2MDU1OTUxODFdfQ==
 -->
