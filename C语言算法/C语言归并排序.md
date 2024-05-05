@@ -19,9 +19,9 @@ void merge(int arr[], int L, int M, int R) {
     }
     //fill in the original array
     i = 0;  j = 0;  k = L;//L的值在此是0,但是使用L方便控制循环，i和j分别计数左右数组的使用量。
-    for(;i < LEFT_SIZE && j < RIGHT_SIZE; k++){
+    for(;i < LEFT_SIZE && j < RIGHT_SIZE; k++){//循环条件是左右数组还有剩余。
         if(left[i] < right[j]){
-            arr[k] = left[i++];
+            arr[k] = left[i++];//
         }else{
             arr[k] = right[j++];
         }
@@ -42,6 +42,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzQzOTQ2OSwtMjA4ODc0NjYxMiw0ND
-A5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbMTMyNTk5NTAzOCwtNTEzNDM5NDY5LC0yMD
+g4NzQ2NjEyLDQ0MDkwNTYxOV19
 -->
