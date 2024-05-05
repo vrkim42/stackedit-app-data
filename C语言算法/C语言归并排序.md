@@ -6,12 +6,12 @@
 void merge(int arr[], int L, int M, int R) {
     int LEFT_SIZE = M - L;保存左数组大小
     int RIGHT_SIZE = R - M + 1;//右数组大小
-    int left[LEFT_SIZE];chuang'jian
-    int right[RIGHT_SIZE];
+    int left[LEFT_SIZE];创建左数组
+    int right[RIGHT_SIZE];创建右数组
     //fill in the left sub array;
     int i ,j , k;
     for(i = L;i < M; i++){
-        left[i - L] = arr[i];//L++降低效率
+        left[i - L] = arr[i];
     }
     //fill in the right array
     for(i = M; i <= R; i++){
@@ -42,6 +42,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5MjA0ODk1LC0yMDg4NzQ2NjEyLDQ0MD
+eyJoaXN0b3J5IjpbNDkwOTAyNzk5LC0yMDg4NzQ2NjEyLDQ0MD
 kwNTYxOV19
 -->
