@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 void merge(int arr[], int L, int M, int R) {
-    int LEFT_SIZE = M - L;
+    int LEFT_SIZE = M - L;保存左数组
     int RIGHT_SIZE = R - M + 1;
     int left[LEFT_SIZE];
     int right[RIGHT_SIZE];
@@ -30,11 +30,11 @@ void merge(int arr[], int L, int M, int R) {
 
 int main(void) {
     int arr[] = {3,4,5,6,2,7,8,9};//数组
-    int L = 0;//左duan'diian
-    int M = 4;
-    int R = 7;
+    int L = 0;//左端点
+    int M = 4;//右数组右端点
+    int R = 7;//左数组右端点
     merge(arr, L, M, R);
-    int i = 0;
+    int i = 0;//打印
     while(i < R + 1){
         printf("%d",arr[i++]);
     }
@@ -42,6 +42,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA2MDEwMjIsLTIwODg3NDY2MTIsND
+eyJoaXN0b3J5IjpbLTEyMjQ0NzQyMTUsLTIwODg3NDY2MTIsND
 QwOTA1NjE5XX0=
 -->
