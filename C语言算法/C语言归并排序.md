@@ -1,6 +1,7 @@
-归并排序的思路是将数组分为两个数组，然后分别对两个
+归并排序的思路是将数组分为多个数组，然后分别将多个数组的数字插入到元数组中达成排序的目的。
 
 ```c
+先yi
 #include <stdio.h>
 
 void merge(int arr[], int L, int M, int R) {
@@ -42,6 +43,6 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyNTk5NTAzOCwtNTEzNDM5NDY5LC0yMD
-g4NzQ2NjEyLDQ0MDkwNTYxOV19
+eyJoaXN0b3J5IjpbODk3OTYyMzkwLDEzMjU5OTUwMzgsLTUxMz
+QzOTQ2OSwtMjA4ODc0NjYxMiw0NDA5MDU2MTldfQ==
 -->
