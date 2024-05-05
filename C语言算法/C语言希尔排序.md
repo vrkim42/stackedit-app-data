@@ -1,5 +1,6 @@
 希尔排序
 优化版的插入排序
+先得到整个数组一半的大小a，然后对数组元素进行两两分组，分组格式为arr[0]和arr
 ```c
 #include <stdio.h>
 
@@ -54,5 +55,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNzY2MjAxXX0=
+eyJoaXN0b3J5IjpbMTAzNTMxMzYwMSwyNjI3NjYyMDFdfQ==
 -->
