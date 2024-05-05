@@ -1,4 +1,5 @@
-
+桶排序
+思路是将待排序数组分割成一定数量的桶，每个桶内的元素单独进行排序，然后按照顺序将各个桶中的元素合并起来.
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -211,5 +212,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDI1MjIyM119
+eyJoaXN0b3J5IjpbLTIwNjAzODk1NzVdfQ==
 -->
