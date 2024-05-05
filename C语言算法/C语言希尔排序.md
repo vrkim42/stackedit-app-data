@@ -1,6 +1,6 @@
 希尔排序
 优化版的插入排序
-先得到整个数组一半的大小a，然后对数组元素进行两两分组，分组格式为arr[0]和arr[0+a]一组，arr[1]和arr[1+a]一组的格式进行分组，之后每个小组进行排序，小的放在前面。
+先得到整个数组一半的大小a，然后对数组元素进行两两分组，分组格式为arr[0]和arr[0+a]一组，arr[1]和arr[1+a]一组的格式进行分组，之后每个小组进行排序，小的放在前面。随后不断缩小a到原来的一半直到整个数组排完序。
 ```c
 #include <stdio.h>
 
@@ -55,5 +55,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDEzNTA4MTYsMjYyNzY2MjAxXX0=
+eyJoaXN0b3J5IjpbMTUyMDc3NzE0NywyNjI3NjYyMDFdfQ==
 -->
