@@ -1,5 +1,6 @@
 ## 冒泡排序
-最简单的排序思路了，从第一个数开始进行遍历，如果他比第二个数大就“上浮”一位
+最简单的排序思路了，从第一个数开始进行遍历，如果他比第二个数大就“上浮”一位，反之不变，然后对下一个数进行处理，如此持续。
+定义一个大循环，大循环包括总共进行的次数，然后小循环是每一次进行排序
 ```c
 #include<stdio.h>
 
@@ -21,6 +22,6 @@ int main(){
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNjAxNjk3MCwtODEwNjM3NzksLTIxMT
-kyODY2OTddfQ==
+eyJoaXN0b3J5IjpbNDQ2NzEzNTE5LC04MTA2Mzc3OSwtMjExOT
+I4NjY5N119
 -->
