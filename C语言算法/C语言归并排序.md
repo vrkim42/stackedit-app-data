@@ -1,7 +1,7 @@
 归并排序的思路是将数组分为多个数组，然后分别将多个数组的数字插入到元数组中达成排序的目的。
 
 ```c
-先以分为两个数组为例，左边四个数有序，右边四个数也有序，这样啊我们就可以将这两个数组中的数一一比较，
+先以分为两个数组为例，左边四个数有序，右边四个数也有序，这样啊我们就可以将这两个数组中的数一一比较，将小的放到结果数组中，然后其对应的数组序号加一。直到排序完成返回结果。
 #include <stdio.h>
 
 void merge(int arr[], int L, int M, int R) {
@@ -42,6 +42,7 @@ int main(void) {
     return 0;
 }
 ```
+那么如果yua
 ```c
 完全体归并排序。
 #include <stdio.h>
@@ -104,7 +105,7 @@ int main(void) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTg3ODY3MiwtNDkyMDAxNTU1LDEzMj
-U5OTUwMzgsLTUxMzQzOTQ2OSwtMjA4ODc0NjYxMiw0NDA5MDU2
-MTldfQ==
+eyJoaXN0b3J5IjpbNzM1NTE4OTYyLC00OTIwMDE1NTUsMTMyNT
+k5NTAzOCwtNTEzNDM5NDY5LC0yMDg4NzQ2NjEyLDQ0MDkwNTYx
+OV19
 -->
