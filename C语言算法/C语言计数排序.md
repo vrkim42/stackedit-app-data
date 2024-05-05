@@ -1,6 +1,5 @@
 计数排序
-
-
+计数排序通过统计每个元素出现的频次，然后按照元素的大小顺序将其放置到正确的位置，实现排序。
 ```c
 #include <stdio.h>
 
@@ -71,5 +70,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDQ1Nzk1M119
+eyJoaXN0b3J5IjpbODM3MzUxNzg3XX0=
 -->
