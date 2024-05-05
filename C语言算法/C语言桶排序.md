@@ -1,5 +1,5 @@
 桶排序
-思路是将待排序数组分割成一定数量的桶，每个桶内的元素单独进行排序，然后按照顺序将各个桶中的元素合并起来.
+思路是找出最大值和最小值，根据最大值和最小值等差将待排序数组分割成一定数量的桶，将数组的数放进tong'z，每个桶内的元素单独进行排序，然后按照顺序将各个桶中的元素合并起来.
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -212,5 +212,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjAzODk1NzVdfQ==
+eyJoaXN0b3J5IjpbLTEzNjkzMjgyMDksLTIwNjAzODk1NzVdfQ
+==
 -->
