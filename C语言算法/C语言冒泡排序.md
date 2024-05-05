@@ -1,4 +1,5 @@
 ## 冒泡排序
+最简单的排序思路了，从第一个数开始进行遍历，如果他比第二个数大就“上浮”一位
 ```c
 #include<stdio.h>
 
@@ -20,6 +21,6 @@ int main(){
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU3NDA2MTQzLC04MTA2Mzc3OSwtMjExOT
-I4NjY5N119
+eyJoaXN0b3J5IjpbLTQxNjAxNjk3MCwtODEwNjM3NzksLTIxMT
+kyODY2OTddfQ==
 -->
