@@ -6,16 +6,15 @@
 void InsertSort(int a[],int l) {
 	for(int i=1; i<l; i++) {//从第二个数开始
 		if(a[i]<a[i-1]) {
-			int temp=a[i];
-			int j;
-			for(j=i-1; j>=0&&temp<a[j]; j--) {
+			int temp=a[i];//保存a[i]的副本避免丢失
+			int j;//找到刚好小于dang'qian'cao'z
+			for(j=i-1; j>=0&&temp<a[j]; j--) {//找到要插入的位置
 				a[j+1]=a[j];
 			}
 			a[j+1]=temp;
-
 		}
 	}
-	for(int k=0; k<l; k++)
+	for(int k=0; k<l; k++)//进行打印
 		printf("%d ", k);
 }
 
@@ -29,5 +28,5 @@ int main() {
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjMxODcxOV19
+eyJoaXN0b3J5IjpbMTI1NDA5NDYxOF19
 -->
