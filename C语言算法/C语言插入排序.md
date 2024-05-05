@@ -1,6 +1,6 @@
 插入排序
 ```c
-#include<std>
+#include<stdio.h>
 
 using namespace std;
 
@@ -21,8 +21,8 @@ void InsertSort(int a[],int l)
 
         }
         for(int k=0;k<l;k++)
-            cout<<a[k]<<" ";
-        cout<<endl;
+            printf("%d ", k);
+        putchar(10);
 
     }
 }
@@ -38,5 +38,5 @@ int main()
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NjY2Mzk3NV19
+eyJoaXN0b3J5IjpbLTExMTYxNjY3MTVdfQ==
 -->
