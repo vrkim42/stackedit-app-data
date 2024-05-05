@@ -1,7 +1,6 @@
+基数排序是一种非比较型整数排序算法，其原理是将整数按位数切割成不同的数字，然后按每个位数分别比较。
+```c
 
-
-
-> Written with [StackEdit中文版](https://stackedit.cn/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbMjExNDg0ODY3OV19
 -->
