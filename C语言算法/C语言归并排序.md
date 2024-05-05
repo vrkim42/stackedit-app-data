@@ -44,8 +44,66 @@ int main(void) {
 ```
 ```c
 完全体归并排序。
+#include <stdio.h>
 
+void merge(int arr[], int L, int M, int R) {
+    int LEFT_SIZE = M - L;//保存左数组大小
+    int RIGHT_SIZE = R - M + 1;//右数组大小
+    int left[LEFT_SIZE];//创建左数组
+    int right[RIGHT_SIZE];//创建右数组
+    //fill in the left sub array;
+    int i ,j , k;
+    for(i = L;i < M; i++){
+        left[i - L] = arr[i];//i - L相当于从0开始自增
+    }
+    //fill in the right array
+    for(i = M; i <= R; i++){
+        right[i - M] = arr[i];
+    }
+    //fill in the original array
+    i = 0;  j = 0;  k = L;//L的值在此是0,但是使用L方便控制循环，i和j分别计数左右数组的使用量。
+    for(;i < LEFT_SIZE && j < RIGHT_SIZE; k++){//循环条件是左右数组还有剩余。
+        if(left[i] < right[j]){
+            arr[k] = left[i++];//左边数小先放左边的数 
+        }else{
+            arr[k] = right[j++];//右边数小放右边的 
+        }
+    }
+    //for循环结束后可能有一个数组里的数没有全部放到arr数组中，这里放进去。 
+    while(i < LEFT_SIZE){
+        arr[k++] = left[i++];
+    }
+    while(j < RIGHT_SIZE){
+        arr[k++] = right[j++];
+    }
+}
+
+void mergesort(int arr[],int L,int R){
+    if(L == R){
+        return;
+    }else{
+        int M = (L + R) / 2;//找到数组中间点划分左右数组 
+        mergesort(arr, L, M);//分割成单个数组 
+        mergesort(arr, M + 1, R);
+        merge(arr, L, M + 1, R);//进行排序 
+    }
+}
+
+
+int main(void) {
+    int arr[] = {6, 8, 10, 9, 4, 5, 2, 7};
+    int L = 0;//左端点
+    int R = 7;//左数组右端点
+    mergesort(arr, L, R);
+    int i;
+    
+    for(i = 0; i <= R; i++){
+        printf("%d\n",arr[i]);
+    }
+    return 0;
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjAwMTU1NSwxMzI1OTk1MDM4LC01MT
-M0Mzk0NjksLTIwODg3NDY2MTIsNDQwOTA1NjE5XX0=
+eyJoaXN0b3J5IjpbLTE1MzIzMTU1NjEsLTQ5MjAwMTU1NSwxMz
+I1OTk1MDM4LC01MTM0Mzk0NjksLTIwODg3NDY2MTIsNDQwOTA1
+NjE5XX0=
 -->
