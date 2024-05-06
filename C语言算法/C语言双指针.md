@@ -7,16 +7,16 @@
 bool twoSum(int* arr, int n, int target){
 	int l = 0;//左边界
 	int r = n - 1;//右边界
-	while(l < r){//大循环zhi'xing
-		if(arr[l] + arr[r] == target){
+	while(l < r){//大循环执行全部情况
+		if(arr[l] + arr[r] == target){//找到了就返回true
 		return true;
-	}else if(arr[l] + arr[r] < target){
+	}else if(arr[l] + arr[r] < target){//找不到变下标继续做
 		l++;
 	}else{
 		r--;
 	}
 	}
-	return false;
+	return false;//实在找不到返回false
 }
 int main(){
 	int arr[] = {1, 2, 3, 4, 5};//已知数组 
@@ -30,5 +30,5 @@ int main(){
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MTQzNjA2Myw0NDA5MDU2MTldfQ==
+eyJoaXN0b3J5IjpbLTE3Mjk4MDQ2MTQsNDQwOTA1NjE5XX0=
 -->
