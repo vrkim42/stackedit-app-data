@@ -20,7 +20,6 @@ B --> D(孙节点一<br>左节点 右节点)
 B --> E(孙节点二<br>左节点 右节点)
 C --> F(曾孙节点一<br>左节点 右节点)
 C --> G(曾孙节点二<br>左节点 右节点)
-
 ```
 像这样的一个树状结构，由一个父节点开始，每一个父节点产生两个子节点，每一个子节点产生两个孙节点，如此往复，每一个节点中都存储着一个结构体信息，按照一定的规律对树结构内的信息进行访问并输出，对于左侧的节点，可以采用左侧结构体指针进行访问，同理，右侧的节点也可以使用右结构体指针进行访问。通过二叉树的这种特点，循环n次以后我们就得到了一个含有2^N个信息的树状结构。
 
@@ -115,6 +114,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQyNjQ3MDQxLDg0MDYyOTQxNSwtMTM4OD
-g0ODI5MF19
+eyJoaXN0b3J5IjpbNDY4ODE0MjU1LDQ0MjY0NzA0MSw4NDA2Mj
+k0MTUsLTEzODg4NDgyOTBdfQ==
 -->
