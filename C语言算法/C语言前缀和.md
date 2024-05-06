@@ -1,5 +1,5 @@
 前缀和
-思路是保存一个要进行前缀和数组的副本，然后利用副本将
+思路是保存一个要进行前缀和数组的副本，然后利用副本将前缀和的值返回到结果数组中，最后循环打印结果数组的值。
 ```c
 #include<stdio.h>
 
@@ -24,5 +24,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTkxMTc2OSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTk1MDE3NTk3NywtMjA4ODc0NjYxMl19
 -->
