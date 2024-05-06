@@ -8,7 +8,7 @@ int half_find(int* arr, int l, int r, int target){
 		if(arr[mid] == target){
 		return mid;
 	}else if(arr[mid] > target){
-		return half_find(arr, l, mid, target);
+		return half_find(arr, l, mid, target);//
 	}else{
 		return half_find(arr, mid, r, target);
 	}
@@ -49,5 +49,6 @@ int main(){
 } 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDk1NzYwMiwxMzA2NDkyMDcxXX0=
+eyJoaXN0b3J5IjpbLTE0MDQzNzA4MTgsLTczNDk1NzYwMiwxMz
+A2NDkyMDcxXX0=
 -->
