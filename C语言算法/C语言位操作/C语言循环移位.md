@@ -1,5 +1,6 @@
 ## C语言循环移位
-逻辑很简单重点在代码实现，就是移位检查最后一位数的情况，是1就xian'yi'wei
+逻辑很简单重点在代码实现，就是移位检查最后一位数的情况，是1就先移位再把首位变成1，否则不变。
+
 ```c
 #include <stdio.h>
 
@@ -28,5 +29,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDMzMDkyMF19
+eyJoaXN0b3J5IjpbLTE0NjA3MTU3OTBdfQ==
 -->
