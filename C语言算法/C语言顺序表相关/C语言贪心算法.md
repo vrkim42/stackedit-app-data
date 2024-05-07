@@ -2,8 +2,28 @@
 ![输入图片说明](/imgs/2024-05-07/bGy1sMGyYLd7sZOD.png)
 答案：
 ```c
+#include<bits/stdc++.h>
+using namespace std;
 
+
+int main() {
+	int a[510] = {0};//总人数不超过500人开510个数组 
+	int r, n, s = 0;//水龙头个数，总人数，打水时间
+	scanf("%d%d", &n, &r);
+	for(int i = 1 ; i <= n; i++){//循环打印人的打水时间
+		scanf("%d", &a[i]);
+	} 
+	sort(a+1, a+n+1);
+	for(int i = 1 ; i <= n; i++){
+		if(i >= r + 1){
+			a[i] = a[i] + a[i - r];
+		}
+		s = s + a[i];
+	}
+	cout << s;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjE5OTg5MiwtNzA4Mjk4MDYxLDUwOT
+eyJoaXN0b3J5IjpbLTMzMjYwMTI5NywtNzA4Mjk4MDYxLDUwOT
 ExMTE1NF19
 -->
