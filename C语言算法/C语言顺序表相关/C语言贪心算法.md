@@ -1,4 +1,4 @@
-谈心算法没有固定套路，是由局部最优解推出全局最优解。 
+谈心算法没有固定套路，是由局部最优解推出全局最优解。 */
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4MTcyMzc1XX0=
+eyJoaXN0b3J5IjpbNTA5MTExMTU0XX0=
 -->
