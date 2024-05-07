@@ -13,10 +13,10 @@ int main() {
 	for(int i = 1 ; i <= n; i++){//循环打印人的打水时间
 		scanf("%d", &a[i]);
 	} 
-	sort(a+1, a+n+1);//找到最少时间的先进行打水，这样就满足了jv'bu'zui'y
+	sort(a+1, a+n+1);//找到最少时间的先进行打水，这样就满足了局部最优。
 	for(int i = 1 ; i <= n; i++){
 		if(i >= r + 1){
-			a[i] = a[i] + a[i - r];
+			a[i] = a[i] + a[i - r];//从第r+1个人开始就是轮换的部分了
 		}
 		s = s + a[i];
 	}
@@ -24,6 +24,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjkzMDc4MiwtNzA4Mjk4MDYxLDUwOT
-ExMTE1NF19
+eyJoaXN0b3J5IjpbNzc2MDg5MDEwLC03MDgyOTgwNjEsNTA5MT
+ExMTU0XX0=
 -->
