@@ -25,8 +25,9 @@ int main(){
 	} 
 }
 ```
-
+在C++中，`unique`函数是STL（Standard Template Library，标准模板库）算法的一部分，用于去除序列中的连续重复元素。它属于`<algorithm>`头文件。`unique`函数本身并不真正删除元素，而是通过重新排列序列中的元素，使得每个唯一的元素只出现一次，并返回一个指向新的最后一个元素之后的位置的迭代器。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyODg2NTAyLC0xOTg2MDU4NzY2XX0=
+eyJoaXN0b3J5IjpbMTcyODI4NTEwMiwzNTI4ODY1MDIsLTE5OD
+YwNTg3NjZdfQ==
 -->
