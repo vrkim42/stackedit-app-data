@@ -11,7 +11,6 @@
 - 在转换和存储大数时，逆序存储是为了方便从最低位开始逐位相加。
 - 在逐位相加时，需要处理进位问题。
 - 在输出结果时，要注意可能存在最高位的进位，导致最终结果的位数可能比两个加数的位数多一位。
-这段代码是正确的，应该能够实现大数加法的基本功能。如果你遇到任何问题或错误，请提供具体的错误信息或描述，我将帮助你解决。
 
 ```c
 #include<bits/stdc++.h>
@@ -53,5 +52,5 @@ int main(){
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE4NjQ1NzkxLDExMzE4MTg4MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0MTg4Mjc4NjAsMTEzMTgxODgxMl19
 -->
