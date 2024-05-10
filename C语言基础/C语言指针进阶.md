@@ -26,7 +26,9 @@ int *(*p_1[5])(int**);
 //p_1是有5个函数指针的数组；
 //赋值：auto func_1 = [](int **p) -> int*{}; *p_1 = func_1;
 int  *(*(*p_2)[5])(int **);
+//p_2是一个指向含有5个函数指针的数组的指针；
+//赋值：auto func_1 = [](int **p) -> int *{}; **p_2 = func_1;
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NTU2ODEyXX0=
+eyJoaXN0b3J5IjpbLTc5Mjg1MDcwMl19
 -->
