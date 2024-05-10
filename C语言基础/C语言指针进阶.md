@@ -32,9 +32,9 @@ int  *(*(*p_2)[5])(int **);
 
 ### 常数和指针
 ```c
-const int* p;//指向常数的指针
-int* const p;//常数指针，
+const int* p;//指向常数的指针，指针指向的值不会发生改变。
+int* const p;//常数指针，指针的值不会改变
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NzcxNTc1MSwtNzkyODUwNzAyXX0=
+eyJoaXN0b3J5IjpbLTM4NjY4NTY1OSwtNzkyODUwNzAyXX0=
 -->
