@@ -13,7 +13,9 @@ int *(*p_4)[5];//指向有5个整形数据指针数组的指针p_4 = &p_2; **p_4
 ```
 ## 中等
 ```c
-
+int (*p_1)();
+int (*p_2)(int *);
+int *
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIyMzQ4MDNdfQ==
+eyJoaXN0b3J5IjpbMTU2ODU4NDA4NF19
 -->
