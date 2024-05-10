@@ -29,6 +29,12 @@ int  *(*(*p_2)[5])(int **);
 //p_2是一个指向含有5个函数指针的数组的指针；
 //赋值：auto func_1 = [](int **p) -> int *{}; **p_2 = func_1;
 ```
+
+### 常数和指针
+```c
+const int* p;//指向常数的指针
+int* const p;//常数指针，
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mjg1MDcwMl19
+eyJoaXN0b3J5IjpbMTY2NzcxNTc1MSwtNzkyODUwNzAyXX0=
 -->
