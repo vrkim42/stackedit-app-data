@@ -6,11 +6,11 @@ int * * *p_3;//存放指向的指针的地址
 ```
 ## 进阶
 ```c
-int p_1[5];//有五个整形数据的数组，不是指针，可以用*p_1 = 
-int *p_2[5];//
-int (*p_3)[5];
+int p_1[5];//有五个整形数据的数组，不是指针，可以用*p_1 = (int)0;赋值
+int *p_2[5];//有五个整形数据指针的数组，不是指针，赋值*p_2 = (int*)0;
+int (*p_3)[5];//是一个
 int *(*p_4)[5];
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQ4OTMxNF19
+eyJoaXN0b3J5IjpbNDk5MTc0NDAyXX0=
 -->
