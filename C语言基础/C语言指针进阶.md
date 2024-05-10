@@ -23,8 +23,10 @@ int *(*p_3)(int **);//函数指针，指向的函数为指向整形指针的指�
 ## 拔高
 ```c
 int *(*p_1[5])(int**);
+//p_1是有5个函数指针的数组；
+//赋值：auto func_1 = [](int **p) -> int*{}; *p_1 = func_1;
 int  *(*(*p_2)[5])(int **);
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjY3MTgzNThdfQ==
+eyJoaXN0b3J5IjpbNDA3NTU2ODEyXX0=
 -->
