@@ -13,9 +13,11 @@ int *(*p_4)[5];//指向有5个整形数据指针数组的指针p_4 = &p_2; **p_4
 ```
 ## 中等
 ```c
-int (*p_1)();
+int (*p_1)();//函数指针，指向的函数没参数，返回值为整形；
+//赋值：auto func_1 = []
 int (*p_2)(int *);
-int *
+int *(*p_3)(int **);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODU4NDA4NF19
+eyJoaXN0b3J5IjpbLTQ0MDA2Njc2XX0=
 -->
