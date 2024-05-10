@@ -20,7 +20,11 @@ int (*p_2)(int *);//函数指针，指向的函数参数为整型指针，返回
 int *(*p_3)(int **);//函数指针，指向的函数为指向整形指针的指针，返回值为整型指针
 //赋值：auto func_3 = [](int **p) -> int* {}; p_3 = func_3;
 ```
-
+## 拔高
+```c
+int *(*p_1[5])(int**);
+int  *(*(*p_2)[5])(int **);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjc4NTg4MV19
+eyJoaXN0b3J5IjpbLTE1MjY3MTgzNThdfQ==
 -->
