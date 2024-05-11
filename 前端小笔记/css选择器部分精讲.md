@@ -225,7 +225,59 @@ div, p {
 <p>This is a standalone p element.</p>
 ```
 在这个例子中，所有作为`div`后代（包括直接子元素和更低层级的后代）的`p`元素都会有红色的文本，因为它们被`div p`选择器选中。紧随`div`之后的`p`元素会有粗体文本，因为它们是`div`的直接子元素，被`div > p`选择器选中。所有的`div`和`p`元素都会有10像素的外边距，因为它们被分组选择器`div, p`选中。
+#### 辩论相邻兄弟选择器和子代选择器
+当然，让我们通过具体的代码示例来展示相邻兄弟选择器（Adjacent Sibling Selector）和子代选择器（Child Selector）的区别。
+##### 子代选择器（Child Selector）
+子代选择器（`>`）用于选择某个元素的直接子元素。这里是一个简单的HTML和CSS示例：
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Child Selector Example</title>
+<style>
+  div > p {
+    color: red;
+  }
+</style>
+</head>
+<body>
+<div>
+  <p>这是直接子元素，文本将变成红色。</p>
+  <section>
+    <p>这不是直接子元素，文本不会变红。</p>
+  </section>
+</div>
+</body>
+</html>
+```
+在这个示例中，只有`<div>`元素的直接子元素`<p>`的文本颜色会变成红色。`<section>`元素内的`<p>`不会受到影响，因为它不是`<div>`的直接子元素。
+##### 相邻兄弟选择器（Adjacent Sibling Selector）
+相邻兄弟选择器（`+`）用于选择紧随另一个元素后的第一个兄弟元素。这里是一个简单的HTML和CSS示例：
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Adjacent Sibling Selector Example</title>
+<style>
+  h1 + p {
+    color: blue;
+  }
+</style>
+</head>
+<body>
+<h1>这是一个标题</h1>
+<p>这是紧随标题后的段落，文本将变成蓝色。</p>
+<p>这不是紧随标题后的段落，文本不会变蓝。</p>
+</body>
+</html>
+```
+在这个示例中，只有紧随`<h1>`元素后的第一个`<p>`元素的文本颜色会变成蓝色。第二个`<p>`元素不受影响，因为它不是紧随`<h1>`元素后的第一个兄弟元素。
+通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDMyNDQwNl19
+eyJoaXN0b3J5IjpbNjE1OTgyMTc3LDExMzAzMjQ0MDZdfQ==
 -->
