@@ -175,7 +175,31 @@ input[type="password"]:hover {
 - :root选择器用于匹配文档根元素，在HTML中，根元素始终是html元素。也就是说用“:root选择器”定义的样式，对所有页面元素都生效。对于不需要该样式的元
 素，可以单独设置样式进行覆盖。:root选择器用于匹配文档根元素，在HTML中，根元素始终是html元素。也就是说“:root选择器”定义的样式，对所有页面元素都生效。对于不需要该样式的元素，可以单独设置样式进行覆盖。
 6. `E:not`
-- 
+- CSS中的`:not()`伪类选择器用于匹配不符合一组选择器条件的元素。这个选择器非常有用，因为它允许开发者根据排除条件来选择元素，而不是直接指定它们。
+`:not()`伪类可以与任何其他简单选择器配合使用，包括类选择器、类型选择器、属性选择器等，但不能与伪元素配合使用，也不能嵌套`:not()`伪类。
+下面是一个基本的例子：
+```css
+/* 为所有不是段落（p）的元素设置样式 */
+:not(p) {
+  color: blue;
+}
+/* 为所有不是类名为 .example 的元素设置样式 */
+:not(.example) {
+  color: red;
+}
+/* 为所有类型不是 div 且没有 id 的元素设置样式 */
+:not(div):not([id]) {
+  font-size: 14px;
+}
+```
+在`:not()`伪类中，可以使用多个选择器，用逗号隔开，例如：
+```css
+/* 排除多个类 */
+:not(.class1, .class2, .class3) {
+  margin: 0;
+}
+```
+`:not()`伪类在CSS3中引入，并且得到了现代浏览器的广泛支持。在使用时，需要注意选择器的性能问题，尤其是在选择器中包含大量复杂的选择条件时，**可能会导致页面加载速度变慢**。
 7. `E:only-child`
 - 
 8. `E:nth-last-child`
@@ -290,6 +314,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTI4ODM1OCw2MTU5ODIxNzcsMTEzMD
-MyNDQwNl19
+eyJoaXN0b3J5IjpbMTkxMTg2ODQ2MCwxMTk5Mjg4MzU4LDYxNT
+k4MjE3NywxMTMwMzI0NDA2XX0=
 -->
