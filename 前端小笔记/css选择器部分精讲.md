@@ -201,9 +201,58 @@ input[type="password"]:hover {
 ```
 `:not()`伪类在CSS3中引入，并且得到了现代浏览器的广泛支持。在使用时，需要注意选择器的性能问题，尤其是在选择器中包含大量复杂的选择条件时，**可能会导致页面加载速度变慢**。
 7. `E:only-child`
-- 
+- `:only-child` 是一个CSS伪类选择器，它选择的是没有任何兄弟元素的元素，即它是其父元素的唯一子元素。换句话说，使用 `:only-child` 选择器的元素必须是它的父元素的唯一直接子元素。
+例如，如果你有一个列表，并且只想对列表中唯一的列表项进行样式化，你可以使用 `:only-child` 伪类：
+```css
+li:only-child {
+  color: red;
+}
+```
+在上面的例子中，只有当 `<li>` 元素是它父元素（比如 `<ul>` 或 `<ol>`）的唯一子元素时，它才会被设置为红色。
+需要注意的是，`:only-child` 是针对唯一子元素的选择器，而不是针对唯一类型的子元素。如果一个元素是它父元素的唯一子元素，即使它有多个不同类型的子元素，`:only-child` 仍然会应用样式。
+此外，`:only-child` 可以与其他伪类结合使用，例如，如果你想选择一个既是唯一子元素又是鼠标悬停状态的元素，你可以这样写：
+```css
+li:only-child:hover {
+  background-color: yellow;
+}
+```
+在这个例子中，只有当 `<li>` 元素是它父元素的唯一子元素，并且鼠标悬停在该元素上时，它才会获得黄色的背景。
+
 8. `E:nth-last-child`
-- 
+- `:nth-last-child` 是一个CSS伪类选择器，它选择一个元素，该元素在其父元素的子元素列表中按照特定的顺序倒序排列。它允许你按照一个公式来选择一个或多个子元素，这个公式可以是关键字 `even` 或 `odd`，也可以是一个简单的算术表达式，如 `n`、`2n+1`、`3n-1` 等。
+例如，如果你想选择一个列表中的倒数第二个子元素，你可以使用 `:nth-last-child(2)`：
+```css
+li:nth-last-child(2) {
+  color: red;
+}
+```
+在这个例子中，列表中每个 `<li>` 元素都会检查它是否是其父元素的倒数第二个子元素，如果是，则它的文本颜色会被设置为红色。
+`:nth-last-child` 伪类也可以使用 `an+b` 形式的公式，其中 `a` 和 `b` 是整数，`n` 代表一个计数器（从0开始）。例如，如果你想选择每个列表的倒数第五个元素，你可以使用 `:nth-last-child(5n)` 或 `:nth-last-child(5)`（因为 `5n` 在 `n=1` 时就是5）。
+这里有一些使用 `:nth-last-child` 的例子：
+```css
+/* 选择每个父元素下的倒数第二个子元素 */
+:nth-last-child(2) {
+  color: red;
+}
+/* 选择每个父元素下的倒数第五个子元素 */
+:nth-last-child(5) {
+  color: blue;
+}
+/* 选择每个父元素下的倒数奇数个子元素 */
+:nth-last-child(odd) {
+  font-weight: bold;
+}
+/* 选择每个父元素下的倒数偶数个子元素 */
+:nth-last-child(even) {
+  font-style: italic;
+}
+/* 选择每个父元素下的倒数第三个子元素，然后每隔四个子元素选择一次 */
+:nth-last-child(3n+1) {
+  text-decoration: underline;
+}
+```
+`:nth-last-child` 选择器在CSS3中引入，并且得到了现代浏览器的广泛支持。它对于对列表或网格布局中的元素进行复杂的样式设计非常有用。
+
 9. `E:nth-of-type(n)`
 10. `E:empty` 
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
@@ -314,6 +363,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTg2ODQ2MCwxMTk5Mjg4MzU4LDYxNT
+eyJoaXN0b3J5IjpbMTU4ODU2NTY2MiwxMTk5Mjg4MzU4LDYxNT
 k4MjE3NywxMTMwMzI0NDA2XX0=
 -->
