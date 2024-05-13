@@ -246,7 +246,7 @@ li:nth-last-child(2) {
 :nth-last-child(even) {
   font-style: italic;
 }
-/* 选择每个父元素下的倒数第三个子元素，然后每隔四个子元素选择一次 */
+/* 选择每个父元素下的倒数第1个子元素，然后每隔 3 个子元素选择一次 */
 :nth-last-child(3n+1) {
   text-decoration: underline;
 }
@@ -363,6 +363,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODU2NTY2MiwxMTk5Mjg4MzU4LDYxNT
-k4MjE3NywxMTMwMzI0NDA2XX0=
+eyJoaXN0b3J5IjpbNTI3NzY5NzY0LDE1ODg1NjU2NjIsMTE5OT
+I4ODM1OCw2MTU5ODIxNzcsMTEzMDMyNDQwNl19
 -->
