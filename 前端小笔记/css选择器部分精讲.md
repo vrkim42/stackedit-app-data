@@ -200,6 +200,7 @@ input[type="password"]:hover {
 }
 ```
 `:not()`伪类在CSS3中引入，并且得到了现代浏览器的广泛支持。在使用时，需要注意选择器的性能问题，尤其是在选择器中包含大量复杂的选择条件时，**可能会导致页面加载速度变慢**。
+
 7. `E:only-child`
 - `:only-child` 是一个CSS伪类选择器，它选择的是没有任何兄弟元素的元素，即它是其父元素的唯一子元素。换句话说，使用 `:only-child` 选择器的元素必须是它的父元素的唯一直接子元素。
 例如，如果你有一个列表，并且只想对列表中唯一的列表项进行样式化，你可以使用 `:only-child` 伪类：
@@ -254,7 +255,39 @@ li:nth-last-child(2) {
 `:nth-last-child` 选择器在CSS3中引入，并且得到了现代浏览器的广泛支持。它对于对列表或网格布局中的元素进行复杂的样式设计非常有用。
 
 9. `E:nth-of-type(n)`
-10. `E:empty` 
+- `:nth-of-type(n)` 是一个CSS伪类选择器，它选择特定类型的元素，这些元素在其父元素的所有相同类型的子元素中按照一定的顺序排列。与 `:nth-child(n)` 不同，`:nth-of-type(n)` 仅考虑特定类型的元素，而 `:nth-child(n)` 则考虑所有子元素。
+`:nth-of-type(n)` 选择器中的 `n` 可以是预定义的关键字 `even` 或 `odd`，也可以是一个简单的算术表达式，如 `n`、`2n+1`、`3n-1` 等。
+例如，如果你想选择一个列表中的每个偶数位置 `<li>` 元素，你可以使用 `:nth-of-type(even)`：
+```css
+li:nth-of-type(even) {
+  color: red;
+}
+```
+在这个例子中，每个 `<li>` 元素都会检查它是否是其父元素中 `<li>` 类型元素的偶数位置，如果是，则它的文本颜色会被设置为红色。
+`:nth-of-type` 伪类也可以使用 `an+b` 形式的公式，其中 `a` 和 `b` 是整数，`n` 代表一个计数器（从0开始）。例如，如果你想选择每个列表的第三个 `<li>` 元素，你可以使用 `:nth-of-type(3n)` 或 `:nth-of-type(3)`（因为 `3n` 在 `n=1` 时就是3）。
+这里有一些使用 `:nth-of-type` 的例子：
+```css
+/* 选择每个父元素下的偶数位置的 <li> 元素 */
+li:nth-of-type(even) {
+  color: red;
+}
+/* 选择每个父元素下的第三个 <li> 元素 */
+li:nth-of-type(3) {
+  color: blue;
+}
+/* 选择每个父元素下的奇数位置的 <li> 元素 */
+li:nth-of-type(odd) {
+  font-weight: bold;
+}
+/* 选择每个父元素下的第5个 <li> 元素，然后每隔四个 <li> 元素选择一次 */
+li:nth-of-type(5n+1) {
+  text-decoration: underline;
+}
+```
+`:nth-of-type` 选择器在CSS3中引入，并且得到了现代浏览器的广泛支持。它对于对复杂文档结构中的特定类型元素进行样式设计非常有用。
+  
+10. `E:empty`
+-  
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
 #### 8.兄弟选择器
 在CSS中，兄弟选择器用于选择一个元素后的兄弟元素。CSS提供了两种兄弟选择器：
@@ -363,6 +396,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NzY5NzY0LDE1ODg1NjU2NjIsMTE5OT
-I4ODM1OCw2MTU5ODIxNzcsMTEzMDMyNDQwNl19
+eyJoaXN0b3J5IjpbLTEyMjM3MjY3OTMsMTU4ODU2NTY2MiwxMT
+k5Mjg4MzU4LDYxNTk4MjE3NywxMTMwMzI0NDA2XX0=
 -->
