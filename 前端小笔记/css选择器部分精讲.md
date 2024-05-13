@@ -287,7 +287,23 @@ li:nth-of-type(5n+1) {
 `:nth-of-type` 选择器在CSS3中引入，并且得到了现代浏览器的广泛支持。它对于对复杂文档结构中的特定类型元素进行样式设计非常有用。
   
 10. `E:empty`
--  
+-  `:empty` 是一个CSS伪类选择器，它选择没有任何子元素（包括文本节点和其他子节点）的元素。换句话说，它匹配的是彻底空白的元素，即元素内没有任何内容。
+例如，如果你有一个 `<div>` 元素，它里面没有任何内容，你可以使用 `:empty` 伪类来给它设置样式：
+```css
+div:empty {
+  display: none;
+}
+```
+在这个例子中，任何空的 `<div>` 元素都不会显示在页面上。
+`:empty` 伪类在选择器链中也可以与其他伪类一起使用。例如，如果你想隐藏任何空的类名为 `.container` 的 `<div>` 元素，你可以这样写：
+```css
+div.container:empty {
+  display: none;
+}
+```
+`:empty` 伪类对于处理空元素很有用，比如在动态内容生成中，有时候可能不希望显示空白的容器元素。此外，它还可以用于占位符样式，比如在用户尚未输入任何内容的情况下隐藏某些元素。
+需要注意的是，`:empty` 伪类仅考虑元素是否有子元素，而不考虑元素内的空格、制表符、换行符等空白字符。如果元素内部有这些空白字符，它就不会被视为空元素。
+
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
 #### 8.兄弟选择器
 在CSS中，兄弟选择器用于选择一个元素后的兄弟元素。CSS提供了两种兄弟选择器：
@@ -396,6 +412,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjM3MjY3OTMsMTU4ODU2NTY2MiwxMT
-k5Mjg4MzU4LDYxNTk4MjE3NywxMTMwMzI0NDA2XX0=
+eyJoaXN0b3J5IjpbMTQyNzM3NTYxNCwxNTg4NTY1NjYyLDExOT
+kyODgzNTgsNjE1OTgyMTc3LDExMzAzMjQ0MDZdfQ==
 -->
