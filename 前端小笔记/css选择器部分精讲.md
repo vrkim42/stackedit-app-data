@@ -325,6 +325,52 @@ div.container:empty {
      在这个例子中，`<div>`元素后的所有`<p>`元素都会应用指定的样式，无论它们之间有多少个其他元素。
 兄弟选择器对于样式化特定位置的元素非常有用，尤其是在你需要基于文档结构而不是类或ID来应用样式时。它们可以帮助你减少对类的依赖，并创建更加简洁和可维护的CSS代码。
 
+#### 属性选择器
+CSS中的属性选择器允许你根据元素的属性及其属性值来选择元素。属性选择器可以根据是否存在某个属性、属性值完全匹配、属性值的部分匹配等条件来选择元素。以下是几种常用的属性选择器：
+1. `[attribute]`：选择具有指定属性的元素。
+   ```css
+   a[title] {
+     color: blue;
+   }
+   ```
+2. `[attribute="value"]`：选择属性值完全等于指定值的元素。
+   ```css
+   input[type="text"] {
+     border: 1px solid #ccc;
+   }
+   ```
+3. `[attribute~="value"]`：选择属性值是空格分隔的值列表中包含指定值的元素。
+   ```css
+   p[class~="example"] {
+     font-style: italic;
+   }
+   ```
+4. `[attribute|="value"]`：选择属性值是以指定值开头，后面紧跟连字符 `-` 的元素。
+   ```css
+   div[lang|="en"] {
+     font-family: Arial, sans-serif;
+   }
+   ```
+5. `[attribute^="value"]`：选择属性值以指定值开头的元素。
+   ```css
+   a[href^="https"] {
+     background: url('lock-icon.png') no-repeat 100% 0;
+   }
+   ```
+6. `[attribute$="value"]`：选择属性值以指定值结尾的元素。
+   ```css
+   img[src$=".png"] {
+     border: 2px solid #000;
+   }
+   ```
+7. `[attribute*="value"]`：选择属性值包含指定值的元素。
+   ```css
+   input[name*="email"] {
+     background-color: #ffeedd;
+   }
+   ```
+属性选择器在CSS2中首次引入，并在CSS3中得到了扩展。它们提供了一种强大且灵活的方式来选择和样式化具有特定属性和属性值的元素，这在处理标记丰富的文档时尤其有用。
+
 #### >last1.辩证div p、div>p、div,p
 1. `div p`
    - 这是一个后代选择器（Descendant combinator），用于选择所有属于`div`元素后代的`p`元素，无论它们在DOM树中的层级有多深。这意味着，如果`p`元素是`div`元素的子元素、孙元素或其他更低层级的后代元素，它都会被这个选择器选中。
@@ -412,6 +458,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzM3NTYxNCwxNTg4NTY1NjYyLDExOT
+eyJoaXN0b3J5IjpbMTk2MDc0NDY4MCwxNTg4NTY1NjYyLDExOT
 kyODgzNTgsNjE1OTgyMTc3LDExMzAzMjQ0MDZdfQ==
 -->
