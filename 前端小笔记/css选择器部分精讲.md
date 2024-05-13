@@ -172,13 +172,8 @@ input[type="password"]:hover {
    }
    ```
 5. `E:root`
-- :root选择器用于匹配文档根元素，在HTML中，根元素
-始终是html元素。也就是说吏用“:root选择器”定义的
-样式，对所有页面元素都生效。对于不需要该样式的元
-素，可以单独设置样式进行覆盖。:root选择器用于匹配文档根元素，在HTML中，根元素
-始终是html元素。也就是说吏用“:root选择器”定义的
-样式，对所有页面元素都生效。对于不需要该样式的元
-素，可以单独设置样式进行覆盖。
+- :root选择器用于匹配文档根元素，在HTML中，根元素始终是html元素。也就是说用“:root选择器”定义的样式，对所有页面元素都生效。对于不需要该样式的元
+素，可以单独设置样式进行覆盖。:root选择器用于匹配文档根元素，在HTML中，根元素始终是html元素。也就是说“:root选择器”定义的样式，对所有页面元素都生效。对于不需要该样式的元素，可以单独设置样式进行覆盖。
 6. `E:not`
 - 
 7. `E:only-child`
@@ -295,6 +290,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODgzMjk3Miw2MTU5ODIxNzcsMTEzMD
+eyJoaXN0b3J5IjpbMTE5OTI4ODM1OCw2MTU5ODIxNzcsMTEzMD
 MyNDQwNl19
 -->
