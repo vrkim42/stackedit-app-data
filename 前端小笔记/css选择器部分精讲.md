@@ -172,7 +172,11 @@ input[type="password"]:hover {
    }
    ```
 5. `E:root`
-6. 
+- 
+6. `E:not`
+- 
+7. `E:only-child`
+- 
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
 #### 8.兄弟选择器
 在CSS中，兄弟选择器用于选择一个元素后的兄弟元素。CSS提供了两种兄弟选择器：
@@ -281,6 +285,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjY4MDUwNSw2MTU5ODIxNzcsMTEzMD
-MyNDQwNl19
+eyJoaXN0b3J5IjpbNTMwMDM1NzA1LDYxNTk4MjE3NywxMTMwMz
+I0NDA2XX0=
 -->
