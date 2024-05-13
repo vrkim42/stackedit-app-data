@@ -172,7 +172,13 @@ input[type="password"]:hover {
    }
    ```
 5. `E:root`
-- 
+- :root选择器用于匹配文档根元素，在HTML中，根元素
+始终是html元素。也就是说吏用“:root选择器”定义的
+样式，对所有页面元素都生效。对于不需要该样式的元
+素，可以单独设置样式进行覆盖。:root选择器用于匹配文档根元素，在HTML中，根元素
+始终是html元素。也就是说吏用“:root选择器”定义的
+样式，对所有页面元素都生效。对于不需要该样式的元
+素，可以单独设置样式进行覆盖。
 6. `E:not`
 - 
 7. `E:only-child`
@@ -180,7 +186,7 @@ input[type="password"]:hover {
 8. `E:nth-last-child`
 - 
 9. `E:nth-of-type(n)`
-10. `E:empty 
+10. `E:empty` 
 这些伪元素和伪类选择器提供了强大的选择和样式化能力，使得CSS能够以更加精细和灵活的方式控制页面布局和设计。
 #### 8.兄弟选择器
 在CSS中，兄弟选择器用于选择一个元素后的兄弟元素。CSS提供了两种兄弟选择器：
@@ -289,6 +295,6 @@ div, p {
 通过这两个示例，我们可以清楚地看到子代选择器和相邻兄弟选择器的区别和它们各自的作用范围。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzExODkzMDYsNjE1OTgyMTc3LDExMz
-AzMjQ0MDZdfQ==
+eyJoaXN0b3J5IjpbMTE4ODgzMjk3Miw2MTU5ODIxNzcsMTEzMD
+MyNDQwNl19
 -->
