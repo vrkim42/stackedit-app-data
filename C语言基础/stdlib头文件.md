@@ -87,11 +87,11 @@ int main(int argc, char** argv) {
    - `malloc`（Memory ALLOCation）用于分配指定大小的内存块，但不初始化分配的内存。分配的内存中的数据是未定义的，可能是任意的垃圾值。
    - `calloc`（CONTIGUOUS allocation）用于分配指定数量的元素，每个元素具有指定的大小，并且会初始化所有分配的内存为0。
 2. **参数**:
-   - `malloc` 接受一个参数，即要分配的内存字节数：
+   - `malloc` 接受一个参数，即要分配的内存*字节数*：
      ```c
      void *malloc(size_t size);
      ```
-   - `calloc` 接受两个参数，分别是元素的数量和每个元素的大小：
+   - `calloc` 接受两个参数，分别是*元素的数量*和*每个元素的大小*：
      ```c
      void *calloc(size_t num, size_t size);
      ```
@@ -107,5 +107,5 @@ int main(int argc, char** argv) {
    - `malloc` 分配的内存可以通过 `realloc` 函数重新分配，而 `calloc` 分配的内存也可以通过 `realloc` 重新分配，但是通常使用 `calloc` 来分配数组，而 `malloc` 用于其他类型的内存分配。
 在实际使用中，选择 `malloc` 还是 `calloc` 取决于你的具体需求。如果你需要初始化内存，或者你在分配数组时希望所有元素都是0，那么 `calloc` 是更好的选择。如果你不关心内存中的初始值，或者你需要最大程度的性能，那么 `malloc` 可能是更好的选择。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTExNzU3NzAsMTY0NDI1NTU4NV19
+eyJoaXN0b3J5IjpbMTQ5NjkzNjMyNCwxNjQ0MjU1NTg1XX0=
 -->
