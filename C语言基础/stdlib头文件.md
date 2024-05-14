@@ -46,9 +46,6 @@ int main(int argc, char** argv) {
     }
     // 释放内存空间
     
-
-
-    
     //realloc函数。
     /*realloc() 函数用于重新分配之前分配的内存空间的大小，可以增大或缩小。它接受两个参数：
     一个是指向之前分配的内存空间的指针，另一个是重新分配的大小（以字节为单位）。如果分配成功，则返回一个指向新内存空间的指针，并释放之前分配的内存空间。
@@ -107,5 +104,5 @@ int main(int argc, char** argv) {
    - `malloc` 分配的内存可以通过 `realloc` 函数重新分配，而 `calloc` 分配的内存也可以通过 `realloc` 重新分配，但是通常使用 `calloc` 来分配数组，而 `malloc` 用于其他类型的内存分配。
 在实际使用中，选择 `malloc` 还是 `calloc` 取决于你的具体需求。如果你需要初始化内存，或者你在分配数组时希望所有元素都是0，那么 `calloc` 是更好的选择。如果你不关心内存中的初始值，或者你需要最大程度的性能，那么 `malloc` 可能是更好的选择。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjkzNjMyNCwxNjQ0MjU1NTg1XX0=
+eyJoaXN0b3J5IjpbLTIwMjU4Mzg4NTQsMTY0NDI1NTU4NV19
 -->
