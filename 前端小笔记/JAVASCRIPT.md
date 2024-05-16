@@ -1,4 +1,4 @@
-`<javascript> alert
+`<javascript> alert ('hello world');</javascropt>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1OTA4NDM5XX0=
+eyJoaXN0b3J5IjpbNDA2MDk0ODM1XX0=
 -->
