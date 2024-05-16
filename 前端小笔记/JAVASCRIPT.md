@@ -1,25 +1,4 @@
-```
-<!DOCTYPE HTML>
-<html>
-<body>
-<p>Before the script...</p>
-<script>
 
-alert( 'Hello, world!' );
-
-</script>
-
-  
-
-<p>...After the script.</p>
-
-  
-
-</body>
-
-  
-
-</html>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODEwMzcyOV19
+eyJoaXN0b3J5IjpbLTIwODg3NDY2MTIsLTEwODEwMzcyOV19
 -->
