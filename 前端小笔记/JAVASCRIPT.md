@@ -13,9 +13,11 @@ for in 语句此时输出下面的 tim。
  - onblur 移开光标
 ### 输出方式
  - alert()警告框
- - 
+ - console.log()控制台
+ - prompt()输入框
+### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MzU1Njg3LC0xNTIyNzQ1OTA4LC0yMD
+eyJoaXN0b3J5IjpbNDUxOTY5MTExLC0xNTIyNzQ1OTA4LC0yMD
 g4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
 -->
