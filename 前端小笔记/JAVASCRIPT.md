@@ -15,9 +15,12 @@ for in 语句此时输出下面的 tim。
  - alert()警告框
  - console.log()控制台
  - prompt()输入框
-### 
+### dom
+document.getElementById('   ')
+document.getElementByC('   ')
+document.getElementById('   ')
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUxOTY5MTExLC0xNTIyNzQ1OTA4LC0yMD
-g4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
+eyJoaXN0b3J5IjpbLTU5MjI1OTkwOSwtMTUyMjc0NTkwOCwtMj
+A4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
 -->
