@@ -4,14 +4,18 @@ for in 语句此时输出下面的 tim。
 
 ### JavaScript事件
 
- 1. onclick 点击事件
- 2. onmouseover 鼠标经过
- 3. onmouseout 鼠标移出
- 4. onchange 文本内容发生改变
- 5. onselect 文本框选中
- 6. onfocus 光标聚集
- 7. onblu
+ - onclick 点击事件
+ - onmouseover 鼠标经过
+ - onmouseout 鼠标移出
+ - onchange 文本内容发生改变
+ - onselect 文本框选中
+ - onfocus 光标聚集
+ - onblur 移开光标
+### 输出方式
+ - alert()警告框
+ - 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE0NTI2MiwtMTUyMjc0NTkwOCwtMj
-A4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
+eyJoaXN0b3J5IjpbNDA3MzU1Njg3LC0xNTIyNzQ1OTA4LC0yMD
+g4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
 -->
