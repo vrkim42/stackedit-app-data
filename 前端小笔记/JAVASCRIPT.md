@@ -18,10 +18,12 @@ for in 语句此时输出下面的 tim。
 ### dom
 document.getElementById('   ').innerHTML
 document.getElementByClassName('   ').innerText
-document.getElementByTagName('   ')[0]
+document.getElementByTagName('   ')[0];
+console.log(element_tag);
+element_tag.style.color = 'red';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NzkyOTY1LC0xNTIyNzQ1OTA4LC0yMD
+eyJoaXN0b3J5IjpbMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMD
 g4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
 -->
