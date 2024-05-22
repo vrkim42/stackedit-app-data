@@ -56,9 +56,16 @@ var jsonstr = '{"name" :"vscode" , "age" : 18, "addr" : ['北京', '上海', '�
 		setTimeout(function){
 			alert("JS");
 		}, 3000};
+
+//地址跳转
+alert(location.href);
+location.href = "http://www.baidu.com";
+
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NzM5MjgwMywtMzE3NzM2MzU4LC0xMD
-kyMzU4NDAyLDc2ODA5MDUyNCwyMjc1MTU5NjgsLTE1MjI3NDU5
-MDgsLTIwODg3NDY2MTIsLTEwODEwMzcyOV19
+eyJoaXN0b3J5IjpbMjE0NzE3NjY1NSwtODU3MzkyODAzLC0zMT
+c3MzYzNTgsLTEwOTIzNTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2
+OCwtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX
+0=
 -->
