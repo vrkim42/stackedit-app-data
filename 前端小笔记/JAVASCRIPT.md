@@ -33,12 +33,21 @@ var user = {
 		};
 		console.log(user.name);
 		user.eat();
+
+//json对象指键队
+var jsonstr = '{"name" :"vscode" , "age" : 18, "addr" : ['北京', '上海', '深圳']}';
+		alert(jsonstr.name);
+		var jsobject = JSON.parse(jsonstr);// json转化为js对象
+		alert(jsobject);
+		var userJSONStr = JSON.stringify(jsobject); // js对象转化为json字符串
+		alert(userJSONStr);
 ```
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTIzNTg0MDIsNzY4MDkwNTI0LDIyNz
-UxNTk2OCwtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAz
-NzI5XX0=
+eyJoaXN0b3J5IjpbLTMxNzczNjM1OCwtMTA5MjM1ODQwMiw3Nj
+gwOTA1MjQsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2
+NjEyLC0xMDgxMDM3MjldfQ==
 -->
