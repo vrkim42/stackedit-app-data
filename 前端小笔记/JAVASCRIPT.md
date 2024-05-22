@@ -43,11 +43,22 @@ var jsonstr = '{"name" :"vscode" , "age" : 18, "addr" : ['北京', '上海', '�
 		alert(userJSONStr);
 ```
 
+### BOM
+```js
+//定时器 -- 周期性执行某一个函数
+		var i = 0;
+		setInterval(){
+			i++;
+			console.log("定时器被执行了"+i+"次 ");
+		},2000};
 
-
-
+//定时器 - 延迟时间执行一次
+		setTimeout(function){
+			alert("JS");
+		}, 3000};
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNzczNjM1OCwtMTA5MjM1ODQwMiw3Nj
-gwOTA1MjQsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2
-NjEyLC0xMDgxMDM3MjldfQ==
+eyJoaXN0b3J5IjpbLTg1NzM5MjgwMywtMzE3NzM2MzU4LC0xMD
+kyMzU4NDAyLDc2ODA5MDUyNCwyMjc1MTU5NjgsLTE1MjI3NDU5
+MDgsLTIwODg3NDY2MTIsLTEwODEwMzcyOV19
 -->
