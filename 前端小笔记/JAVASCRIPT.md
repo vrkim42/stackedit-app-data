@@ -64,14 +64,17 @@ location.href = "http://www.baidu.com";
 
 ```
 
-### DOM
+### DOM(首字母大写)
 document 整个文档对象
 element 元素对象
 attribute 属性对象
+text 文本对象
+comment 注释对象
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTY3Mjg4MSwyMTQ3MTc2NjU1LC04NT
-czOTI4MDMsLTMxNzczNjM1OCwtMTA5MjM1ODQwMiw3NjgwOTA1
-MjQsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2NjEyLC
-0xMDgxMDM3MjldfQ==
+eyJoaXN0b3J5IjpbLTE3MTQyODk4NTksMjE0NzE3NjY1NSwtOD
+U3MzkyODAzLC0zMTc3MzYzNTgsLTEwOTIzNTg0MDIsNzY4MDkw
+NTI0LDIyNzUxNTk2OCwtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMi
+wtMTA4MTAzNzI5XX0=
 -->
