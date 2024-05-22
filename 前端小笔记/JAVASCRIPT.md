@@ -24,9 +24,19 @@ element_tag.style.color = 'red';
 ### 声明对象
 ```js
 var user = {
+			name : '111',
+			sex : 'male',
+			age : 20,
+			eat : function(){
+				alert('111');
+			}
+		};
+		console.log(user.name);
+		user.eat();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY4MDkwNTI0LDIyNzUxNTk2OCwtMTUyMj
-c0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
+eyJoaXN0b3J5IjpbLTM3ODc5NTA5MCw3NjgwOTA1MjQsMjI3NT
+E1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2NjEyLC0xMDgxMDM3
+MjldfQ==
 -->
