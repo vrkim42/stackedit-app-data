@@ -21,9 +21,12 @@ document.getElementByClassName('   ').innerText
 document.getElementByTagName('   ')[0];
 console.log(element_tag);
 element_tag.style.color = 'red';
+### 声明对象
+```js
+var user = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMD
-g4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
+eyJoaXN0b3J5IjpbNzY4MDkwNTI0LDIyNzUxNTk2OCwtMTUyMj
+c0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
 -->
