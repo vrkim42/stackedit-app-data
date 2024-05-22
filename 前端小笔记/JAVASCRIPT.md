@@ -33,10 +33,12 @@ var user = {
 		};
 		console.log(user.name);
 		user.eat();
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3ODc5NTA5MCw3NjgwOTA1MjQsMjI3NT
-E1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2NjEyLC0xMDgxMDM3
-MjldfQ==
+eyJoaXN0b3J5IjpbLTEwOTIzNTg0MDIsNzY4MDkwNTI0LDIyNz
+UxNTk2OCwtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAz
+NzI5XX0=
 -->
