@@ -76,9 +76,15 @@ comment 注释对象
 <input type=“button“> id="btn1" value="时间绑定一" onclick="on()">
 
 <input type=“button“> id="btn2" value="时间绑定二" onclick="on()">
+
+
+script
+function on(){
+ alert()
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMTU0MDgzLC0xNzE0Mjg5ODU5LDIxND
-cxNzY2NTUsLTg1NzM5MjgwMywtMzE3NzM2MzU4LC0xMDkyMzU4
-NDAyLDc2ODA5MDUyNCwyMjc1MTU5NjgsLTE1MjI3NDU5MDgsLT
-IwODg3NDY2MTIsLTEwODEwMzcyOV19
+eyJoaXN0b3J5IjpbMjAzMTE4OTk0NywtMTcxNDI4OTg1OSwyMT
+Q3MTc2NjU1LC04NTczOTI4MDMsLTMxNzczNjM1OCwtMTA5MjM1
+ODQwMiw3NjgwOTA1MjQsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC
+0yMDg4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
 -->
