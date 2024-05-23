@@ -85,12 +85,12 @@ function on(){
 document.getElementById('btn2').onclick = function(){
 }
 ```
-`onload``onblur`
+`onload` `onblur` `onfocus` `onsubmit` `onkeydown`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU5MTkwMTg2LC0xNzE0Mjg5ODU5LDIxND
-cxNzY2NTUsLTg1NzM5MjgwMywtMzE3NzM2MzU4LC0xMDkyMzU4
-NDAyLDc2ODA5MDUyNCwyMjc1MTU5NjgsLTE1MjI3NDU5MDgsLT
-IwODg3NDY2MTIsLTEwODEwMzcyOV19
+eyJoaXN0b3J5IjpbLTEzMzE2NjQ0MTgsLTE3MTQyODk4NTksMj
+E0NzE3NjY1NSwtODU3MzkyODAzLC0zMTc3MzYzNTgsLTEwOTIz
+NTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2OCwtMTUyMjc0NTkwOC
+wtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
 -->
