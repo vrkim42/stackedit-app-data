@@ -80,11 +80,12 @@ comment 注释对象
 
 script
 function on(){
- alert()
+ alert('   ');
 }
+document.getElementById('btn2').onclick = function()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTE4OTk0NywtMTcxNDI4OTg1OSwyMT
-Q3MTc2NjU1LC04NTczOTI4MDMsLTMxNzczNjM1OCwtMTA5MjM1
-ODQwMiw3NjgwOTA1MjQsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC
-0yMDg4NzQ2NjEyLC0xMDgxMDM3MjldfQ==
+eyJoaXN0b3J5IjpbLTE5OTgyODkzMTEsLTE3MTQyODk4NTksMj
+E0NzE3NjY1NSwtODU3MzkyODAzLC0zMTc3MzYzNTgsLTEwOTIz
+NTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2OCwtMTUyMjc0NTkwOC
+wtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
 -->
