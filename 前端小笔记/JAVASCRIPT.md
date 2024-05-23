@@ -85,12 +85,13 @@ function on(){
 document.getElementById('btn2').onclick = function(){
 }
 ```
-`onload` `onblur` `onfocus` `onsubmit` `onkeydown`
+`onload` `onblur` `onfocus` `onsubmit` `onkeydown`9·111
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE2NjQ0MTgsLTE3MTQyODk4NTksMj
-E0NzE3NjY1NSwtODU3MzkyODAzLC0zMTc3MzYzNTgsLTEwOTIz
-NTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2OCwtMTUyMjc0NTkwOC
-wtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
+eyJoaXN0b3J5IjpbLTE5Nzg0NzcwMjksLTEzMzE2NjQ0MTgsLT
+E3MTQyODk4NTksMjE0NzE3NjY1NSwtODU3MzkyODAzLC0zMTc3
+MzYzNTgsLTEwOTIzNTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2OC
+wtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
+
 -->
