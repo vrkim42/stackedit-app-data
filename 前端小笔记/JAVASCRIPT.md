@@ -85,13 +85,13 @@ function on(){
 document.getElementById('btn2').onclick = function(){
 }
 ```
-`onload` `onblur` `onfocus` `onsubmit` `onkeydown`9·111
+`onload` `onblur` `onfocus` `onsubmit` `onkeydown`9·111 z
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg0NzcwMjksLTEzMzE2NjQ0MTgsLT
-E3MTQyODk4NTksMjE0NzE3NjY1NSwtODU3MzkyODAzLC0zMTc3
-MzYzNTgsLTEwOTIzNTg0MDIsNzY4MDkwNTI0LDIyNzUxNTk2OC
-wtMTUyMjc0NTkwOCwtMjA4ODc0NjYxMiwtMTA4MTAzNzI5XX0=
-
+eyJoaXN0b3J5IjpbMTg5NzY0NDQ4MSwtMTk3ODQ3NzAyOSwtMT
+MzMTY2NDQxOCwtMTcxNDI4OTg1OSwyMTQ3MTc2NjU1LC04NTcz
+OTI4MDMsLTMxNzczNjM1OCwtMTA5MjM1ODQwMiw3NjgwOTA1Mj
+QsMjI3NTE1OTY4LC0xNTIyNzQ1OTA4LC0yMDg4NzQ2NjEyLC0x
+MDgxMDM3MjldfQ==
 -->
