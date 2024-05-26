@@ -107,7 +107,8 @@ int main() {
 ```
 
 ## 动态链表的创建
+```c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzcxOTQzXX0=
+eyJoaXN0b3J5IjpbLTExMzY1NDkwODRdfQ==
 -->
