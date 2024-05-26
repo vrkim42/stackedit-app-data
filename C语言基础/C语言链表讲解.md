@@ -106,9 +106,133 @@ int main() {
 }
 ```
 
-## 动态链表的创建
+## 静态链表的创建
 ```c
+#define MAX_SIZE 100
 
+typedef struct {
+    int data;
+    int next;
+} StaticNode;
+
+typedef struct {
+    StaticNode nodes[MAX_SIZE];
+    int head;
+    int size;
+} StaticLinkedList;
+
+void initList(StaticLinkedList* list) {
+    list->head = -1;
+    list->size = 0;
+    for (int i = 0; i < MAX_SIZE; i++) {
+        list->nodes[i].next = -1;
+    }
+}
+
+int insert(StaticLinkedList* list, int index, int value) {
+    if (list->size >= MAX_SIZE) return -1; // List is full
+    int newNode = list->size++;
+    list->nodes[newNode].data = value;
+    if (index == 0) {
+        list->nodes[newNode].next = list->head;
+        list->head = newNode;
+    } else {
+        int prev = list->head;
+        for (int i = 1; i < index; i++) {
+            prev = list->nodes[prev].next;
+        }
+        list->nodes[newNode].next = list->nodes[prev].next;
+        list->nodes[prev].next = newNode;
+    }
+    return 0;
+}
+
+void delete(StaticLinkedList* list, int index) {
+    if (list->head == -1) return; // List is empty
+    if (index == 0) {
+        int temp = list->head;
+        list->head = list->nodes[temp].next;
+        list->nodes[temp].next = -1;
+    } else {
+        int prev = list->head;
+        for (int i = 1; i < index; i++) {
+            prev = list->nodes[prev].next;
+        }
+        int temp = list->nodes[prev].next;
+        list->nodes[prev].next = list->nodes[temp].next;
+        list->nodes[temp].next = -1;
+    }
+    list->size--;
+}
+```
+
+#### 动态链表
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+// 链表节点结构体
+typedef struct Node {
+    int data;
+    struct Node *next;
+} Node;
+
+// 创建链表
+Node *createList() {
+    Node *head = (Node *)malloc(sizeof(Node));
+    if (head == NULL) {
+        return NULL;
+    }
+    head->data = 1;
+    head->next = NULL;
+    return head;
+}
+
+// 插入节点
+void insertNode(Node **head, int data) {
+    Node *newNode = (Node *)malloc(sizeof(Node));
+    newNode->data = data;
+    newNode->next = NULL;
+    if (*head == NULL) {
+        *head = newNode;
+        return;
+    }
+    Node *temp = *head;
+    while (temp->next != NULL) {
+        temp = temp->next;
+    }
+    temp->next = newNode;
+}
+
+// 删除节点
+void deleteNode(Node **head, int data) {
+    Node *temp = *head, *prev = NULL;
+    if (temp != NULL && temp->data == data) {
+        *head = temp->next;
+        free(temp);
+        return;
+    }
+    while (temp != NULL && temp->data != data) {
+        prev = temp;
+        temp = temp->next;
+    }
+    if (temp == NULL) return;
+    prev->next = temp->next;
+    free(temp);
+}
+
+// 遍历链表
+void traverseList(Node *head) {
+    Node *temp = head;
+    while (temp != NULL) {
+        printf("%d ", temp->data);
+        temp = temp->next;
+    }
+    printf("\n");
+}
+
+int main() {
+    Node *head =
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY1NDkwODRdfQ==
+eyJoaXN0b3J5IjpbLTI4MTY5MjAwMV19
 -->
