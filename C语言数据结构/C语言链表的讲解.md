@@ -98,7 +98,7 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
     if (list->head == -1) return;  // 链表为空
 
     if (index == 0) {  // 删除头节点
-        int temp = list->head;//保留当前头节点的索引，list->head存放的是一个数，是头节点目前的索引。
+        int temp = list->head;//保留当前头节点的索引，list->head存放的是一个数，是头节点目前的索引。（标记二）
         list->head = list->nodes[temp].next;//这行代码将链表的头节点指针更新为当前头节点的下一个节点的索引，即list->nodes[temp].next。这样，当前头节点被移除后，新的头节点将是原头节点的下一个节点。
         list->nodes[temp].next = -1;  //清空被删除节点的next域
     } else {  // 删除链表中部或尾部的节点
@@ -254,8 +254,67 @@ void initList(StaticLinkedList* list) {
     }
 }
 ```
+
+### 标记二头节点删除的解释
+主人，您好。
+
+为了更详细地解释这行代码的作用及其逻辑，让我们分步骤来理解：
+
+### 链表头节点删除操作的背景
+
+我们考虑一个单链表的删除操作，特别是删除头节点的情况。链表的头节点是链表的起始点，其指针指向第一个节点。如果我们要删除这个头节点，需要把链表的头节点指针更新为下一个节点的索引。
+
+### 具体代码
+
+代码片段如下：
+
+```c
+if (index == 0) {  // 删除头节点
+    int temp = list->head;  // 保留当前头节点的索引
+    list->head = list->nodes[temp].next;  // 更新头节点为下一个节点
+    list->nodes[temp].next = -1;  // 清空被删除节点的next域（可选）
+}
+```
+
+### 步骤解析
+
+1. **保留当前头节点的索引**：
+    ```c
+    list->head = list->nodes[temp].next;
+    ```
+    这行代码将链表的头节点指针更新为当前头节点的下一个节点的索引。
+
+    假设链表当前结构如下：
+
+    ```
+    head -> [0] -> [1] -> [2] -> null
+            (10)  (20)  (30)
+    ```
+
+    - `head` 指向节点 `0`（数据为 `10`）。
+    - 节点 `0` 的 `next` 指向节点 `1`（索引为 `1`）。
+
+    在执行 `list->head = list->nodes[temp].next;` 后：
+
+    - `list->nodes[temp].next` 为 `1`（节点 `0` 的 `next` 指向节点 `1`）。
+    - `list->head` 更新为 `1`，即链表头节点现在指向节点 `1`。
+
+    更新后的链表结构为：
+
+    ```
+    head -> [1] -> [2] -> null
+            (20)  (30)
+    ```
+
+    原来的头节点 `0` 已经被移除，新的头节点是节点 `1`（数据为 `20`）。
+
+3. **清空被删除节点的 `next` 域**（可选）：
+    ```c
+    list->nodes[temp].next = -1;
+    ```
+    这行代码将被删除节点（节点 `0`）的 `next` 域清空，设为 `-1`，表示该节点不再链接到链表中的任何其他节点。这个步骤是可选的，主要是为了明确该节点不再是链表的一部分。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkwNjEwNDUsLTkxNDQyMTA4NiwtMT
-EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
-NDA1NTA5XX0=
+eyJoaXN0b3J5IjpbMzI1Nzk0MjExLC05MTQ0MjEwODYsLTExMD
+ExMzYwNjcsMTIyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQw
+NTUwOV19
 -->
