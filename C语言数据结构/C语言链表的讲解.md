@@ -75,10 +75,10 @@ int insert(StaticLinkedList* list, int index, int value) {
 
     if (index == 0) {  // 插入到链表头部，这个要单独列出来，因为使用的是头节点而不是索引下的next指针。
         list->nodes[newNode].next = list->head;//接入，这行代码将新节点的 next 指向当前的头节点。这是因为新节点将成为新的头节点，原来的头节点将变为第二个节点。
-        list->head = newNode;//插入完了一定要更新头节点的位置，不然下次插入就麻烦了，这行代码在插入操作中用于将新节点设置为链表的头节点，是链表操作中的一个重要步骤。
+        list->head = newNode;//插入完了一定要更新头节点的位置，不然下次插入就麻烦了，这行代码将链表的头节点指针更新为新节点的索引，是链表操作中的一个重要步骤。
     } else {  // 插入到链表中部或尾部
-        int prev = list->head;//将要插入的节点的头指针保留副本
-        for (int i = 1; i < index; i++) {//从第二个链表开始遍历
+        int prev = list->head;//这行代码保存头节点的索引到 prev，用于遍历找到插入位置的前一个节点。
+        for (int i = 1; i < index; i++) {//从第二个链表开始遍历，直到找到插入位置的前一个节点。
             prev = list->nodes[prev].next;//上一个节点的next指向这个节点的头指针完成链接。
         }
         list->nodes[newNode].next = list->nodes[prev].next;//newnode的next前一秒在插入链表的头节点，现在更新到他所在节点的next
@@ -255,7 +255,7 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkzMTE4NDMsLTkxNDQyMTA4NiwtMTEwMT
-EzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1
-NTA5XX0=
+eyJoaXN0b3J5IjpbMTU2NTQwMjcxMSwtOTE0NDIxMDg2LC0xMT
+AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
+MDU1MDldfQ==
 -->
