@@ -52,7 +52,7 @@ typedef struct {
 静态链表的初始化操作：
 
 ```c
-void initList(StaticLinkedList* list) {
+void initList(StaticLinkedList* list) {这里使用的是
     list->head = -1;  // 初始时头节点为空
     list->size = 0;  // 初始时链表大小为0
     for (int i = 0; i < MAX_SIZE; i++) {
@@ -232,6 +232,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDExMzYwNjcsMTIyNDUwMTQwNCwtMj
-AzOTkzODI1MiwtMTQxMTQwNTUwOV19
+eyJoaXN0b3J5IjpbMTcxNjQ2MzMwMCwtMTEwMTEzNjA2NywxMj
+I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
