@@ -308,9 +308,88 @@ if (index == 0) {  // 删除头节点
     原来的头节点 `0` 已经被移除，新的头节点是节点 `1`（数据为 `20`）。
 
 
-### 标记三（如何理解标记下的那三句话）
+### 标记三（如何理解标记下的那三句）
+
+主人，您好。
+
+以下是对删除链表中部或尾部节点的代码片段的详细解释，特别是关于如何连接节点的部分：
+
+### 代码片段
+
+```c
+int temp = list->nodes[prev].next;
+list->nodes[prev].next = list->nodes[temp].next;
+list->nodes[temp].next = -1;  // 清空被删除节点的next域
+```
+
+### 步骤解析
+
+假设我们要删除链表中某个节点（既不是头节点也不是尾节点），步骤如下：
+
+#### 前提假设
+
+假设链表当前结构如下：
+
+```
+head -> [0] -> [1] -> [2] -> [3] -> null
+        (10)  (20)  (30)  (40)
+```
+
+要删除的节点为索引 `1` 的节点，即数据为 `20` 的节点。`prev` 是前一个节点的索引，这里为 `0`（头节点的索引）。
+
+#### 删除节点的操作
+
+1. 找到要删除节点的前一个节点 `prev` 的 `next`：
+    ```c
+    int temp = list->nodes[prev].next;
+    ```
+    这行代码将 `prev` 节点的 `next` 指针（要删除节点的索引）保存在 `temp` 变量中。
+    
+    在我们的例子中：
+    - `prev` 为 `0`，即头节点。
+    - `list->nodes[0].next` 为 `1`，即要删除节点的索引。
+    - 因此，`temp` 为 `1`。
+
+2. **更新前一个节点的 `next` 指针**：
+    ```c
+    list->nodes[prev].next = list->nodes[temp].next;
+    ```
+    这行代码将 `prev` 节点的 `next` 指针更新为 `temp` 节点的 `next` 指针。
+
+    在我们的例子中：
+    - `temp` 为 `1`，即要删除的节点。
+    - `list->nodes[1].next` 为 `2`，即 `30` 数据的节点。
+    - `list->nodes[0].next` 更新为 `2`。
+
+    更新后的链表结构为：
+
+    ```
+    head -> [0] -> [2] -> [3] -> null
+            (10)  (30)  (40)
+    ```
+
+    现在，节点 `0` 的 `next` 指向节点 `2`，跳过了节点 `1`。
+
+3. **清空被删除节点的 `next` 域**：
+    ```c
+    list->nodes[temp].next = -1;
+    ```
+    这行代码将被删除节点的 `next` 域清空，设为 `-1`，表示该节点不再链接到链表中的任何其他节点。
+
+    在我们的例子中：
+    - `temp` 为 `1`，即被删除的节点。
+    - `list->nodes[1].next` 更新为 `-1`。
+
+    最终链表结构为：
+
+    ```
+    head -> [0] -> [2] -> [3] -> null
+            (10)  (30)  (40)
+    ```
+
+    节点 `1` 的 `next` 为 `-1`，表示它已从链表中删除。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODE4NDA4MCwtOTE0NDIxMDg2LC0xMT
+eyJoaXN0b3J5IjpbLTM4Nzk4MzM0NywtOTE0NDIxMDg2LC0xMT
 AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
 MDU1MDldfQ==
 -->
