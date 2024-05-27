@@ -244,14 +244,17 @@ void initList(StaticLinkedList list) {
     }
 }
 ```
-在这种情况下，initList 函数接收到的是 StaticLinkedList 结构体的副本，函数内对 list 的修改不会影响原始的结构体。为了让 initList 函数能够修改原始结构体，我们使用指针：void initList(StaticLinkedList* list) {
+在这种情况下，`initList`函数接收到的是 `StaticLinkedList` 结构体的副本，函数内对 list 的修改不会影响原始的结构体。为了让 `initList` 函数能够修改原始结构体，我们使用指针：
+```
+void initList(StaticLinkedList* list) {
     list->head = -1;
     list->size = 0;
     for (int i = 0; i < MAX_SIZE; i++) {
         list->nodes[i].next = -1;
     }
 }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODU2OTU2MiwtMTEwMTEzNjA2NywxMj
-I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
+eyJoaXN0b3J5IjpbLTE1ODYxMzM4MzgsLTExMDExMzYwNjcsMT
+IyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQwNTUwOV19
 -->
