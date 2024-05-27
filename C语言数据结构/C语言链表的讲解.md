@@ -94,7 +94,7 @@ int insert(StaticLinkedList* list, int index, int value) {
 删除静态链表中指定位置的节点（在索引index处删除节点）：
 
 ```c
-void delete(StaticLinkedList* list, int index) {
+void delete(StaticLinkedList* list, int index) {//list是指向要操作对象的指针，便于对那个节点进行相关的操作，index是yao'jin'xing'ca
     if (list->head == -1) return;  // 链表为空
 
     if (index == 0) {  // 删除头节点
@@ -255,7 +255,7 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzY3NTMxOCwtOTE0NDIxMDg2LC0xMT
-AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
-MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTIxMjc3MjMzMzUsLTkxNDQyMTA4NiwtMT
+EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
+NDA1NTA5XX0=
 -->
