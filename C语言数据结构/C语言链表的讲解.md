@@ -73,7 +73,7 @@ int insert(StaticLinkedList* list, int index, int value) {
     int newNode = list->size++;  // 新节点的下标为当前链表大小，同时size自增，已确认链表数加一,同时size的值代表着索引的位置，方便我们对节点进行插入。
     list->nodes[newNode].data = value;  // 设置新节点的数据域，nodes[newNode]是之前创建的节点数组，.data访问元素，然后赋值为value。
 
-    if (index == 0) {  // 插入到链表头部
+    if (index == 0) {  // 插入到链表头部，这个要单独列出来，因为使用的是头节点而不是索引下的next指针。
         list->nodes[newNode].next = list->head;
         list->head = newNode;
     } else {  // 插入到链表中部或尾部
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5ODU4MDA5LC0xMTAxMTM2MDY3LDEyMj
-Q1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTM4MzAzMDkzMywtMTEwMTEzNjA2NywxMj
+I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
