@@ -99,8 +99,8 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
 
     if (index == 0) {  // 删除头节点
         int temp = list->head;//保留当前头节点的索引
-        list->head = list->nodes[temp].next;
-        list->nodes[temp].next = -1;  // 清空被删除节点的next域
+        list->head = list->nodes[temp].next;//这行代码将链表的头节点指针更新为当前头节点的下一个节点的索引，即list->nodes[temp].next。这样，当前头节点被移除后，新的头节点将是原头节点的下一个节点。
+        list->nodes[temp].next = -1;  //清空被删除节点的next域
     } else {  // 删除链表中部或尾部的节点
         int prev = list->head;
         for (int i = 1; i < index; i++) {
@@ -255,7 +255,7 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDA5Nzg2NSwtOTE0NDIxMDg2LC0xMT
+eyJoaXN0b3J5IjpbLTY4ODc0MjU3MywtOTE0NDIxMDg2LC0xMT
 AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
 MDU1MDldfQ==
 -->
