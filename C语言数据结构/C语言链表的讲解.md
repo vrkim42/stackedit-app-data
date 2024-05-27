@@ -102,7 +102,7 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
         list->head = list->nodes[temp].next;//这行代码将链表的头节点指针更新为当前头节点的下一个节点的索引，即list->nodes[temp].next。这样，当前头节点被移除后，新的头节点将是原头节点的下一个节点。
         list->nodes[temp].next = -1;  //清空被删除节点的next域
     } else {  // 删除链表中部或尾部的节点
-        int prev = list->head;
+        int prev = list->head;//
         for (int i = 1; i < index; i++) {
             prev = list->nodes[prev].next;
         }
@@ -283,15 +283,14 @@ if (index == 0) {  // 删除头节点
     list->head = list->nodes[temp].next;
     ```
     这行代码将链表的头节点指针更新为当前头节点的下一个节点的索引。
-
-    假设链表当前结构如下：
+   假设链表当前结构如下：
 
     ```
     head -> [0] -> [1] -> [2] -> null
             (10)  (20)  (30)
     ```
 
-    - `head` 指向节点 `0`（数据为 `10`）。
+   - `head` 指向节点 `0`（数据为 `10`）。
     - 节点 `0` 的 `next` 指向节点 `1`（索引为 `1`）。
 
     在执行 `list->head = list->nodes[temp].next;` 后：
@@ -308,7 +307,7 @@ if (index == 0) {  // 删除头节点
 
     原来的头节点 `0` 已经被移除，新的头节点是节点 `1`（数据为 `20`）。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODM5MDE4NDEsLTkxNDQyMTA4NiwtMT
-EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
-NDA1NTA5XX0=
+eyJoaXN0b3J5IjpbMTI5ODgwNTgyOSwtOTE0NDIxMDg2LC0xMT
+AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
+MDU1MDldfQ==
 -->
