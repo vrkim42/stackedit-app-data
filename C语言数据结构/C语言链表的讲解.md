@@ -41,7 +41,7 @@ typedef struct {
 } StaticNode;
 
 typedef struct {
-    StaticNode nodes[MAX_SIZE];  // 静态链表的节点数组，每个节点通过这个数组存储数据和xia'yi'jie'dian'de's
+    StaticNode nodes[MAX_SIZE];  // 静态链表的节点数组，每个节点通过这个数组存储数据和下一节点的指针，就是上面的那个结构体集合构成的数组。
     int head;  // 头节点的下标
     int size;  // 当前链表的大小
 } StaticLinkedList;
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjIzMjY5OCwtMTEwMTEzNjA2NywxMj
+eyJoaXN0b3J5IjpbLTkzMDM3MzM0NywtMTEwMTEzNjA2NywxMj
 I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
