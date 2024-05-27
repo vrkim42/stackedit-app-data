@@ -52,7 +52,7 @@ typedef struct {
 静态链表的初始化操作：
 
 ```c
-void initList(StaticLinkedList* list) {这里使用的是结构体指针，区别后面讲。标记一
+void initList(StaticLinkedList* list) {这里使用的是结构体指针，表示的是指向结构体StaticLinkedList的指针list，区别后面讲。标记一
     list->head = -1;  // 初始时头节点为空
     list->size = 0;  // 初始时链表大小为0
     for (int i = 0; i < MAX_SIZE; i++) {
@@ -74,8 +74,8 @@ int insert(StaticLinkedList* list, int index, int value) {
     list->nodes[newNode].data = value;  // 设置新节点的数据域，nodes[newNode]是之前创建的节点数组，.data访问元素，然后赋值为value。
 
     if (index == 0) {  // 插入到链表头部，这个要单独列出来，因为使用的是头节点而不是索引下的next指针。
-        list->nodes[newNode].next = list->head;
-        list->head = newNode;
+        list->nodes[newNode].next = list->head;//接入
+        list->head = newNode;//插入完了一定要更新头节点的位置，不然下次cha'ru
     } else {  // 插入到链表中部或尾部
         int prev = list->head;
         for (int i = 1; i < index; i++) {
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzAzMDkzMywtMTEwMTEzNjA2NywxMj
+eyJoaXN0b3J5IjpbLTUyMzk3NTMxNSwtMTEwMTEzNjA2NywxMj
 I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
