@@ -52,7 +52,7 @@ typedef struct {
 静态链表的初始化操作：
 
 ```c
-void initList(StaticLinkedList* list) {这里使用的是
+void initList(StaticLinkedList* list) {这里使用的是结构体指针，区别后面讲。标记一
     list->head = -1;  // 初始时头节点为空
     list->size = 0;  // 初始时链表大小为0
     for (int i = 0; i < MAX_SIZE; i++) {
@@ -231,7 +231,27 @@ int main() {
     return 0;
 }
 ```
+
+
+### 为什么用结构体指针 标记一
+如果我们不使用指针，初始化函数会是这样的：
+```
+void initList(StaticLinkedList list) {
+    list.head = -1;
+    list.size = 0;
+    for (int i = 0; i < MAX_SIZE; i++) {
+        list.nodes[i].next = -1;
+    }
+}
+```
+在这种情况下，initList 函数接收到的是 StaticLinkedList 结构体的副本，函数内对 list 的修改不会影响原始的结构体。为了让 initList 函数能够修改原始结构体，我们使用指针：void initList(StaticLinkedList* list) {
+    list->head = -1;
+    list->size = 0;
+    for (int i = 0; i < MAX_SIZE; i++) {
+        list->nodes[i].next = -1;
+    }
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjQ2MzMwMCwtMTEwMTEzNjA2NywxMj
+eyJoaXN0b3J5IjpbMTQyODU2OTU2MiwtMTEwMTEzNjA2NywxMj
 I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
