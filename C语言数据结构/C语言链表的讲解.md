@@ -350,7 +350,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
     - `list->nodes[0].next` 为 `1`，即要删除节点的索引。
     - 因此，`temp` 为 `1`。
 
-2. **更新前一个节点的 `next` 指针**：
+2. 更新前一个节点的 `next` 指针：
     ```c
     list->nodes[prev].next = list->nodes[temp].next;
     ```
@@ -370,7 +370,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
 
     现在，节点 `0` 的 `next` 指向节点 `2`，跳过了节点 `1`。
 
-3. **清空被删除节点的 `next` 域**：
+3. 清空被删除节点的 `next` 域：
     ```c
     list->nodes[temp].next = -1;
     ```
@@ -389,7 +389,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
 
     节点 `1` 的 `next` 为 `-1`，表示它已从链表中删除。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4Nzk4MzM0NywtOTE0NDIxMDg2LC0xMT
-AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
-MDU1MDldfQ==
+eyJoaXN0b3J5IjpbNjMyMTkzMzU3LC05MTQ0MjEwODYsLTExMD
+ExMzYwNjcsMTIyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQw
+NTUwOV19
 -->
