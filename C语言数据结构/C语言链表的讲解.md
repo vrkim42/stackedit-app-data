@@ -107,7 +107,7 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
             prev = list->nodes[prev].next;
         }//链表不像数组能通过下标访问，必须要用循环遍历
         int temp = list->nodes[prev].next;//（标记三）
-        list->nodes[prev].next = list->nodes[temp].next;//直接越过要删的节点将上个节点的next更新到下一个节点的next。
+        list->nodes[prev].next = list->nodes[temp].next;//直接越过要删的节点将上个节点的next更新到当前节点的next。
         list->nodes[temp].next = -1;  // 清空被删除节点的next域
     }
 
@@ -121,8 +121,8 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
 
 ```c
 void traverse(StaticLinkedList* list) {
-    int current = list->head;
-    while (current != -1) {
+    int current = list->head;//从头节点开始访问
+    while (current != -1) {//记得初始化怎么操作吗，-1的是最后一个节点的next。
         printf("%d ", list->nodes[current].data);  // 打印当前节点的数据
         current = list->nodes[current].next;  // 移动到下一个节点
     }
@@ -389,7 +389,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
 
     节点 `1` 的 `next` 为 `-1`，表示它已从链表中删除。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyMTkzMzU3LC05MTQ0MjEwODYsLTExMD
-ExMzYwNjcsMTIyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQw
-NTUwOV19
+eyJoaXN0b3J5IjpbLTU0OTE4NjE3NSwtOTE0NDIxMDg2LC0xMT
+AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
+MDU1MDldfQ==
 -->
