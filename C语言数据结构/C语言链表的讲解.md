@@ -41,7 +41,7 @@ typedef struct {
 } StaticNode;
 
 typedef struct {
-    StaticNode nodes[MAX_SIZE];  // 静态链表的节点数组
+    StaticNode nodes[MAX_SIZE];  // 静态链表的节点数组，每个节点通过这个数组存储数据和xia'yi'jie'dian'de's
     int head;  // 头节点的下标
     int size;  // 当前链表的大小
 } StaticLinkedList;
@@ -71,7 +71,7 @@ int insert(StaticLinkedList* list, int index, int value) {
     return -1;  // 链表已满
 
     int newNode = list->size++;  // 新节点的下标为当前链表大小，同时size自增，已确认链表数加一,同时size的值代表着索引的位置，方便我们对节点进行插入。
-    list->nodes[newNode].data = value;  // 设置新节点的数据域，nodes[newNode]是之前创建的jie'di
+    list->nodes[newNode].data = value;  // 设置新节点的数据域，nodes[newNode]是之前创建的节点数组，.data访问元素，然后赋值为value。
 
     if (index == 0) {  // 插入到链表头部
         list->nodes[newNode].next = list->head;
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTMyNTE0OCwtMTEwMTEzNjA2NywxMj
+eyJoaXN0b3J5IjpbLTQ3NjIzMjY5OCwtMTEwMTEzNjA2NywxMj
 I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
