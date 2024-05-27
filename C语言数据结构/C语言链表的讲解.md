@@ -278,7 +278,7 @@ if (index == 0) {  // 删除头节点
 
 ### 步骤解析
 
-1. **保留当前头节点的索引**：
+保留当前头节点的索引：
     ```c
     list->head = list->nodes[temp].next;
     ```
@@ -307,14 +307,8 @@ if (index == 0) {  // 删除头节点
     ```
 
     原来的头节点 `0` 已经被移除，新的头节点是节点 `1`（数据为 `20`）。
-
-3. **清空被删除节点的 `next` 域**（可选）：
-    ```c
-    list->nodes[temp].next = -1;
-    ```
-    这行代码将被删除节点（节点 `0`）的 `next` 域清空，设为 `-1`，表示该节点不再链接到链表中的任何其他节点。这个步骤是可选的，主要是为了明确该节点不再是链表的一部分。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1Nzk0MjExLC05MTQ0MjEwODYsLTExMD
-ExMzYwNjcsMTIyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQw
-NTUwOV19
+eyJoaXN0b3J5IjpbLTIwODM5MDE4NDEsLTkxNDQyMTA4NiwtMT
+EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
+NDA1NTA5XX0=
 -->
