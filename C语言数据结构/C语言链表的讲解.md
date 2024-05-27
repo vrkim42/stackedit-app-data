@@ -126,7 +126,7 @@ void traverse(StaticLinkedList* list) {
         printf("%d ", list->nodes[current].data);  // 打印当前节点的数据
         current = list->nodes[current].next;  // 移动到下一个节点
     }
-    printf("\n");
+    putchar(10);
 }
 ```
 
@@ -389,7 +389,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
 
     节点 `1` 的 `next` 为 `-1`，表示它已从链表中删除。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTE4NjE3NSwtOTE0NDIxMDg2LC0xMT
+eyJoaXN0b3J5IjpbMTMyMzY4MDE2NCwtOTE0NDIxMDg2LC0xMT
 AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
 MDU1MDldfQ==
 -->
