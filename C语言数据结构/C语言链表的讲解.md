@@ -79,7 +79,7 @@ int insert(StaticLinkedList* list, int index, int value) {
     } else {  // 插入到链表中部或尾部
         int prev = list->head;//将要插入的节点的头指针保留副本
         for (int i = 1; i < index; i++) {//从第二个链表开始遍历
-            prev = list->nodes[prev].next;//
+            prev = list->nodes[prev].next;//上一个节点的next指向这个节点的
         }
         list->nodes[newNode].next = list->nodes[prev].next;
         list->nodes[prev].next = newNode;
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIzNDE1NjcsLTExMDExMzYwNjcsMT
-IyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQwNTUwOV19
+eyJoaXN0b3J5IjpbLTUyNTUxMDY1NywtMTEwMTEzNjA2NywxMj
+I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
