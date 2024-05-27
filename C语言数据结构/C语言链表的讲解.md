@@ -81,7 +81,7 @@ int insert(StaticLinkedList* list, int index, int value) {
         for (int i = 1; i < index; i++) {//从第二个链表开始遍历
             prev = list->nodes[prev].next;//上一个节点的next指向这个节点的头指针完成链接。
         }
-        list->nodes[newNode].next = list->nodes[prev].next;//newnode的next即为插入位置下一个节点的next
+        list->nodes[newNode].next = list->nodes[prev].next;//newnode的next前一秒在插入链表的头节点，现在更新到他所在节点的next
         list->nodes[prev].next = newNode;
     }
 
@@ -255,6 +255,7 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDQyMTA4NiwtMTEwMTEzNjA2NywxMj
-I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
+eyJoaXN0b3J5IjpbLTEwNzU1NTI3OTEsLTkxNDQyMTA4NiwtMT
+EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
+NDA1NTA5XX0=
 -->
