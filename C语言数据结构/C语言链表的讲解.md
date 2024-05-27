@@ -28,8 +28,7 @@
 
 ### 实现示例
 
-
-### 静态链表的基本结构
+#### 静态链表的基本结构
 
 我们先定义静态链表的结构：
 
@@ -48,7 +47,7 @@ typedef struct {
 } StaticLinkedList;
 ```
 
-### 初始化
+#### 初始化
 
 静态链表的初始化操作：
 
@@ -62,13 +61,14 @@ void initList(StaticLinkedList* list) {
 }
 ```
 
-### 增添节点
+#### 增添节点
 
 在静态链表中插入节点的操作（在索引index处插入数据value）：
 
 ```c
 int insert(StaticLinkedList* list, int index, int value) {
-    if (list->size >= MAX_SIZE) return -1;  // 链表已满
+    if (list->size >= MAX_SIZE) 
+    return -1;  // 链表已满
 
     int newNode = list->size++;  // 新节点的下标为当前链表大小
     list->nodes[newNode].data = value;  // 设置新节点的数据域
@@ -232,5 +232,5 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MzQwMDM5MF19
+eyJoaXN0b3J5IjpbLTE0MTE0MDU1MDldfQ==
 -->
