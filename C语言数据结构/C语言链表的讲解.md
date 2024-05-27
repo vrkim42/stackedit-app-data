@@ -106,7 +106,7 @@ void delete(StaticLinkedList* list, int index) {//list是指向要操作对象�
         for (int i = 1; i < index; i++) {
             prev = list->nodes[prev].next;
         }//链表不像数组能通过下标访问，必须要用循环遍历
-        int temp = list->nodes[prev].next;//
+        int temp = list->nodes[prev].next;//（标记三）
         list->nodes[prev].next = list->nodes[temp].next;//直接越过要删的节点将上个节点的next更新到下一个节点的next。
         list->nodes[temp].next = -1;  // 清空被删除节点的next域
     }
@@ -306,8 +306,11 @@ if (index == 0) {  // 删除头节点
     ```
 
     原来的头节点 `0` 已经被移除，新的头节点是节点 `1`（数据为 `20`）。
+
+
+### 标记三（如何理解标记下的那三句话）
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDg2Mjk0ODMsLTkxNDQyMTA4NiwtMT
-EwMTEzNjA2NywxMjI0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDEx
-NDA1NTA5XX0=
+eyJoaXN0b3J5IjpbMTI2ODE4NDA4MCwtOTE0NDIxMDg2LC0xMT
+AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
+MDU1MDldfQ==
 -->
