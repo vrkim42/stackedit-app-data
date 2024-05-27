@@ -77,9 +77,9 @@ int insert(StaticLinkedList* list, int index, int value) {
         list->nodes[newNode].next = list->head;//接入
         list->head = newNode;//插入完了一定要更新头节点的位置，不然下次插入就麻烦了，这行代码在插入操作中用于将新节点设置为链表的头节点，是链表操作中的一个重要步骤。
     } else {  // 插入到链表中部或尾部
-        int prev = list->head;
-        for (int i = 1; i < index; i++) {
-            prev = list->nodes[prev].next;
+        int prev = list->head;//将要插入的节点的头指针保留副本
+        for (int i = 1; i < index; i++) {//从第二个链表开始遍历
+            prev = list->nodes[prev].next;//
         }
         list->nodes[newNode].next = list->nodes[prev].next;
         list->nodes[prev].next = newNode;
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAzNjQyNDM0LC0xMTAxMTM2MDY3LDEyMj
-Q1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTE5MDIzNDE1NjcsLTExMDExMzYwNjcsMT
+IyNDUwMTQwNCwtMjAzOTkzODI1MiwtMTQxMTQwNTUwOV19
 -->
