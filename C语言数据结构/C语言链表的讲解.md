@@ -70,8 +70,8 @@ int insert(StaticLinkedList* list, int index, int value) {
     if (list->size >= MAX_SIZE) 
     return -1;  // 链表已满
 
-    int newNode = list->size++;  // 新节点的下标为当前链表大小，同时size自增，已确认链表数加一,同时size的值代表着索引的位置，fang
-    list->nodes[newNode].data = value;  // 设置新节点的数据域
+    int newNode = list->size++;  // 新节点的下标为当前链表大小，同时size自增，已确认链表数加一,同时size的值代表着索引的位置，方便我们对节点进行插入。
+    list->nodes[newNode].data = value;  // 设置新节点的数据域，nodes[newNode]是之前创建的jie'di
 
     if (index == 0) {  // 插入到链表头部
         list->nodes[newNode].next = list->head;
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxODMwMjIwLC0xMTAxMTM2MDY3LDEyMj
-Q1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTY5OTMyNTE0OCwtMTEwMTEzNjA2NywxMj
+I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
 -->
