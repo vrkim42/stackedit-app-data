@@ -56,7 +56,7 @@ void initList(StaticLinkedList* list) {
     list->head = -1;  // 初始时头节点为空
     list->size = 0;  // 初始时链表大小为0
     for (int i = 0; i < MAX_SIZE; i++) {
-        list->nodes[i].next = -1;  // 将所有节点的next域初始化为-1
+        list->nodes[i].next = -1;  // 将所有节点的next全部悬空方便下一步接入
     }
 }
 ```
@@ -232,5 +232,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTE0MDU1MDldfQ==
+eyJoaXN0b3J5IjpbLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ
+==
 -->
