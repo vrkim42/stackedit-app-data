@@ -29,7 +29,7 @@
 ### 实现示例
 
 #### 静态链表的基本结构
-
+这里我们假如链表最大值为100，方便之后的检索。
 我们先定义静态链表的结构：
 
 ```c
@@ -232,6 +232,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ
-==
+eyJoaXN0b3J5IjpbMTIyNDUwMTQwNCwtMjAzOTkzODI1MiwtMT
+QxMTQwNTUwOV19
 -->
