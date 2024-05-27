@@ -232,7 +232,191 @@ void traverseList(Node *head) {
 }
 
 int main() {
-    Node *head =
+    Node *head =    Node *head = createList();
+    insertNode(&head, 2);
+    insertNode(&head, 3);
+    insertNode(&head, 4);
+
+    printf("Original List: ");
+    traverseList(head);
+
+    deleteNode(&head, 3);
+    printf("After Deleting 3: ");
+    traverseList(head);
+
+    return 0;
+}
+```
+
+主人，关于动态链表在C语言中的实现，以下是详细的分析和实现代码示例。
+
+### 动态链表的基本概念
+
+动态链表（Dynamic Linked List）是一种数据结构，它由一系列节点（Node）组成，每个节点包含数据和一个指向下一个节点的指针。链表的优点是可以高效地进行插入和删除操作，因为不需要移动元素，只需修改指针即可。
+
+### 动态链表的基本操作
+
+1. **节点定义**
+2. **创建链表**
+3. **插入节点**
+4. **删除节点**
+5. **遍历链表**
+6. **释放链表**
+
+### 详细实现
+
+#### 1. 节点定义
+
+首先定义一个节点结构体：
+
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct Node {
+    int data;
+    struct Node *next;
+} Node;
+```
+
+#### 2. 创建链表
+
+创建一个新的节点并返回其指针：
+
+```c
+Node* createNode(int data) {
+    Node *newNode = (Node*)malloc(sizeof(Node));
+    if (newNode == NULL) {
+        printf("内存分配失败\n");
+        exit(1);
+    }
+    newNode->data = data;
+    newNode->next = NULL;
+    return newNode;
+}
+```
+
+#### 3. 插入节点
+
+在链表的末尾插入一个新节点：
+
+```c
+void insertNode(Node **head, int data) {
+    Node *newNode = createNode(data);
+    if (*head == NULL) {
+        *head = newNode;
+    } else {
+        Node *temp = *head;
+        while (temp->next != NULL) {
+            temp = temp->next;
+        }
+        temp->next = newNode;
+    }
+}
+```
+
+#### 4. 删除节点
+
+从链表中删除一个节点：
+
+```c
+void deleteNode(Node **head, int data) {
+    if (*head == NULL) {
+        printf("链表为空\n");
+        return;
+    }
+
+    Node *temp = *head;
+    Node *prev = NULL;
+
+    // 如果头节点就是要删除的节点
+    if (temp != NULL && temp->data == data) {
+        *head = temp->next;
+        free(temp);
+        return;
+    }
+
+    // 找到要删除的节点
+    while (temp != NULL && temp->data != data) {
+        prev = temp;
+        temp = temp->next;
+    }
+
+    // 如果没有找到节点
+    if (temp == NULL) {
+        printf("没有找到节点\n");
+        return;
+    }
+
+    // 断开链接并释放内存
+    prev->next = temp->next;
+    free(temp);
+}
+```
+
+#### 5. 遍历链表
+
+打印链表中的所有节点：
+
+```c
+void printList(Node *head) {
+    Node *temp = head;
+    while (temp != NULL) {
+        printf("%d -> ", temp->data);
+        temp = temp->next;
+    }
+    printf("NULL\n");
+}
+```
+
+#### 6. 释放链表
+
+释放链表所占用的内存：
+
+```c
+void freeList(Node *head) {
+    Node *temp;
+    while (head != NULL) {
+        temp = head;
+        head = head->next;
+        free(temp);
+    }
+}
+```
+
+### 主程序示例
+
+以下是一个完整的示例程序，展示了如何使用上述函数：
+
+```c
+int main() {
+    Node *head = NULL;
+
+    insertNode(&head, 10);
+    insertNode(&head, 20);
+    insertNode(&head, 30);
+
+    printf("链表内容: ");
+    printList(head);
+
+    printf("删除节点20\n");
+    deleteNode(&head, 20);
+
+    printf("链表内容: ");
+    printList(head);
+
+    freeList(head);
+
+    return 0;
+}
+```
+
+### 总结
+
+动态链表在C语言中提供了一种灵活的存储结构，适用于需要频繁插入和删除操作的场景。通过动态内存分配，可以根据需要扩展链表的大小，避免了静态数组的固定大小限制。然而，链表的缺点是由于使用指针，可能会占用更多的内存，并且访问速度相对于数组较慢。
+
+主人，希望这些内容对您有所帮助。如果有进一步的问题或需要更多的详细解释，请随时告知。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTY5MjAwMV19
+eyJoaXN0b3J5IjpbLTg3MDIzOTU0Ml19
 -->
