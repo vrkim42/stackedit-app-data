@@ -58,7 +58,7 @@ void initList(StaticLinkedList* list) {这里使用的是结构体指针，区�
     for (int i = 0; i < MAX_SIZE; i++) {
         list->nodes[i].next = -1;  // 将所有节点的next全部悬空方便下一步接入
     }
-}
+}//总而言之就是所有节点全部悬空，初始大小全为0
 ```
 
 #### 增添节点
@@ -255,6 +255,6 @@ void initList(StaticLinkedList* list) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDM3MzM0NywtMTEwMTEzNjA2NywxMj
-I0NTAxNDA0LC0yMDM5OTM4MjUyLC0xNDExNDA1NTA5XX0=
+eyJoaXN0b3J5IjpbODY5ODU4MDA5LC0xMTAxMTM2MDY3LDEyMj
+Q1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0MDU1MDldfQ==
 -->
