@@ -39,9 +39,9 @@ typedef struct {
 } StaticNode;
 
 typedef struct {
-    StaticNode nodes[MAX_SIZE];
-    int head;
-    int size;
+    StaticNode nodes[MAX_SIZE];//静态链表数组
+    int head;//头节点
+    int size;//大小
 } StaticLinkedList;
 
 void initList(StaticLinkedList* list) {
@@ -88,10 +88,6 @@ void delete(StaticLinkedList* list, int index) {
     list->size--;
 }
 ```
-
-### 总结
-
-静态链表在特定环境下有其独特的优势和应用场景，但其固定的内存分配和灵活性不足的问题也限制了它的广泛使用。根据实际需求选择适当的数据结构，是编程中重要的一环。希望这些信息对您有所帮助
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjczNjY0OV19
+eyJoaXN0b3J5IjpbLTEyNzEwMjQ2ODVdfQ==
 -->
