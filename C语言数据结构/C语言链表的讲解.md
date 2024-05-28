@@ -88,7 +88,6 @@ int insert(StaticLinkedList* list, int index, int value) {
     return 0;  // 插入成功
 }
 ```
-![输入图片说明](/imgs/2024-05-27/V3sf7kruObqDWPPt.png)
 
 ### 删除节点
 
@@ -390,7 +389,7 @@ head -> [0] -> [1] -> [2] -> [3] -> null
 
     节点 `1` 的 `next` 为 `-1`，表示它已从链表中删除。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjQ5ODU0NywtOTE0NDIxMDg2LC0xMT
+eyJoaXN0b3J5IjpbMTMyMzY4MDE2NCwtOTE0NDIxMDg2LC0xMT
 AxMTM2MDY3LDEyMjQ1MDE0MDQsLTIwMzk5MzgyNTIsLTE0MTE0
 MDU1MDldfQ==
 -->
