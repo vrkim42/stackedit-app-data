@@ -87,6 +87,85 @@ int main(){
     return 0;
 }
 ```
+
+# 3
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+    char str[81];
+    fgets(str,sizeof(str),stdin);
+    int arr;
+    scanf("%d", &arr);
+    if(arr > 0){
+        for(int i = 0; i < strlen(str); i++){
+            if((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')){
+                if(str[i] >= 'a' && str[i] <= 'z'){
+                    str[i] += arr;
+                if(str[i] >= 'z'){
+                    str[i] -= 26;
+                }
+                }else{
+                    str[i] += arr;
+                    if(str[i] >= 'Z'){
+                        str[i] -= 26;
+                    }
+                }
+                
+            }
+        }
+    }else{
+        for(int i = 0; i < strlen(str); i++){
+            if((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' || str[i] <= 'Z')){
+                if(str[i] >= 'a' && str[i] <= 'z'){
+                    str[i] += arr;
+                if(str[i] <= 'a'){
+                    str[i] += 26;
+                }
+                }else{
+                    str[i] += arr;
+                    if(str[i] <= 'A'){
+                        str[i] += 26;
+                    }
+                }
+                
+            }
+        }
+    }
+    printf("%s", str);
+}
+```
+you hua
+```c
+#include <stdio.h>
+#include <string.h>
+
+void caesarCipher(char *str, int shift) {
+    int len = strlen(str);
+    for (int i = 0; i < len; i++) {
+        if (isalpha(str[i])) {  // 检查是否为字母
+            if (islower(str[i])) {  // 处理小写字母
+                str[i] = 'a' + (str[i] - 'a' + shift) % 26;
+            } else {  // 处理大写字母
+                str[i] = 'A' + (str[i] - 'A' + shift) % 26;
+            }
+        }
+    }
+}
+
+int main() {
+    char str[81];
+    fgets(str, sizeof(str), stdin);
+    int shift;
+    scanf("%d", &shift);
+
+    caesarCipher(str, shift);
+
+    printf("%s", str);
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwMzk0Mjc1XX0=
+eyJoaXN0b3J5IjpbMTcyNTU5NjgzNyw3NDAzOTQyNzVdfQ==
 -->
