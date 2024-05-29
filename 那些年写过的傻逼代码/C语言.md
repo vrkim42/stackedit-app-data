@@ -138,34 +138,8 @@ int main(){
 ```
 you hua
 ```c
-#include <stdio.h>
-#include <string.h>
 
-void caesarCipher(char *str, int shift) {
-    int len = strlen(str);
-    for (int i = 0; i < len; i++) {
-        if (isalpha(str[i])) {  // 检查是否为字母
-            if (islower(str[i])) {  // 处理小写字母
-                str[i] = 'a' + (str[i] - 'a' + shift) % 26;
-            } else {  // 处理大写字母
-                str[i] = 'A' + (str[i] - 'A' + shift) % 26;
-            }
-        }
-    }
-}
-
-int main() {
-    char str[81];
-    fgets(str, sizeof(str), stdin);
-    int shift;
-    scanf("%d", &shift);
-
-    caesarCipher(str, shift);
-
-    printf("%s", str);
-    return 0;
-}
-```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNTU5NjgzNyw3NDAzOTQyNzVdfQ==
+eyJoaXN0b3J5IjpbMTMwODgzODI0MiwxNzI1NTk2ODM3LDc0MD
+M5NDI3NV19
 -->
