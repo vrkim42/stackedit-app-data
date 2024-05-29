@@ -50,7 +50,7 @@ while(p -> next != NULL){
 		p = p -> next;//更新到next便于下一步操作
 	}
 ```
-### 链表的删除
+### 链  表的删除
 ```c
 int x;
 scanf("%d", & x);//根据id 删除对应链表
@@ -68,5 +68,5 @@ p = p -> next;
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDg5MTY3OTRdfQ==
+eyJoaXN0b3J5IjpbLTg2Mjg1NDU4NiwtMjEwODkxNjc5NF19
 -->
