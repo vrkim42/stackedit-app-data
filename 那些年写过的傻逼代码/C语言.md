@@ -145,10 +145,18 @@ void caesarCipher(char *str, int offset) {
     int len = strlen(str);
     for (int i = 0; i < len; i++) {
         if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {  // 检查是否为字母
-            if (islower(str[i])) {  // 处理小写字母
-                str[i] = 'a' + (str[i] - 'a' + offset + 26) % 26;
-            } else {  // 处理大写字母
-                str[i] = 'A' + (str[i] - 'A' + offset + 26) % 26;
+            if (offset > 0) {  // 处理正数偏移量
+                if (islower(str[i])) {  // 处理小写字母
+                    str[i] = 'a' + (str[i] - 'a' + offset) % 26;
+                } else {  // 处理大写字母
+                    str[i] = 'A' + (str[i] - 'A' + offset) % 26;
+                }
+            } else {  // 处理负数偏移量
+                if (islower(str[i])) {  // 处理小写字母
+                    str[i] = 'a' + (str[i] - 'a' + 26 + offset) % 26;
+                } else {  // 处理大写字母
+                    str[i] = 'A' + (str[i] - 'A' + 26 + offset) % 26;
+                }
             }
         }
     }
@@ -157,12 +165,10 @@ void caesarCipher(char *str, int offset) {
 int main() {
     char str[81];
     fgets(str, sizeof(str), stdin);
+    str[strcspn(str, "\n")] = '\0'; // 移除换行符
 
     int offset;
     scanf("%d", &offset);
-
-    // 处理偏移量大于等于26或小于等于-26的情况
-    offset = offset % 26;
 
     caesarCipher(str, offset);
 
@@ -172,6 +178,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njc3Nzc3LDE3MjU1OTY4MzcsNzQwMz
-k0Mjc1XX0=
+eyJoaXN0b3J5IjpbLTUyNjMyMTA0OCwxNzI1NTk2ODM3LDc0MD
+M5NDI3NV19
 -->
