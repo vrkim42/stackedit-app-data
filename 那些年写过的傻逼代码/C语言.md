@@ -177,7 +177,65 @@ int main() {
     return 0;
 }
 ```
+
+## 4
+```c
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+
+int main(){
+ char str1[21];
+ char str2[21];
+ int flag = 0;
+ fgets(str1,sizeof(str1),stdin);
+ fgets(str2,sizeof(str2),stdin);
+ for(int i = 0; i < strlen(str1); i++){
+  if(str1[i] == str2[i]){
+   flag++;
+   continue;
+  }
+  if(islower(str1[i])){
+   str1[i] -= 32;
+  }
+  if(islower(str2[i])){
+   str2[i] -= 32;
+  }
+  if(str1[i] == str2[i])
+   flag++;
+ }
+ printf("%d", flag);
+}
+```
+youhua
+```c
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main() {
+    char str1[21];
+    char str2[21];
+    int flag = 0;
+
+    fgets(str1, sizeof(str1), stdin);
+    fgets(str2, sizeof(str2), stdin);
+
+    for (int i = 0; str1[i] != '\0' && str2[i] != '\0'; i++) {
+        char c1 = toupper(str1[i]);  // 将字符转换为大写
+        char c2 = toupper(str2[i]);
+
+        if (c1 == c2) {
+            flag++;
+        }
+    }
+
+    printf("%d", flag);
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNjMyMTA0OCwxNzI1NTk2ODM3LDc0MD
-M5NDI3NV19
+eyJoaXN0b3J5IjpbMTcxMjc0Mjc0MiwtNTI2MzIxMDQ4LDE3Mj
+U1OTY4MzcsNzQwMzk0Mjc1XX0=
 -->
