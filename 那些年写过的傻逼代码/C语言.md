@@ -235,7 +235,71 @@ int main() {
     return 0;
 }
 ```
+
+```c
+#include<stdio.h>
+#include<string.h>
+
+
+int main(){
+ char str[101];
+ fgets(str,sizeof(str),stdin);
+ int len = strlen(str) - 1;
+ for(int i = 0; i < len; i++){
+  for(int j = 0; j < len - i; j++){
+   if(str[j] > str[j+1]){
+    int temp = str[j];
+    str[j] = str[j+1];
+    str[j+1] = temp;
+   }
+  }
+ }
+ for(int i = 0; i < len - 1; i++){
+  if(str[i] != '0'){
+   for(int j = i; j < len - 1; j++){
+    printf("%c",str[j]);
+   }
+   break;
+  }
+ }
+ printf("%c", str[len]);
+}
+```
+不仅优化了，还改对了
+```c
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+// 自定义比较函数，用于qsort排序
+int compare(const void *a, const void *b) {
+    return (*(char *)a - *(char *)b);
+}
+
+int main() {
+    char n[101];
+    scanf("%s", n);
+
+    // 排序字符串
+    qsort(n, strlen(n), sizeof(char), compare);
+
+    // 跳过前导零
+    int i = 0;
+    while (n[i] == '0') {
+        i++;
+    }
+
+    // 输出排序后的整数
+    if (n[i] != '\0') {
+        printf("%s", &n[i]);
+    } else { // 处理输入为0的情况
+        printf("0");
+    }
+
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjc0Mjc0MiwtNTI2MzIxMDQ4LDE3Mj
-U1OTY4MzcsNzQwMzk0Mjc1XX0=
+eyJoaXN0b3J5IjpbMTMyOTkyNzA5LDE3MTI3NDI3NDIsLTUyNj
+MyMTA0OCwxNzI1NTk2ODM3LDc0MDM5NDI3NV19
 -->
