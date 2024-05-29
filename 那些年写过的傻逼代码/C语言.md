@@ -138,8 +138,40 @@ int main(){
 ```
 you hua
 ```c
+#include <stdio.h>
+#include <string.h>
 
+void caesarCipher(char *str, int offset) {
+    int len = strlen(str);
+    for (int i = 0; i < len; i++) {
+        if ((str[i] >= 'a' && str[i] <= 'z') || (str[i] >= 'A' && str[i] <= 'Z')) {  // 检查是否为字母
+            if (islower(str[i])) {  // 处理小写字母
+                str[i] = 'a' + (str[i] - 'a' + offset + 26) % 26;
+            } else {  // 处理大写字母
+                str[i] = 'A' + (str[i] - 'A' + offset + 26) % 26;
+            }
+        }
+    }
+}
+
+int main() {
+    char str[81];
+    fgets(str, sizeof(str), stdin);
+
+    int offset;
+    scanf("%d", &offset);
+
+    // 处理偏移量大于等于26或小于等于-26的情况
+    offset = offset % 26;
+
+    caesarCipher(str, offset);
+
+    printf("%s", str);
+
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwODgzODI0MiwxNzI1NTk2ODM3LDc0MD
-M5NDI3NV19
+eyJoaXN0b3J5IjpbLTg0Njc3Nzc3LDE3MjU1OTY4MzcsNzQwMz
+k0Mjc1XX0=
 -->
