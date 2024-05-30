@@ -1,4 +1,9 @@
 
+strcpy 抄
+strcmp 比较
+strncmp 比较
+strcat 追加
+strlen 长度
 
 ```c
 #include <stdio.h>
@@ -68,5 +73,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc2ODU2NjQwLDE5Mzk1NzU5MDhdfQ==
+eyJoaXN0b3J5IjpbLTMwMjc3ODUyMCwzNzY4NTY2NDAsMTkzOT
+U3NTkwOF19
 -->
