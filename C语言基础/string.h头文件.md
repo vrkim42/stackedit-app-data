@@ -4,7 +4,9 @@ strcmp 比较
 strncmp 比较
 strcat 追加
 strlen 长度
-
+strchr 查找字符
+strstr 查找字符串
+strtok 切割
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -73,6 +75,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjc3ODUyMCwzNzY4NTY2NDAsMTkzOT
-U3NTkwOF19
+eyJoaXN0b3J5IjpbMTkwMTc5ODk0LDM3Njg1NjY0MCwxOTM5NT
+c1OTA4XX0=
 -->
