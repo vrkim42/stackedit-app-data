@@ -1,4 +1,5 @@
 
+## 简述
 strcpy 抄
 strcmp 比较
 strncmp 比较
@@ -75,6 +76,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTc5ODk0LDM3Njg1NjY0MCwxOTM5NT
-c1OTA4XX0=
+eyJoaXN0b3J5IjpbLTY4ODUxOTk3NiwxOTAxNzk4OTQsMzc2OD
+U2NjQwLDE5Mzk1NzU5MDhdfQ==
 -->
