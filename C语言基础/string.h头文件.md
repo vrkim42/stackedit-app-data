@@ -2,12 +2,13 @@
 ## 简述
 strcpy 抄
 strcmp 比较
-strncmp 比较
+strncmp 比较第n个字符
 strcat 追加
 strlen 长度
 strchr 查找字符
 strstr 查找字符串
 strtok 切割
+
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -76,6 +77,6 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4ODUxOTk3NiwxOTAxNzk4OTQsMzc2OD
+eyJoaXN0b3J5IjpbMjA5NDMwODMwMSwxOTAxNzk4OTQsMzc2OD
 U2NjQwLDE5Mzk1NzU5MDhdfQ==
 -->
