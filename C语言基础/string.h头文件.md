@@ -7,7 +7,7 @@ strcat 追加
 strlen 长度
 strchr 查找字符 指针=(str,'某字符') 位置等于该指针-数组头+1
 strstr 查找字符串指针=(str,"某字符串") 位置同上
-strtok 切割
+strtok 切割 指针=(str,'用以分割的东西');
 
 ```c
 #include <stdio.h>
@@ -77,6 +77,7 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMxNTM1ODE3LDIwOTQzMDgzMDEsMTkwMT
-c5ODk0LDM3Njg1NjY0MCwxOTM5NTc1OTA4XX0=
+eyJoaXN0b3J5IjpbNDc3NTEzMTAsMzMxNTM1ODE3LDIwOTQzMD
+gzMDEsMTkwMTc5ODk0LDM3Njg1NjY0MCwxOTM5NTc1OTA4XX0=
+
 -->
