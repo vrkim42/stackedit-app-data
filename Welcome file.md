@@ -108,7 +108,6 @@ SmartyPants 将 ASCII 标点字符转换为“智能”印刷标点 HTML 实体�
 $$
 \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
 $$
-
 > 您可以在 [这里](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference) 找到有关 **LaTeX** 数学表达式的更多信息。
 
 
@@ -138,5 +137,5 @@ B --> D{菱形}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5OTQ1MzMyXX0=
+eyJoaXN0b3J5IjpbMzAyMDUyMzIyLDY0OTk0NTMzMl19
 -->
