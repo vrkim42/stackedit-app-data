@@ -9,8 +9,9 @@ td表示普通数据单元格
 
 <input type="radio" name="sex" value="男" checked/>男
 单标签，表示单选
+
 <select name="籍贯">
-复选框，下面用的是option表示相应的值，使用value表示所代表的值
+多选一框，下面用的是option表示相应的值，使用value表示所代表的值
 
 <th width="500px" height="40px" colspan="5"><form action="/demo/demo_form.asp">
 相关的大小，占的行数，相关的操作。
@@ -18,9 +19,11 @@ td表示普通数据单元格
 <input  type="submit" value="submit"/>
 提交框
 
+<input type="checkbox" name="habbit" value="音乐"/>音乐
+复选框，有相关的n
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjU3NDE2NSwxNDMzNzA2MzE3XX0=
+eyJoaXN0b3J5IjpbLTg2MjYxODUyMywxNDMzNzA2MzE3XX0=
 -->
