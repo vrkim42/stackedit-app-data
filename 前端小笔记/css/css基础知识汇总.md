@@ -9,9 +9,9 @@
 6. background-size：用于设置背景图片的大小。例如：`background-size: cover;`
 7. background-clip：用于控制背景图片是否被裁剪，以及裁剪的区域。例如：`background-clip: border-box;`
 8. background-position-x：用于设置背景图片在元素中的水平起始位置。
-9. background-attachment:背景图片固定，即使内容滚动，背景也不会移动
+9. background-attachment:  将背景图片固定，即使内容滚动，背景也不会移动
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDk2NjcxMywxNTI2MzI2ODIsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzMDY0NDU4NDMsMTUyNjMyNjgyLC0yMD
+g4NzQ2NjEyXX0=
 -->
