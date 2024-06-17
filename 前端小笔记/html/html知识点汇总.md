@@ -20,10 +20,12 @@ td表示普通数据单元格
 提交框
 
 <input type="checkbox" name="habbit" value="音乐"/>音乐
-复选框，有相关的n
+复选框，有相关的name属性框和属性值
+
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjYxODUyMywxNDMzNzA2MzE3XX0=
+eyJoaXN0b3J5IjpbMTg2ODA0NTI2OCwxNDMzNzA2MzE3XX0=
 -->
