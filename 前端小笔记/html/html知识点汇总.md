@@ -12,9 +12,15 @@ td表示普通数据单元格
 <select name="籍贯">
 复选框，下面用的是option表示相应的值，使用value表示所代表的值
 
+<th width="500px" height="40px" colspan="5"><form action="/demo/demo_form.asp">
+相关的大小，占的行数，相关的操作。
+
+<input  type="submit" value="submit"/>
+提交框
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ2OTUzODAsMTQzMzcwNjMxN119
+eyJoaXN0b3J5IjpbLTkyNjU3NDE2NSwxNDMzNzA2MzE3XX0=
 -->
