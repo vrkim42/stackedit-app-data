@@ -24,9 +24,18 @@ td表示普通数据单元格
 
 <button id="on" value="" onclick="on()">全选</button>
 按钮框，生成按钮，onclick衔接js代码，
+function on(){
+	var habbits = document.getElementsByName("habbit");
+	for(let i = 0; i < habbits.length; i++){
+		const element = habbits[i];
+		element.checked = true;
+	}
+}/*全选*/
+
+
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTE5MzMzOSwxNDMzNzA2MzE3XX0=
+eyJoaXN0b3J5IjpbMjkxNzQyMzg5LDE0MzM3MDYzMTddfQ==
 -->
