@@ -32,10 +32,12 @@ function on(){
 	}
 }/*全选*/
 
+<input type="date"> 日期选择框，选择日期
+
 
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNzQyMzg5LDE0MzM3MDYzMTddfQ==
+eyJoaXN0b3J5IjpbMTkyNDMwMzA3MiwxNDMzNzA2MzE3XX0=
 -->
