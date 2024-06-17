@@ -22,10 +22,11 @@ td表示普通数据单元格
 <input type="checkbox" name="habbit" value="音乐"/>音乐
 复选框，有相关的name属性框和属性值
 
-
+<button id="on" value="" onclick="on()">全选</button>
+按钮框，生成按钮，onclick衔接js代码，
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODA0NTI2OCwxNDMzNzA2MzE3XX0=
+eyJoaXN0b3J5IjpbMTIwMTE5MzMzOSwxNDMzNzA2MzE3XX0=
 -->
