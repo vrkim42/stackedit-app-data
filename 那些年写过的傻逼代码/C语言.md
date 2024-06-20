@@ -374,9 +374,44 @@ int main() {
 }
 ```
 
-# 
+# 5
+```
+#include<stdio.h>
+
+int main() {
+    int n;
+    scanf("%d", &n);
+
+    int arr[n][n];
+
+    // 填充帕斯卡三角形
+    arr[0][0] = 1;
+    arr[1][0] = 1;
+    arr[1][1] = 1;
+    for (int i = 2; i < n; i++) {
+        arr[i][0] = 1;
+        arr[i][i] = 1;
+        for (int j = 1; j < i; j++) {
+            arr[i][j] = arr[i - 1][j - 1] + arr[i - 1][j];
+        }
+    }
+
+    // 输出帕斯卡三角形
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j <= i; j++) {
+            printf("%5d", arr[i][j]);
+        }
+        putchar('\n'); // 每行结束换行
+    }
+
+    return 0;
+}
+```
+
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MjAxOTIxMywtNzc4NDU1MTg2LDEzMj
-k5MjcwOSwxNzEyNzQyNzQyLC01MjYzMjEwNDgsMTcyNTU5Njgz
-Nyw3NDAzOTQyNzVdfQ==
+eyJoaXN0b3J5IjpbMzMyNTQwMDU0LC03Nzg0NTUxODYsMTMyOT
+kyNzA5LDE3MTI3NDI3NDIsLTUyNjMyMTA0OCwxNzI1NTk2ODM3
+LDc0MDM5NDI3NV19
 -->
