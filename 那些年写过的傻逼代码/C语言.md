@@ -339,6 +339,7 @@ int main() {
 
 
 ```
+求完数，第一个数是1且不用计算，而且算到原数的一般就行了。
 #include <stdio.h>
 
 int main() {
@@ -373,7 +374,7 @@ int main() {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODk0MzY4LDEzMjk5MjcwOSwxNzEyNz
-QyNzQyLC01MjYzMjEwNDgsMTcyNTU5NjgzNyw3NDAzOTQyNzVd
-fQ==
+eyJoaXN0b3J5IjpbLTc3ODQ1NTE4NiwxMzI5OTI3MDksMTcxMj
+c0Mjc0MiwtNTI2MzIxMDQ4LDE3MjU1OTY4MzcsNzQwMzk0Mjc1
+XX0=
 -->
