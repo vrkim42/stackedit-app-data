@@ -299,7 +299,81 @@ int main() {
     return 0;
 }
 ```
+
+# 4
+```c
+#include <stdio.h>
+
+int main() {
+    int x, y;
+    scanf("%d %d", &x, &y);
+
+    for (int i = x; i <= y; i++) {
+        int arr[100] = {0};
+        int flag = 0;
+
+        // 找因子并加总
+        int cpy = 0;
+        for (int j = 1; j <= i / 2; j++) { // 优化：只需循环到 i/2
+            if (i % j == 0) {
+                arr[flag++] = j;
+                cpy += j;
+            }
+        }
+
+        // 输出完美数及因子
+        if (cpy == i) {
+            printf("%d=", i);
+            for (int k = 0; k < flag; k++) {
+                if (k != flag - 1)
+                    printf("%d+", arr[k]);
+                else
+                    printf("%d\n", arr[k]);
+            }
+        }
+    }
+
+    return 0;
+}
+```
+
+
+```
+#include <stdio.h>
+
+int main() {
+    int x, y;
+    scanf("%d %d", &x, &y);
+
+    for (int num = x; num <= y; num++) {
+        int sum_of_factors = 0;
+
+        // 寻找 num 的真因子并计算和
+        for (int j = 1; j <= num / 2; j++) {
+            if (num % j == 0) {
+                sum_of_factors += j;
+            }
+        }
+
+        // 判断是否为完数并输出
+        if (sum_of_factors == num) {
+            printf("%d = 1", num); // 输出格式的开始部分
+
+            for (int j = 2; j <= num / 2; j++) {
+                if (num % j == 0) {
+                    printf(" + %d", j); // 输出因子
+                }
+            }
+
+            printf("\n"); // 输出完数后换行
+        }
+    }
+
+    return 0;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTkyNzA5LDE3MTI3NDI3NDIsLTUyNj
-MyMTA0OCwxNzI1NTk2ODM3LDc0MDM5NDI3NV19
+eyJoaXN0b3J5IjpbMTkyODk0MzY4LDEzMjk5MjcwOSwxNzEyNz
+QyNzQyLC01MjYzMjEwNDgsMTcyNTU5NjgzNyw3NDAzOTQyNzVd
+fQ==
 -->
