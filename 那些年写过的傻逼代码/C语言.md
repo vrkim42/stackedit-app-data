@@ -410,8 +410,24 @@ int main() {
 
 ```
 
+
+
+```
+`void fun(int* x, int* y)`
+
+`{`
+
+`int temp = *x;`
+
+`*x = *y;`
+
+`*y = temp;`
+
+`}`
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNTQwMDU0LC03Nzg0NTUxODYsMTMyOT
-kyNzA5LDE3MTI3NDI3NDIsLTUyNjMyMTA0OCwxNzI1NTk2ODM3
-LDc0MDM5NDI3NV19
+eyJoaXN0b3J5IjpbLTk4OTA3ODIzNiwzMzI1NDAwNTQsLTc3OD
+Q1NTE4NiwxMzI5OTI3MDksMTcxMjc0Mjc0MiwtNTI2MzIxMDQ4
+LDE3MjU1OTY4MzcsNzQwMzk0Mjc1XX0=
 -->
