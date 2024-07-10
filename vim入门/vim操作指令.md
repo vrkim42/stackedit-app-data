@@ -5,7 +5,8 @@
 - 执行完保存过程后可以使用`:q`退出或者使用`:q!`强行退出不不保存文件
 - 输入:!echo $MYVIMRC可以查看vim配置文件的位置
 - 使用:e $MYVIMRC打开配置文件
-- :so
+- :source $MYVIMRC保存刚改的配置即可生效
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE2MTA4MTc5LDk3MDMzMjY4M119
+eyJoaXN0b3J5IjpbMTk0ODE4OTE3OCw5NzAzMzI2ODNdfQ==
 -->
