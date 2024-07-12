@@ -19,9 +19,11 @@
 - requests.TooManyRedirects 超过最大重定向次数，产生重定向异常
 - requests.ConnectTimeout 连接远程服务器超时异常（获得内容超时）
 - requests.Timeout 请求URL超时，产生超时异常（远程服务器连接超时）
-- r,raise
+- r,raise_fore_status()如果不是200，产生requests.HTTPError
 <hr>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzY1NTEwMSwtMTMwNzU4Mzc2NCwtNT
+eyJoaXN0b3J5IjpbMjEzMjM2MjUyNiwtMTMwNzU4Mzc2NCwtNT
 QwMDUyNDk0LDEzODkyNDU1MzFdfQ==
 -->
