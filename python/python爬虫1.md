@@ -10,7 +10,12 @@
 - r.encoding 从http header中猜测的响应内容编码方式
 - r,apparent_encoding 从内容分析出的响应内容编码方式
 - r.content http响应内容的二进制形势
+
+<hr>
+request库异常
+- request.ConnectionError 网络连接错误异常，如DNS查询失败，拒绝连接
+- request
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDc1ODM3NjQsLTU0MDA1MjQ5NCwxMz
-g5MjQ1NTMxXX0=
+eyJoaXN0b3J5IjpbLTEzMjE3ODcwODAsLTEzMDc1ODM3NjQsLT
+U0MDA1MjQ5NCwxMzg5MjQ1NTMxXX0=
 -->
