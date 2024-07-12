@@ -13,9 +13,11 @@
 
 <hr>
 request库异常
-- request.ConnectionError 网络连接错误异常，如DNS查询失败，拒绝连接
-- request
+- requests.ConnectionError 网络连接错误异常，如DNS查询失败，拒绝连接
+- requests.HTTPError http错误异常
+- requests.URLRequired URL缺失异常
+- requests.TooManyRedirects 超过最大重定向次数，产生zhong'ci
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE3ODcwODAsLTEzMDc1ODM3NjQsLT
-U0MDA1MjQ5NCwxMzg5MjQ1NTMxXX0=
+eyJoaXN0b3J5IjpbMTYxODE2NTUyNSwtMTMwNzU4Mzc2NCwtNT
+QwMDUyNDk0LDEzODkyNDU1MzFdfQ==
 -->
