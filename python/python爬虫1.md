@@ -1,4 +1,4 @@
-- requests.request('method',url,**kwargs)构造一个请求，支撑以下基本方法(除了下面的method还有一个option可以使用，不常用)（**kwargs ）
+- requests.request('method',url,**kwargs)构造一个请求，支撑以下基本方法(除了下面的method还有一个option可以使用，不常用)（**kwargs 各种字段tian'jia）
 - requests.get()获取HTML网页，对应http的get
 - requests.head()获取HTML网页头信息的方法，对应于http的head
 - requests.post()向HTML网页提交post请求的方法，对应于http的post
@@ -24,7 +24,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3OTAyODYzNCwtOTYwODQ1OTg4LDIxMz
-IzNjI1MjYsLTEzMDc1ODM3NjQsLTU0MDA1MjQ5NCwxMzg5MjQ1
-NTMxXX0=
+eyJoaXN0b3J5IjpbLTE3MDMwMjYxMTQsLTk2MDg0NTk4OCwyMT
+MyMzYyNTI2LC0xMzA3NTgzNzY0LC01NDAwNTI0OTQsMTM4OTI0
+NTUzMV19
 -->
