@@ -1,5 +1,5 @@
 - requests.request('method',url,**kwargs)构造一个请求，支撑以下基本方法(除了下面的method还有一个option可以使用，不常用)（**kwargs 各种字段添加功能如cookie，timeout等，主要的有params,data,json,headers,auth,files,timeout,cookies,proxies,allow_redirects,stream,verify,cert）(其中`data`是字典，文件对象等`data = body`   `body` 是你存储的内容 `json`是作为内容部分向服务器提交`json = kv` `kv`是你定义的字典 `params`是字典或字节序列，作为参数增加到URL中 `header`字典，定制http的头
-- requests.get(url,params = None,**kwargs)获取HTML网页，对应http的get
+- requests.get(url,params = None,**kwargs)获取HTML网页，对应http的get  __最常用__
 - requests.head(url,**kwargs)获取HTML网页头信息的方法，对应于http的head
 - requests.post(url,params = None,json = None,**kwargs)向HTML网页提交post请求的方法，对应于http的post
 - requests.put(url,params = None,**kwargs)向HTML网页提交put请求的方法，对应于http的put
@@ -24,7 +24,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NDkwMjg5OSw0NzAyNjY0NTIsLTk2MD
-g0NTk4OCwyMTMyMzYyNTI2LC0xMzA3NTgzNzY0LC01NDAwNTI0
-OTQsMTM4OTI0NTUzMV19
+eyJoaXN0b3J5IjpbLTEwNTEwMTA3NjksNDcwMjY2NDUyLC05Nj
+A4NDU5ODgsMjEzMjM2MjUyNiwtMTMwNzU4Mzc2NCwtNTQwMDUy
+NDk0LDEzODkyNDU1MzFdfQ==
 -->
