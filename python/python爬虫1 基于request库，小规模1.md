@@ -25,9 +25,9 @@
 
 
 ## 网络爬虫限制
-1. 判断user-agent进行限制，检查他的user-agent域，只允许合适的
-2. robot协议，通知爬虫规则，，要按照
+1. 判断user-agent进行限制，检查他的user-agent域（审查来源），只允许合适的
+2. robot协议，通知爬虫规则，要按照这些规则进行
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzEwNDE4NDcsMTg4ODI5OTQ4Nl19
+eyJoaXN0b3J5IjpbMTU5Mzc2MzY0MywxODg4Mjk5NDg2XX0=
 -->
