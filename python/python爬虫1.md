@@ -21,10 +21,10 @@
 - requests.Timeout 请求URL超时，产生超时异常（远程服务器连接超时）
 - r,raise_fore_status()如果不是200，产生requests.HTTPError
 <hr>
-
+# 网络连接有风险，一定要处理好异常情况
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTEwMTA3NjksNDcwMjY2NDUyLC05Nj
-A4NDU5ODgsMjEzMjM2MjUyNiwtMTMwNzU4Mzc2NCwtNTQwMDUy
-NDk0LDEzODkyNDU1MzFdfQ==
+eyJoaXN0b3J5IjpbMTg4ODI5OTQ4NiwtMTA1MTAxMDc2OSw0Nz
+AyNjY0NTIsLTk2MDg0NTk4OCwyMTMyMzYyNTI2LC0xMzA3NTgz
+NzY0LC01NDAwNTI0OTQsMTM4OTI0NTUzMV19
 -->
