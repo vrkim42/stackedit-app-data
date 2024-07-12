@@ -5,7 +5,9 @@
 - requests.put()向HTML网页提交put请求的方法，对应于http的put
 - requests.patch()向HTML网页提交局部修改请求，对应于http的patch
 - requests.delete()向HTML页面提交删除请求，对应于http的delete
-- 
+- r.status_code http请求的返回格式，200成功，404失败
+- r.text http响应的字符串格式，即URL对应的页面内容
+- r.encoding 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDE1NTk0LDEzODkyNDU1MzFdfQ==
+eyJoaXN0b3J5IjpbLTc2MDY2Mjg3NCwxMzg5MjQ1NTMxXX0=
 -->
