@@ -9,7 +9,7 @@
 - r.text http响应的字符串格式，即URL对应的页面内容
 - r.encoding 从http header中猜测的响应内容编码方式
 - r,apparent_encoding 从内容分析出的响应内容编码方式
-- r.content http响应de
+- r.content http响应内容的二进制形势
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDExNzU5MzEsMTM4OTI0NTUzMV19
+eyJoaXN0b3J5IjpbLTU0MDA1MjQ5NCwxMzg5MjQ1NTMxXX0=
 -->
