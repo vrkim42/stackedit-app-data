@@ -5,6 +5,7 @@
 - requests.put()向HTML网页提交put请求的方法，对应于http的put
 - requests.patch()向HTML网页提交局部修改请求，对应于http的patch
 - requests.delete()向HTML页面提交删除请求，对应于http的delete
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTI0NTUzMV19
+eyJoaXN0b3J5IjpbLTE5MDE1NTk0LDEzODkyNDU1MzFdfQ==
 -->
