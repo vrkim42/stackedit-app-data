@@ -12,14 +12,16 @@
 - r.content http响应内容的二进制形势
 
 <hr>
-request库异常
+<h3>request的库异常
 - requests.ConnectionError 网络连接错误异常，如DNS查询失败，拒绝连接
 - requests.HTTPError http错误异常
 - requests.URLRequired URL缺失异常
 - requests.TooManyRedirects 超过最大重定向次数，产生重定向异常
-- requests.ConnectTimeout 连接远程服务器超时异常
-- requests.Timeout 请求URL超时，产生超时异常
+- requests.ConnectTimeout 连接远程服务器超时异常（获得内容超时）
+- requests.Timeout 请求URL超时，产生超时异常（远程服务器连接超时）
+- r,raise
+<hr>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1NjU5OTYxLC0xMzA3NTgzNzY0LC01ND
-AwNTI0OTQsMTM4OTI0NTUzMV19
+eyJoaXN0b3J5IjpbMTg2MzY1NTEwMSwtMTMwNzU4Mzc2NCwtNT
+QwMDUyNDk0LDEzODkyNDU1MzFdfQ==
 -->
