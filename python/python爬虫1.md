@@ -7,7 +7,9 @@
 - requests.delete()向HTML页面提交删除请求，对应于http的delete
 - r.status_code http请求的返回格式，200成功，404失败
 - r.text http响应的字符串格式，即URL对应的页面内容
-- r.encoding 
+- r.encoding 从http header中猜测的响应内容编码方式
+- r,apparent_encoding 从内容分析出的响应内容编码方式
+- r.content http响应de
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MDY2Mjg3NCwxMzg5MjQ1NTMxXX0=
+eyJoaXN0b3J5IjpbLTE5NDExNzU5MzEsMTM4OTI0NTUzMV19
 -->
