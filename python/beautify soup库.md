@@ -16,10 +16,10 @@ soup = BeautifulSoup("mk","html5lib")
 .parents 节点先辈标签迭代类型，用于遍历先辈节点
 .contents 节点的子标签
 .childrenn 节点的子标签
-.
+.descendants 所有后续子孙节点进行不便利
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1NzQ3Nzc4LDc5MjgwMjA2MSwtNTE1ND
+eyJoaXN0b3J5IjpbMTQ0OTQwODU4LDc5MjgwMjA2MSwtNTE1ND
 U1NDY0LC0xMTQxODM4MzU4LC0yODQ4MzkyNDMsNzA4NjA2MDUx
 XX0=
 -->
