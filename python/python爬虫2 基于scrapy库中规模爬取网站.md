@@ -1,6 +1,8 @@
 ## scrapy库
 	爬虫框架
+![输入图片说明](/imgs/2024-07-14/FlOKGdsmur9IBtXp.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExNDIzNTMxMywxMTUzOTMzNzgyLC0yMD
+g4NzQ2NjEyXX0=
 -->
