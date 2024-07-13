@@ -31,7 +31,9 @@ soup = BeautifulSoup("mk","html5lib")
 
 ### .find()方法
 1. .find()搜索且只返回一个结果，字符串类型，同.find_all参数
-2. .find_parents()在先辈节点中搜索
+2. .find_parents()在先辈节点中搜索，返回列表类型，同.find_all()参数
+3. .find_parent()在先辈节点中返回一个结果，字符串类型，同.find()参数
+4. .find_next_siblings()
 
 
 ### json xml yaml
@@ -40,8 +42,8 @@ soup = BeautifulSoup("mk","html5lib")
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTU0ODQ5MSw5MTgyMjYwMzUsLTE4OT
-k2NDA3NjEsNDMxMTI5OTQ1LC0xNDA0ODYyNDA0LC0xMjk4MTQz
-MjY2LDIwOTYwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0NjQsLT
-ExNDE4MzgzNTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NjE2MTY3NDYsOTE4MjI2MDM1LC0xOD
+k5NjQwNzYxLDQzMTEyOTk0NSwtMTQwNDg2MjQwNCwtMTI5ODE0
+MzI2NiwyMDk2MDY2Nzg2LDc5MjgwMjA2MSwtNTE1NDU1NDY0LC
+0xMTQxODM4MzU4LC0yODQ4MzkyNDMsNzA4NjA2MDUxXX0=
 -->
