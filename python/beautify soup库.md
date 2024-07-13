@@ -26,6 +26,7 @@ soup = BeautifulSoup("mk","html5lib")
 ### 其他
 prettify()将代码进行优化 eg:`soup.prettify()`和`soup.a.prettify()`
 BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进行识别，在上面引入部分有。
+find_all(name,attrs,recursive,string,**k)如：`soup.find_all('a')`
 
 
 ### json xml yaml
@@ -34,7 +35,8 @@ BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进�
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDQ4NjI0MDQsLTEyOTgxNDMyNjYsMj
-A5NjA2Njc4Niw3OTI4MDIwNjEsLTUxNTQ1NTQ2NCwtMTE0MTgz
-ODM1OCwtMjg0ODM5MjQzLDcwODYwNjA1MV19
+eyJoaXN0b3J5IjpbNDMxMTI5OTQ1LC0xNDA0ODYyNDA0LC0xMj
+k4MTQzMjY2LDIwOTYwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0
+NjQsLTExNDE4MzgzNTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ
+==
 -->
