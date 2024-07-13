@@ -36,7 +36,7 @@ soup = BeautifulSoup("mk","html5lib")
 4. .find_next_siblings()后续平行节点搜索，返回列表类型，同.find_all()参数
 5. .find_next_sibling()在后续平行节点中返回一个结果，字符串类型，同.find_all()参数
 6. find_previous_siblings()在前序平行节点中搜索，返回列表类型，同.find_all()参数
-7. 
+7. .find_previous_sibling() 在前序遍历中返回一个结果，字符串类型，同.find()参数
 
 
 ### json xml yaml
@@ -45,7 +45,7 @@ soup = BeautifulSoup("mk","html5lib")
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDE0MTc4NSw5MTgyMjYwMzUsLTE4OT
+eyJoaXN0b3J5IjpbMTE4NzA3ODQ4NCw5MTgyMjYwMzUsLTE4OT
 k2NDA3NjEsNDMxMTI5OTQ1LC0xNDA0ODYyNDA0LC0xMjk4MTQz
 MjY2LDIwOTYwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0NjQsLT
 ExNDE4MzgzNTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
