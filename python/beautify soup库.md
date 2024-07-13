@@ -30,11 +30,11 @@ BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进�
 
 ### json xml yaml
 所有类型的信息都可以使用这三种格式进行表示
-`json`格式采用键值对，类似于字典 `“name”:["xxx", "sss
+`json`格式采用键值对，类似于字典 `“name”:["xxx", "sss"]` 套用`"name":{"newname":"中科大","oldname":"xxx"
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNjAzMDYxLC0xMjk4MTQzMjY2LDIwOT
-YwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0NjQsLTExNDE4Mzgz
-NTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
+eyJoaXN0b3J5IjpbLTEzNTE5OTA0NywtMTI5ODE0MzI2NiwyMD
+k2MDY2Nzg2LDc5MjgwMjA2MSwtNTE1NDU1NDY0LC0xMTQxODM4
+MzU4LC0yODQ4MzkyNDMsNzA4NjA2MDUxXX0=
 -->
