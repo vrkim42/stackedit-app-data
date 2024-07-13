@@ -31,9 +31,9 @@ BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进�
 ### json xml
 `json`格式采用键值对，类似于字典
 `xml`与HTML语法类似
-`yaml`wu'lei'xi
+`yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MDA1ODI3MiwtMTI5ODE0MzI2NiwyMD
-k2MDY2Nzg2LDc5MjgwMjA2MSwtNTE1NDU1NDY0LC0xMTQxODM4
-MzU4LC0yODQ4MzkyNDMsNzA4NjA2MDUxXX0=
+eyJoaXN0b3J5IjpbOTY5NTY3NjA0LC0xMjk4MTQzMjY2LDIwOT
+YwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0NjQsLTExNDE4Mzgz
+NTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
 -->
