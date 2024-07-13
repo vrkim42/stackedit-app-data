@@ -8,9 +8,10 @@ soup = BeautifulSoup("mk","html5lib")
 ### 基本元素
 1. tag 标签，最基本的信息组织单元
 2. name 名字 <p>    </p>的名字是'p'
-3. attributes 属性，字典形式组织
-4. navigablestring 标签内
+3. attributes 属性，字典形式组织 <tag>.attrs
+4. navigablestring 标签内非属性字符串<<tag>.string
+5. comment 注释
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4MTI4MTE5LC0yODQ4MzkyNDMsNzA4Nj
-A2MDUxXX0=
+eyJoaXN0b3J5IjpbLTExNDE4MzgzNTgsLTI4NDgzOTI0Myw3MD
+g2MDYwNTFdfQ==
 -->
