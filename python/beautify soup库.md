@@ -11,7 +11,9 @@ soup = BeautifulSoup("mk","html5lib")
 3. attributes 属性，字典形式组织 <tag>.attrs
 4. navigablestring 标签内非属性字符串<<tag>.string
 5. comment 注释
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTQ1NTQ2NCwtMTE0MTgzODM1OCwtMj
-g0ODM5MjQzLDcwODYwNjA1MV19
+eyJoaXN0b3J5IjpbODU0MDE2NzU2LC01MTU0NTU0NjQsLTExND
+E4MzgzNTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
 -->
