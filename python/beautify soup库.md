@@ -28,12 +28,13 @@ prettify()将代码进行优化 eg:`soup.prettify()`和`soup.a.prettify()`
 BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进行识别，在上面引入部分有。
 
 
-### json xml
-`json`格式采用键值对，类似于字典
+### json xml yaml
+所有类型的信息都可以使用这三种格式进行表示
+`json`格式采用键值对，类似于字典 `“name”:["xxx", "sss
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5NTY3NjA0LC0xMjk4MTQzMjY2LDIwOT
+eyJoaXN0b3J5IjpbOTIzNjAzMDYxLC0xMjk4MTQzMjY2LDIwOT
 YwNjY3ODYsNzkyODAyMDYxLC01MTU0NTU0NjQsLTExNDE4Mzgz
 NTgsLTI4NDgzOTI0Myw3MDg2MDYwNTFdfQ==
 -->
