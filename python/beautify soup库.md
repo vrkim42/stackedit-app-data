@@ -22,8 +22,11 @@ soup = BeautifulSoup("mk","html5lib")
 .previous_siblings 迭代类型，返回所有按照HTML文本顺序的前序平行标签
 .next_siblings 迭代类型，返回所有按照HTML文本顺序的后序平行标签
 平行标签不一定获得标签类型也可以是string类型
+
+### 其他
+prettify()将代码进行优化 eg:`soup.prettify()`和`soup.a.prettify()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NjA2Njc4Niw3OTI4MDIwNjEsLTUxNT
-Q1NTQ2NCwtMTE0MTgzODM1OCwtMjg0ODM5MjQzLDcwODYwNjA1
-MV19
+eyJoaXN0b3J5IjpbLTE3MzcwODE0NDUsMjA5NjA2Njc4Niw3OT
+I4MDIwNjEsLTUxNTQ1NTQ2NCwtMTE0MTgzODM1OCwtMjg0ODM5
+MjQzLDcwODYwNjA1MV19
 -->
