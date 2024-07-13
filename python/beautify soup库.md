@@ -12,7 +12,7 @@ soup = BeautifulSoup("mk","html5lib")
 4. navigablestring 标签内非属性字符串<<tag>.string
 5. comment 注释
 
-### jie'dian'de
+### 节点的遍历
 .parent 节点的父亲标签
 .parents 节点先辈标签迭代类型，用于遍历先辈节点
 .contents 节点的子标签
@@ -27,7 +27,7 @@ soup = BeautifulSoup("mk","html5lib")
 ### 其他
 1. prettify()将代码进行优化 eg:`soup.prettify()`和`soup.a.prettify()`
 2. BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进行识别，在上面引入部分有。
-3. `find_all(name,attrs,recursive,string,**k)`如：`soup.find_all('a')`
+3. `find_all(name,attrs,recursive,string,**kwargs)`如：`soup.find_all('a')` 其中`name`是
 
 
 ### json xml yaml
@@ -36,8 +36,8 @@ soup = BeautifulSoup("mk","html5lib")
 `xml`与HTML语法类似
 `yaml`无类型键值对，`name: - 北大 - 清华`以及 `text: xxxxxxxxxxxx`等，可以用#表示注释，-表示并列
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NjEwMjE0OSw0MzExMjk5NDUsLTE0MD
-Q4NjI0MDQsLTEyOTgxNDMyNjYsMjA5NjA2Njc4Niw3OTI4MDIw
-NjEsLTUxNTQ1NTQ2NCwtMTE0MTgzODM1OCwtMjg0ODM5MjQzLD
-cwODYwNjA1MV19
+eyJoaXN0b3J5IjpbLTE4OTk2NDA3NjEsNDMxMTI5OTQ1LC0xND
+A0ODYyNDA0LC0xMjk4MTQzMjY2LDIwOTYwNjY3ODYsNzkyODAy
+MDYxLC01MTU0NTU0NjQsLTExNDE4MzgzNTgsLTI4NDgzOTI0My
+w3MDg2MDYwNTFdfQ==
 -->
