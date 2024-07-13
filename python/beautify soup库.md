@@ -25,8 +25,9 @@ soup = BeautifulSoup("mk","html5lib")
 
 ### 其他
 prettify()将代码进行优化 eg:`soup.prettify()`和`soup.a.prettify()`
+BeautifulSoup("<html>data</html>","html.parser")加载对应文档，然后进行识别，在上面引入部分有。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcwODE0NDUsMjA5NjA2Njc4Niw3OT
+eyJoaXN0b3J5IjpbLTEyOTgxNDMyNjYsMjA5NjA2Njc4Niw3OT
 I4MDIwNjEsLTUxNTQ1NTQ2NCwtMTE0MTgzODM1OCwtMjg0ODM5
 MjQzLDcwODYwNjA1MV19
 -->
