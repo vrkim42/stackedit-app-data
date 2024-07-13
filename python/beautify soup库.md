@@ -21,9 +21,9 @@ soup = BeautifulSoup("mk","html5lib")
 .previous_sibling 返回按照HTML文本顺序的上一个平行节点标签
 .previous_siblings 迭代类型，返回所有按照HTML文本顺序的前序平行标签
 .next_siblings 迭代类型，返回所有按照HTML文本顺序的后序平行标签
-
+平行标签不一定获得标签类型也可以是string类型
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzE2MTI0MjMsNzkyODAyMDYxLC01MT
-U0NTU0NjQsLTExNDE4MzgzNTgsLTI4NDgzOTI0Myw3MDg2MDYw
-NTFdfQ==
+eyJoaXN0b3J5IjpbMjA5NjA2Njc4Niw3OTI4MDIwNjEsLTUxNT
+Q1NTQ2NCwtMTE0MTgzODM1OCwtMjg0ODM5MjQzLDcwODYwNjA1
+MV19
 -->
