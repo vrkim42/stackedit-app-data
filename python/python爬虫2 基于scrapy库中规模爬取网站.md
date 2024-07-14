@@ -12,11 +12,11 @@ scrapy startproject + project名字
 cd project名字
 scrapy genspider + 爬虫名称 + 对应网址
 更改demo.py到自己想要的类型
-最后 scarpy crawl 
+最后 scarpy crawl demo
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTY3MzQ1MSwxNzczMzUwNTQ4LC0zMz
-g4NTEwMzMsLTEyNzA0MDI5ODgsMTQ5OTY4MzY1MywtMTE0MjM1
-MzEzLDExNTM5MzM3ODIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMz
+M4ODUxMDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIz
+NTMxMywxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
