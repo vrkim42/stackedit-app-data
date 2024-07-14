@@ -29,10 +29,10 @@ def gen(n):
 ![输入图片说明](/imgs/2024-07-14/oYtQ6CZbvGXg7SCs.png)
 生成器灵活省空间速度快
 
-
+b
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjE4NzQyOCwxOTY0ODMzMTkzLDEyMT
+eyJoaXN0b3J5IjpbLTQ4MzQ5MTA4NiwxOTY0ODMzMTkzLDEyMT
 k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
 MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
 wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
