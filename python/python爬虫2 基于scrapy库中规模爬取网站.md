@@ -31,10 +31,11 @@ def gen(n):
 ![输入图片说明](/imgs/2024-07-14/ktnvG3dqJKeNKbjP.png)
 
 ## requests类                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+![输入图片说明](/imgs/2024-07-14/Ka8DZI8SYWD38blx.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1MTU3MDU1LDE5NjQ4MzMxOTMsMTIxOT
-U0MjEzNywtMjA0MTg3MDg3MiwxNzczMzUwNTQ4LC0zMzg4NTEw
-MzMsLTEyNzA0MDI5ODgsMTQ5OTY4MzY1MywtMTE0MjM1MzEzLD
-ExNTM5MzM3ODIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTE0MjczNjk4MywxOTY0ODMzMTkzLDEyMT
+k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
+MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
+wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
