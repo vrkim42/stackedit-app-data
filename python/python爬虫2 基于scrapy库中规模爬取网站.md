@@ -44,12 +44,13 @@ def gen(n):
 ![输入图片说明](/imgs/2024-07-14/Xdm3DrzEjXaV44xE.png)
 
 ## 具体步骤
-1. 建立工程和spider模板
+1. 建立工程和spider模板![输入图片说明](/imgs/2024-07-14/id56BZscC1ydTmnk.png)
 2. 编写spider
+![输入图片说明](/imgs/2024-07-14/TX99dpm7IOXwEUJx.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4ODU2Njg4LC03Njg3NDM3ODIsMTk2ND
-gzMzE5MywxMjE5NTQyMTM3LC0yMDQxODcwODcyLDE3NzMzNTA1
-NDgsLTMzODg1MTAzMywtMTI3MDQwMjk4OCwxNDk5NjgzNjUzLC
-0xMTQyMzUzMTMsMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzE5MDQ1ODQsLTc2ODc0Mzc4MiwxOTY0OD
+MzMTkzLDEyMTk1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0
+OCwtMzM4ODUxMDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLT
+ExNDIzNTMxMywxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
