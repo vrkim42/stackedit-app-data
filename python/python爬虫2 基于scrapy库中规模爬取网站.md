@@ -15,12 +15,14 @@ scrapy genspider + 爬虫名称 + 对应网址
 最后 scarpy crawl demo
 
 
-## yield关键字 -》 
+## yield关键字 -》 生成器
+- 生成器是一个不断产生的值
+- 包含yield语句的haan'shu'shi'yi'ge'sheng'chen
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTY3OTQ3OSwxMjE5NTQyMTM3LC0yMD
+eyJoaXN0b3J5IjpbMTExMzE5MDgwNiwxMjE5NTQyMTM3LC0yMD
 QxODcwODcyLDE3NzMzNTA1NDgsLTMzODg1MTAzMywtMTI3MDQw
 Mjk4OCwxNDk5NjgzNjUzLC0xMTQyMzUzMTMsMTE1MzkzMzc4Mi
 wtMjA4ODc0NjYxMl19
