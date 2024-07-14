@@ -6,9 +6,13 @@
 ![输入图片说明](/imgs/2024-07-14/pyR4PaoSc19ogOSB.png)
 
 
+## 步骤
+cd 到相应的文件夹
+scrapy startproject + project名字
+cd project名字
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTA4NDEyNTAsLTEyNzA0MDI5ODgsMT
-Q5OTY4MzY1MywtMTE0MjM1MzEzLDExNTM5MzM3ODIsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIxOTkyODcyMSwtMTI3MDQwMjk4OCwxND
+k5NjgzNjUzLC0xMTQyMzUzMTMsMTE1MzkzMzc4MiwtMjA4ODc0
+NjYxMl19
 -->
