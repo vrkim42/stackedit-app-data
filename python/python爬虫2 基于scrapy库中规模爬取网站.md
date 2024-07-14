@@ -14,9 +14,14 @@ scrapy genspider + 爬虫名称 + 对应网址
 更改demo.py到自己想要的类型
 最后 scarpy crawl demo
 
+
+## yield关键字
+
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMz
-M4ODUxMDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIz
-NTMxMywxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbMTIxOTU0MjEzNywtMjA0MTg3MDg3MiwxNz
+czMzUwNTQ4LC0zMzg4NTEwMzMsLTEyNzA0MDI5ODgsMTQ5OTY4
+MzY1MywtMTE0MjM1MzEzLDExNTM5MzM3ODIsLTIwODg3NDY2MT
+JdfQ==
 -->
