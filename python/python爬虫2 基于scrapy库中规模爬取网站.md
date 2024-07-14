@@ -10,9 +10,11 @@
 cd 到相应的文件夹
 scrapy startproject + project名字
 cd project名字
+scrapy genspider + 爬虫名称
+
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTkyODcyMSwtMTI3MDQwMjk4OCwxND
+eyJoaXN0b3J5IjpbLTMzODg1MTAzMywtMTI3MDQwMjk4OCwxND
 k5NjgzNjUzLC0xMTQyMzUzMTMsMTE1MzkzMzc4MiwtMjA4ODc0
 NjYxMl19
 -->
