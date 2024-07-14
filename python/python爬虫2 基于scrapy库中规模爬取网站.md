@@ -37,14 +37,15 @@ def gen(n):
 ![输入图片说明](/imgs/2024-07-14/Qx3E5W7Prk64Bf7t.png)
 
 ## item类
-
+类字典类型
+![输入图片说明](/imgs/2024-07-14/TpIQf4iiM5j7qOY6.png)
 
 ## css selector
 ![输入图片说明](/imgs/2024-07-14/Xdm3DrzEjXaV44xE.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODQwNDA1OCwxOTY0ODMzMTkzLDEyMT
+eyJoaXN0b3J5IjpbLTQzMTI3MTQ3NywxOTY0ODMzMTkzLDEyMT
 k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
 MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
 wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
