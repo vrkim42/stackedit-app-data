@@ -27,13 +27,13 @@ def gen(n):
 ```
 
 ![输入图片说明](/imgs/2024-07-14/oYtQ6CZbvGXg7SCs.png)
-生成器ling'hu
+生成器灵活省空间速度快
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI2NTQ5MDIzLDE5NjQ4MzMxOTMsMTIxOT
-U0MjEzNywtMjA0MTg3MDg3MiwxNzczMzUwNTQ4LC0zMzg4NTEw
-MzMsLTEyNzA0MDI5ODgsMTQ5OTY4MzY1MywtMTE0MjM1MzEzLD
-ExNTM5MzM3ODIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTEzNjE4NzQyOCwxOTY0ODMzMTkzLDEyMT
+k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
+MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
+wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
