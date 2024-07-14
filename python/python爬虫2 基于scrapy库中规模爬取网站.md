@@ -33,9 +33,15 @@ def gen(n):
 ## requests类                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
 ![输入图片说明](/imgs/2024-07-14/Ka8DZI8SYWD38blx.png)
 
+## response类
+![输入图片说明](/imgs/2024-07-14/Qx3E5W7Prk64Bf7t.png)
+
+## item类
+b
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjczNjk4MywxOTY0ODMzMTkzLDEyMT
-k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
-MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
-wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE0MjM2MTQyNzQsMTk2NDgzMzE5MywxMj
+E5NTQyMTM3LC0yMDQxODcwODcyLDE3NzMzNTA1NDgsLTMzODg1
+MTAzMywtMTI3MDQwMjk4OCwxNDk5NjgzNjUzLC0xMTQyMzUzMT
+MsMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
 -->
