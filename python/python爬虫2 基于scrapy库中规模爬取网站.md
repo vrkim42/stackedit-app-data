@@ -20,12 +20,16 @@ scrapy genspider + 爬虫名称 + 对应网址
 - 包含yield语句的函数是一个生成器
 - 生成器产生一个只以后冻结，被唤醒以后再产生一个值
 
-
+```
+def gen(n):
+	for i in range(n):
+		yield i**2
+```
 
 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjY2ODM2MiwxOTY0ODMzMTkzLDEyMT
+eyJoaXN0b3J5IjpbMjA2MDczNjk4NSwxOTY0ODMzMTkzLDEyMT
 k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
 MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
 wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
