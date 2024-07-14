@@ -43,10 +43,13 @@ def gen(n):
 ## css selector
 ![输入图片说明](/imgs/2024-07-14/Xdm3DrzEjXaV44xE.png)
 
+## 具体步骤
+1. 建立工程和spider模板
+2. 编写spider
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODc0Mzc4MiwxOTY0ODMzMTkzLDEyMT
-k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
-MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
-wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNjk4ODU2Njg4LC03Njg3NDM3ODIsMTk2ND
+gzMzE5MywxMjE5NTQyMTM3LC0yMDQxODcwODcyLDE3NzMzNTA1
+NDgsLTMzODg1MTAzMywtMTI3MDQwMjk4OCwxNDk5NjgzNjUzLC
+0xMTQyMzUzMTMsMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
 -->
