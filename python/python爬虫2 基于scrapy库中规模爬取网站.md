@@ -39,12 +39,13 @@ def gen(n):
 ## item类
 
 
+## css selector
+![输入图片说明](/imgs/2024-07-14/Xdm3DrzEjXaV44xE.png)
 
-css selectorrr
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjIwNTAwNTAsMTk2NDgzMzE5MywxMj
-E5NTQyMTM3LC0yMDQxODcwODcyLDE3NzMzNTA1NDgsLTMzODg1
-MTAzMywtMTI3MDQwMjk4OCwxNDk5NjgzNjUzLC0xMTQyMzUzMT
-MsMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTAzODQwNDA1OCwxOTY0ODMzMTkzLDEyMT
+k1NDIxMzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUx
+MDMzLC0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMy
+wxMTUzOTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
