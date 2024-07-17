@@ -43,16 +43,16 @@ def gen(n):
 ## css selector
 ![输入图片说明](/imgs/2024-07-14/Xdm3DrzEjXaV44xE.png)
 
-## 具体步骤sssss
+## 具体步骤
 1. 建立工程和spider模板![输入图片说明](/imgs/2024-07-14/id56BZscC1ydTmnk.png)
 2. 编写spider
 ![输入图片说明](/imgs/2024-07-14/TX99dpm7IOXwEUJx.png)
 3.
 ![输入图片说明](/imgs/2024-07-14/VvWnj9hFmvF0KnJT.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjU2NjMyNywtMTcwMDE1MTQzMCwzMT
-kwNDU4NCwtNzY4NzQzNzgyLDE5NjQ4MzMxOTMsMTIxOTU0MjEz
-NywtMjA0MTg3MDg3MiwxNzczMzUwNTQ4LC0zMzg4NTEwMzMsLT
-EyNzA0MDI5ODgsMTQ5OTY4MzY1MywtMTE0MjM1MzEzLDExNTM5
-MzM3ODIsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE3MDAxNTE0MzAsLTE3MDAxNTE0MzAsMz
+E5MDQ1ODQsLTc2ODc0Mzc4MiwxOTY0ODMzMTkzLDEyMTk1NDIx
+MzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUxMDMzLC
+0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMywxMTUz
+OTMzNzgyLC0yMDg4NzQ2NjEyXX0=
 -->
