@@ -1,6 +1,7 @@
 rustup --version 查看rust版本号
 rustup update rust更新版本
-rustup sel
+rustup self uninstall 拆卸rust
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzY3OTQ2N119
+eyJoaXN0b3J5IjpbMTI3MzU1NzA0NV19
 -->
