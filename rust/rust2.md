@@ -10,14 +10,15 @@ rust为ahead of time文件
 
 
 rust 缩进为4个空格，不是tab
-ls可以cha
+ls可以查看当前目录下的所有文件
 
 较大型用cargo
 
  1. cargo new 文件名
  2. cd 新创建的文件
- 3. 
+ 3. code .用vscode打开
+ 4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDE2MTU4NCwxNzMxNDE3Nzk0XX0=
+eyJoaXN0b3J5IjpbLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
 -->
