@@ -26,12 +26,14 @@ ls可以查看当前目录下的所有文件
  2. 创建cargo.toml填写相应配置
 
 
-构建cargo项目
+构建cargo项目（cargo build）
 
  1. 创建可执行文件target\debug\hello_cargo.exe
  2. 运行可执行文件 .\target\debug\hello_cargo.exe
  3. 第一次运行会在项目目录生成cargo.lock文件追踪项目依赖的精确版本，无需手动修改文件
  
+
+cargo check
 
 构建和运行cargo项目
 
@@ -41,6 +43,6 @@ cargo run，编译代码 + 执行结果
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjQ1NDExMTgsLTgzMTA4MDk0NCwxMz
+eyJoaXN0b3J5IjpbLTE4MTYwNjk1NTcsLTgzMTA4MDk0NCwxMz
 EyOTc0NTU0LC0xOTg3NTA3MTg0LDE3MzE0MTc3OTRdfQ==
 -->
