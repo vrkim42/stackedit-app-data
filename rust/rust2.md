@@ -30,11 +30,17 @@ ls可以查看当前目录下的所有文件
 
  1. 创建可执行文件target\debug\hello_cargo.exe
  2. 运行可执行文件 .\target\debug\hello_cargo.exe
- 3. 第一次运行会在项目目录生成cargo.lock文件追踪项目依赖的jingqu
+ 3. 第一次运行会在项目目录生成cargo.lock文件追踪项目依赖的精确版本，无需手动修改文件
+ 
+
+构建和运行cargo项目
+
+cargo run，编译代码 + 执行结果
+
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzUzODU4NSwtODMxMDgwOTQ0LDEzMT
+eyJoaXN0b3J5IjpbLTQ4NTA3NjIyNiwtODMxMDgwOTQ0LDEzMT
 I5NzQ1NTQsLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
 -->
