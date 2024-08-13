@@ -40,9 +40,10 @@ ls可以查看当前目录下的所有文件
 cargo run，编译代码 + 执行结果
 编译成功代码未改变直接会运行
 
- 
+为发布创建
+cargo build --release编译时会进行优化，运行更快但是编译时间更长，会在target//release
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQzNjA1NzksLTgzMTA4MDk0NCwxMz
+eyJoaXN0b3J5IjpbLTE1NDk1NzY0MjUsLTgzMTA4MDk0NCwxMz
 EyOTc0NTU0LC0xOTg3NTA3MTg0LDE3MzE0MTc3OTRdfQ==
 -->
