@@ -19,6 +19,11 @@ ls可以查看当前目录下的所有文件
  3. code .用vscode打开
  4. 
 
+将一般文件转化为cargo
+
+ 1. 这里是列表文本
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
+eyJoaXN0b3J5IjpbLTc5MzgzODU4LC0xOTg3NTA3MTg0LDE3Mz
+E0MTc3OTRdfQ==
 -->
