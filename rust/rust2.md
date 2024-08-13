@@ -7,7 +7,7 @@
  5. .\相关文件名
 
 
-rust 没有
+rust 缩进为4个空格，不是tab
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDk5Mzc2M119
+eyJoaXN0b3J5IjpbMTczMTQxNzc5NF19
 -->
