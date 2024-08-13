@@ -21,9 +21,10 @@ ls可以查看当前目录下的所有文件
 
 将一般文件转化为cargo
 
- 1. 这里是列表文本
+ 1. 将源代码移动到src文件夹下
+ 2. 创建cargo.toml填写相应配置
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzgzODU4LC0xOTg3NTA3MTg0LDE3Mz
-E0MTc3OTRdfQ==
+eyJoaXN0b3J5IjpbMTMxMjk3NDU1NCwtMTk4NzUwNzE4NCwxNz
+MxNDE3Nzk0XX0=
 -->
