@@ -36,11 +36,11 @@ ls可以查看当前目录下的所有文件
 构建和运行cargo项目
 
 cargo run，编译代码 + 执行结果
-
+编译成功代码未改变直接会运行
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTA3NjIyNiwtODMxMDgwOTQ0LDEzMT
-I5NzQ1NTQsLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
+eyJoaXN0b3J5IjpbLTE1MjQ1NDExMTgsLTgzMTA4MDk0NCwxMz
+EyOTc0NTU0LC0xOTg3NTA3MTg0LDE3MzE0MTc3OTRdfQ==
 -->
