@@ -25,7 +25,14 @@ ls可以查看当前目录下的所有文件
  1. 将源代码移动到src文件夹下
  2. 创建cargo.toml填写相应配置
 
+
+构建cargo项目
+
+ 1. 创建可执行文件target\debug\hello_cargo.e
+
+ 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMTA4MDk0NCwxMzEyOTc0NTU0LC0xOT
-g3NTA3MTg0LDE3MzE0MTc3OTRdfQ==
+eyJoaXN0b3J5IjpbMTExODQwMTEyMCwtODMxMDgwOTQ0LDEzMT
+I5NzQ1NTQsLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
 -->
