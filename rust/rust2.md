@@ -34,7 +34,7 @@ ls可以查看当前目录下的所有文件
  
 
 (cargo check)相对于chago build运行快得多，检查代码确保能通过编译，但是不产生任何可执行文件
-
+~~删除线文本~~
 构建和运行cargo项目
 
 cargo run，编译代码 + 执行结果
@@ -45,6 +45,7 @@ cargo build --release编译时会进行优化，运行更快但是编译时间�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MDUzMTMzNiwtODMxMDgwOTQ0LDEzMT
-I5NzQ1NTQsLTE5ODc1MDcxODQsMTczMTQxNzc5NF19
+eyJoaXN0b3J5IjpbLTQzNzA0NTI4MiwxOTcwNTMxMzM2LC04Mz
+EwODA5NDQsMTMxMjk3NDU1NCwtMTk4NzUwNzE4NCwxNzMxNDE3
+Nzk0XX0=
 -->
