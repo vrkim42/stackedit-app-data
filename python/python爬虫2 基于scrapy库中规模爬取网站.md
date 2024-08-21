@@ -1,5 +1,5 @@
 ## scrapy库
-	爬虫框架 爬取大量同类型，反扒能力一般，有定时爬取需要的wa
+	爬虫框架 爬取大量同类型，反扒能力一般，有定时爬取需要的网站。
 ![输入图片说明](/imgs/2024-07-14/FlOKGdsmur9IBtXp.png)
 ## scrapy基本框架
 ![输入图片说明](/imgs/2024-07-14/GDQH68vcjuvhgwvo.png)
@@ -50,7 +50,7 @@ def gen(n):
 3.
 ![输入图片说明](/imgs/2024-07-14/VvWnj9hFmvF0KnJT.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDM3OTk1MiwtMTcwMDE1MTQzMCwtMT
+eyJoaXN0b3J5IjpbMTY2NTQyMTAyMiwtMTcwMDE1MTQzMCwtMT
 cwMDE1MTQzMCwzMTkwNDU4NCwtNzY4NzQzNzgyLDE5NjQ4MzMx
 OTMsMTIxOTU0MjEzNywtMjA0MTg3MDg3MiwxNzczMzUwNTQ4LC
 0zMzg4NTEwMzMsLTEyNzA0MDI5ODgsMTQ5OTY4MzY1MywtMTE0
