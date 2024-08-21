@@ -1,7 +1,7 @@
 ## scrapy库
 	爬虫框架
 ![输入图片说明](/imgs/2024-07-14/FlOKGdsmur9IBtXp.png)
-## scrapy基恩框架
+## scrapy基本框架
 ![输入图片说明](/imgs/2024-07-14/GDQH68vcjuvhgwvo.png)
 ![输入图片说明](/imgs/2024-07-14/pyR4PaoSc19ogOSB.png)
 
@@ -50,9 +50,9 @@ def gen(n):
 3.
 ![输入图片说明](/imgs/2024-07-14/VvWnj9hFmvF0KnJT.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAxNTE0MzAsLTE3MDAxNTE0MzAsMz
-E5MDQ1ODQsLTc2ODc0Mzc4MiwxOTY0ODMzMTkzLDEyMTk1NDIx
-MzcsLTIwNDE4NzA4NzIsMTc3MzM1MDU0OCwtMzM4ODUxMDMzLC
-0xMjcwNDAyOTg4LDE0OTk2ODM2NTMsLTExNDIzNTMxMywxMTUz
-OTMzNzgyLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbOTAxOTIwNDA3LC0xNzAwMTUxNDMwLC0xNz
+AwMTUxNDMwLDMxOTA0NTg0LC03Njg3NDM3ODIsMTk2NDgzMzE5
+MywxMjE5NTQyMTM3LC0yMDQxODcwODcyLDE3NzMzNTA1NDgsLT
+MzODg1MTAzMywtMTI3MDQwMjk4OCwxNDk5NjgzNjUzLC0xMTQy
+MzUzMTMsMTE1MzkzMzc4MiwtMjA4ODc0NjYxMl19
 -->
