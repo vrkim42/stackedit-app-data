@@ -6,8 +6,9 @@
 
 ### 设置图片大小
 
- 1. plg.figure(figsize=(长,宽),dpi=xx)dpi
+ 1. plt.figure(figsize=(长,宽),dpi=数字)dpi控制图片清晰度
+ 2. plt.savefig("./名称.svg") 保存图片，svg
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTM5MTc2XX0=
+eyJoaXN0b3J5IjpbLTE0MzY0MDA4NzddfQ==
 -->
