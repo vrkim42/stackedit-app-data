@@ -16,10 +16,11 @@
  3. plt.savefig保存图片
  4. xticks设置xy轴上刻度和字符串
  5. xticks解决刻度稀疏问题
- 6. 设置了标题，xy轴的lable(title, xlable, ylablle)
- 7. 设置字体(font, manager,, fontProp
+ 6. 设置了标题，xy轴的lable(title, xlable, ylable)
+ 7. 设置字体(font, manager,, fontProperties, matplotlib, rc)
+ 8. 绘制多个折线，多plt.plot几次
+ 9. 添加图例
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM5NTYwMjgsLTE3ODU4MjEyNjFdfQ
-==
+eyJoaXN0b3J5IjpbMTMzNDE4NjU2MCwtMTc4NTgyMTI2MV19
 -->
