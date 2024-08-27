@@ -14,8 +14,12 @@
  1. 使用plt.plot制作折线图
  2. plt.figure设置图片大小和分辨率
  3. plt.savefig保存图片
- 4. xticksshe'zhi
+ 4. xticks设置xy轴上刻度和字符串
+ 5. xticks解决刻度稀疏问题
+ 6. 设置了标题，xy轴的lable(title, xlable, ylablle)
+ 7. 设置字体(font, manager,, fontProp
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzM1MjgzMywtMTc4NTgyMTI2MV19
+eyJoaXN0b3J5IjpbLTE3MzM5NTYwMjgsLTE3ODU4MjEyNjFdfQ
+==
 -->
