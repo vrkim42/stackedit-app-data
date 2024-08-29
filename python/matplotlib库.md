@@ -21,8 +21,9 @@
  8. 绘制多个折线，多plt.plot几次
  9. 添加图例 plt.legend(),图例来源于plt.plot()时label参数的值
  10. plt.scatter(x, y) 
+ 11. plt.grid()huizhi
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDY1ODk1NSwxMzM0MTg2NTYwLC0xNz
-g1ODIxMjYxXX0=
+eyJoaXN0b3J5IjpbLTIxMzg3MTA4NzEsMTY1NDY1ODk1NSwxMz
+M0MTg2NTYwLC0xNzg1ODIxMjYxXX0=
 -->
