@@ -20,13 +20,15 @@
  7. 设置字体(font, manager, fontProperties, matplotlib, rc)
  8. 绘制多个折线，多plt.plot几次
  9. 添加图例 plt.legend(),图例来源于plt.plot()时label参数的值
- 10. plt.scatter(x, y) 
+ 10. plt.scatter(x, y) 绘制散点图
  11. plt.grid()绘制网格线
  12. plt.show()展示图片
  13. plt.hit()绘制直方图
- 14. 
+ 14. plt.bar()绘制竖着的条形图，plt.barh()绘制横着的条形图
+ 15. 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ1NzE1MzE5LDE2NTQ2NTg5NTUsMTMzND
-E4NjU2MCwtMTc4NTgyMTI2MV19
+eyJoaXN0b3J5IjpbMTI4MTk1Mzk0NSwxNjU0NjU4OTU1LDEzMz
+QxODY1NjAsLTE3ODU4MjEyNjFdfQ==
 -->
