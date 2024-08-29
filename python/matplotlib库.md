@@ -17,11 +17,12 @@
  4. xticks设置xy轴上刻度和字符串
  5. xticks解决刻度稀疏问题
  6. 设置了标题，xy轴的lable(title, xlable, ylable)
- 7. 设置字体(font, manager,, fontProperties, matplotlib, rc)
+ 7. 设置字体(font, manager, fontProperties, matplotlib, rc)
  8. 绘制多个折线，多plt.plot几次
- 9. 添加图例 plt.legend
+ 9. 添加图例 plt.legend(),图例来源于plt.plot()时label参数的值
+ 10.plt.scatter(x, y) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1NDE4ODYxLDEzMzQxODY1NjAsLTE3OD
-U4MjEyNjFdfQ==
+eyJoaXN0b3J5IjpbLTExNjc1NTQ4NTEsMTMzNDE4NjU2MCwtMT
+c4NTgyMTI2MV19
 -->
