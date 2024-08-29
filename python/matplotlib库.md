@@ -20,9 +20,9 @@
  7. 设置字体(font, manager, fontProperties, matplotlib, rc)
  8. 绘制多个折线，多plt.plot几次
  9. 添加图例 plt.legend(),图例来源于plt.plot()时label参数的值
- 10.plt.scatter(x, y) 
+ 10. plt.scatter(x, y) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc1NTQ4NTEsMTMzNDE4NjU2MCwtMT
-c4NTgyMTI2MV19
+eyJoaXN0b3J5IjpbMTY1NDY1ODk1NSwxMzM0MTg2NTYwLC0xNz
+g1ODIxMjYxXX0=
 -->
