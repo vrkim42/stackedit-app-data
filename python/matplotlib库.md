@@ -25,10 +25,9 @@
  12. plt.show()展示图片
  13. plt.hit()绘制直方图
  14. plt.bar()绘制竖着的条形图，plt.barh()绘制横着的条形图
- 15. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MTk1Mzk0NSwxNjU0NjU4OTU1LDEzMz
+eyJoaXN0b3J5IjpbLTQ2MDY2NDcyMSwxNjU0NjU4OTU1LDEzMz
 QxODY1NjAsLTE3ODU4MjEyNjFdfQ==
 -->
