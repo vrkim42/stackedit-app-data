@@ -81,7 +81,57 @@ let number: i32 = if condition { 5 } else { 6 }; //三目运行符，每个返�
 
 }
 ```
+
+
+### 循环的使用
+
+```rust
+fn loop_learning(){
+
+let mut i: i32 = 5;
+
+//first loop condition
+
+loop {
+
+println!("condition!"); // 一直执行直到ctrl + c停止
+
+i -= 1;
+
+if i == 0{
+
+break; //或者使用break自动停止
+
+}
+
+}
+
+//second loop condition 与cpp类似
+
+while i <5{
+
+println!("while!");
+
+i+=1;
+
+}
+
+//third loop condition 与cpp类似
+
+let a: [i32; 5] = [10, 20, 30, 40, 50];
+
+for element in a.iter(){
+
+println!("The value is : {}", element);
+
+}
+
+}
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1Mj
-Y0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzYyNDA1NDAwLDY1OTg0ODI5LC04ODUxMD
+Y5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3NDY2
+MTJdfQ==
 -->
