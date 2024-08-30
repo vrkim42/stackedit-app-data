@@ -22,8 +22,22 @@ println!("{}, {}, {}", x, y, z); //2
 ```
 
 ### 数组
+```rust
+//数据存放在stack(栈)上而不是heap(堆)上,分配在块上的内存
 
+let names: [&str; 4] = ["sss" , "rrr", "ss", "s"];// let var_name: [i32; 3]
+
+//let a = [3:5] = let a = [3,3,3,3,3] 及本声明过程：let 名字: [类型; 长度] = [值1,值2,值3,值4]
+
+let _first_name: &str = names[0];// 访问数组过程
+
+let index: [usize; 4] = [12, 13, 14, 15];
+
+let name: &str = names[index[1]]; //访问数组过程,超限编译时报错
+
+println!("{}", name);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
+Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
