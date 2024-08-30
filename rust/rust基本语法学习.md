@@ -21,7 +21,9 @@ println!("{}, {}, {}", tup.0, tup.1, tup.2); //输出方式一
 println!("{}, {}, {}", x, y, z); //2
 ```
 
+### 数组
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI0NDgzNjQsLTE0ODUxMTE3MjEsLT
+eyJoaXN0b3J5IjpbLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLT
 IwODg3NDY2MTJdfQ==
 -->
