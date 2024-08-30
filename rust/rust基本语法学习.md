@@ -130,9 +130,40 @@ println!("The value is : {}", element);
 ```
 
 ### stack 和 heap 的使用 -> 堆和栈
+*satck 按照值的接受顺序存储，按照相反的顺序将它们移除（后进先出， LIFO），添加数据叫做压入栈，移除数据叫做弹出栈
 
+*所有存储在stack上的数据必须拥有已知的固定的大小，编译时未知数据或者大小变化数据存储在heap上
+
+*heap的内存组织性差一些，当把数据放入heap，会请求一定数量的空间，操作系统在heap找到一块足够大的空间，标记为在用，返回一个指针，也就是地址
+
+*把值压到heap叫做分配，stack不是，指针是已知固定大小的，可以将指针存放在stack上，想要实际数据就要指针定位
+
+*数据压在stack比heap快得多，因为stack不需要寻找存储数据的空间，那个位置永远在stack的顶端，因此，访问也是stack快得多
+
+*在heap上分配空间需要找到一个足够大的空间来存放数据，然后要做好记录方便下次分配
+
+*对于现代的处理器来说，由于缓存的缘故，指令在内存跳转次数越少，速度越快，heap分配空间也要时间
+
+* 管理heap数据是所有权存在的原因，解决1.跟踪哪些代码使用heap数据，最小化heap的重复数据量，清理heap未使用的数据避免空间不足
+
+* 1.每个值都有一个变量，这个变量是该值的所有者
+
+* 2.每个值只有一个所有者
+
+* 3.当所有者超出作用域(scope)时，该值会被删除。scope就是变量的适用范围
+
+* 对于3:fn main(){
+
+					//s不可用
+
+					let s = 5;//s可用
+
+					//可以对s操作
+
+			}//s不可再用
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDM3NDg4Nyw3NjI0MDU0MDAsNjU5OD
+eyJoaXN0b3J5IjpbMTczNTg1MjM0NSw3NjI0MDU0MDAsNjU5OD
 Q4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcy
 MSwtMjA4ODc0NjYxMl19
 -->
