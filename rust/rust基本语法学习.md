@@ -41,12 +41,21 @@ println!("{}", name);
 ### 函数命名
 
 ```rust
+其中一种函数命名
 fn another_funnction(x:i32, y:&str){//参数必须表明类型
 
 println!("function!");
 
 }
+
+另外一种函数命名
+fn five(x:i32) -> i32 {
+
+x + 5
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjUwMDI1MTkzLC04ODUxMDY5OTEsLTE4NT
-I2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTMzNzQxODYsLTg4NTEwNjk5MSwtMT
+g1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
