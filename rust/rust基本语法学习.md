@@ -55,7 +55,33 @@ x + 5
 
 }
 ```
+
+### if的学习
+
+```
+fn if_learning(){
+
+let x: i32 = 3;
+
+if x < 4{ // 后面的条件必须是布尔类型
+
+println!("condition is true ");
+
+} else { //也有elseif之类的与cpp相同，多于一个elseif不如match
+
+println!("condition is false");
+
+}
+
+  
+
+let condition: bool = true;
+
+let number: i32 = if condition { 5 } else { 6 }; //三目运行符，每个返回的类型必须一样
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMzNzQxODYsLTg4NTEwNjk5MSwtMT
-g1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1Mj
+Y0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
