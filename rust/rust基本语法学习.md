@@ -144,7 +144,7 @@ println!("The value is : {}", element);
 
 *对于现代的处理器来说，由于缓存的缘故，指令在内存跳转次数越少，速度越快，heap分配空间也要时间
 
-* 管理heap数据是所有权存在的原因，解决1.跟踪哪些代码使用heap数据，最小化heap的重复数据量，清理heap未使用的数据避免空间不足
+* **管理heap数据是所有权存在的原因**，解决1.跟踪哪些代码使用heap数据，最小化heap的重复数据量，清理heap未使用的数据避免空间不足
 
 * 1.每个值都有一个变量，这个变量是该值的所有者
 
@@ -154,16 +154,16 @@ println!("The value is : {}", element);
 
 * 对于3:fn main(){
 
-					//s不可用
+//s不可用
 
-					let s = 5;//s可用
+let s = 5;//s可用
 
-					//可以对s操作
+//可以对s操作
 
-			}//s不可再用
+}//s不可再用
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNTg1MjM0NSw3NjI0MDU0MDAsNjU5OD
-Q4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcy
-MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNDMzMzQ5ODMzLDc2MjQwNTQwMCw2NTk4ND
+gyOSwtODg1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIx
+LC0yMDg4NzQ2NjEyXX0=
 -->
