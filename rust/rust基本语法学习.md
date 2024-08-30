@@ -25,7 +25,7 @@ println!("{}, {}, {}", x, y, z); //2
 ```rust
 //数据存放在stack(栈)上而不是heap(堆)上,分配在块上的内存
 
-let names: [&str; 4] = ["sss" , "rrr", "ss", "s"];// let var_name: [i32; 3]
+let names: [&str; 4] = ["sss" , "rrr ", "ss", "s"];// let var_name: [i32; 3]
 
 //let a = [3:5] = let a = [3,3,3,3,3] 及本声明过程：let 名字: [类型; 长度] = [值1,值2,值3,值4]
 
@@ -37,7 +37,16 @@ let name: &str = names[index[1]]; //访问数组过程,超限编译时报错
 
 println!("{}", name);
 ```
+
+### 函数命名
+
+```rust
+fn another_funnction(x:i32, y:&str){//参数必须表明类型
+
+println!("function!");
+
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
-Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjUwMDI1MTkzLC04ODUxMDY5OTEsLTE4NT
+I2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3NDY2MTJdfQ==
 -->
