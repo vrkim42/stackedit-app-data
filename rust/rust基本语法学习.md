@@ -129,9 +129,10 @@ println!("The value is : {}", element);
 }
 ```
 
+### stack 和 heap 的使用 -> 堆和栈
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYyNDA1NDAwLDY1OTg0ODI5LC04ODUxMD
-Y5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbLTUyMDM3NDg4Nyw3NjI0MDU0MDAsNjU5OD
+Q4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcy
+MSwtMjA4ODc0NjYxMl19
 -->
