@@ -239,9 +239,96 @@ mod back_of_house {
     }
 }
 ```
+
+### struct和impl，元组
+```rust
+#[derive(Debug)]
+struct Rectangle { //定义一个结构体类型
+    width: u32,
+    length: u32,
+}
+
+impl Rectangle { //根据结构体新建方法，跟着的是结构体名
+    fn area(&self) -> u32 { //借用原则,这里是一个函数
+        self.width * self.length
+    }
+    fn can_hold(&self, other:&Rectangle) -> bool { //此处判断结构体一能否容纳结构体二
+        self.width > other.width && self.length > other.length
+    }
+    fn square(size: u32) -> Rectangle {// 一个结构体允许多个impl块，即这个区域可以踢出去另起炉灶
+        Rectangle {
+            width: size,
+            length: size,
+        }
+    }
+}
+fn main() {
+    let s: Rectangle = Rectangle::square(20);
+            let rect1: Rectangle = Rectangle { //引用上面你的结构体生成对应结构
+                width: 30,
+                length: 50,
+            };
+            let rect2: Rectangle = Rectangle {
+                width: 10,
+                length: 40,
+            };
+            let rect3: Rectangle = Rectangle {
+                width: 50,
+                length: 70,
+            };
+            println!("{}", rect1.area());
+            println!("{}", rect1.can_hold(&rect2)); //使用rect1作为结构体使用can_hold方法导入rect2结构进行比较
+            println!("{}", rect1.can_hold(&rect3));
+            println!("{:#?}", rect1);// :?将代码展示出来，使用#进行格式优化，美化输出
+        }
+        fn area(rect: &Rectangle) -> u32 {
+            rect.width * rect.length //更直观的看出长和宽
+        }#[derive(Debug)]
+struct Rectangle { //定义一个结构体类型
+    width: u32,
+    length: u32,
+}
+
+impl Rectangle { //根据结构体新建方法，跟着的是结构体名
+    fn area(&self) -> u32 { //借用原则,这里是一个函数
+        self.width * self.length
+    }
+    fn can_hold(&self, other:&Rectangle) -> bool { //此处判断结构体一能否容纳结构体二
+        self.width > other.width && self.length > other.length
+    }
+    fn square(size: u32) -> Rectangle {// 一个结构体允许多个impl块，即这个区域可以踢出去另起炉灶
+        Rectangle {
+            width: size,
+            length: size,
+        }
+    }
+}
+fn main() {
+    let s: Rectangle = Rectangle::square(20);
+            let rect1: Rectangle = Rectangle { //引用上面你的结构体生成对应结构
+                width: 30,
+                length: 50,
+            };
+            let rect2: Rectangle = Rectangle {
+                width: 10,
+                length: 40,
+            };
+            let rect3: Rectangle = Rectangle {
+                width: 50,
+                length: 70,
+            };
+            println!("{}", rect1.area());
+            println!("{}", rect1.can_hold(&rect2)); //使用rect1作为结构体使用can_hold方法导入rect2结构进行比较
+            println!("{}", rect1.can_hold(&rect3));
+            println!("{:#?}", rect1);// :?将代码展示出来，使用#进行格式优化，美化输出
+        }
+        fn area(rect: &Rectangle) -> u32 {
+            rect.width * rect.length //更直观的看出长和宽
+        }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3Nj
-EwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4Mjks
-LTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTI5NjYxODY3NiwtMTI0MjMzNjc0NSwxMT
+ExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLDc2MjQwNTQw
+MCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQyOTQ1LC0xND
+g1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
 -->
