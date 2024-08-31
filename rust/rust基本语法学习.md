@@ -393,10 +393,39 @@ fn main(){
 ```
 
 ```rust
+enum Coin{
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
+}
+enum UsState {
+    Alaska,
+    kkk,
+    sss,
+}
+fn value_in_cents(coin: Coin) -> u8 {
+    match coin { // 挨个对应使用::进行绑定
+        Coin::Penny => {
+            println!("sss");
+            1
+        },// 可以使用块状结构
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter(state) => {
+            println!("State quarter from {:?}!", state);
+            25
+        }, // 进行模式化输出，可以使用参数
+    }
+}
 
+fn main(){
+    let c = Coin::Quarter(UsState::Alaska); //访问的模式
+    println!("{}", value_in_cents(c));
+} 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MDEzNDE3LC0xMjQyMzM2NzQ1LDExMT
-ExNjMzOTAsNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAw
-LDY1OTg0ODI5LC04ODUxMDY5OTEsLTE4NTI2NDI5NDUsLTE0OD
-UxMTE3MjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTgzNDUwNTM1NSwtMTI0MjMzNjc0NSwxMT
+ExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLDc2MjQwNTQw
+MCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQyOTQ1LC0xND
+g1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
 -->
