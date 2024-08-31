@@ -2,6 +2,7 @@
 
  - crate::front_of_house::hosting::add_to_waitlist(); // 绝对路径调用，从create作为根开始向下到下一级
  - front_of_house::hosting::add_to_waitlist();  //相对路径
+ - 通过路径进行访问，使得在该快下能使用其他模块的函数
 ```rust
 pub fn refresh() {
 fn front() {
@@ -239,7 +240,8 @@ mod back_of_house {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMTE2MzM5MCw3NjEwMzczMTQsLTczNj
-E3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwt
-MTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3Nj
+EwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4Mjks
+LTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMj
+A4ODc0NjYxMl19
 -->
