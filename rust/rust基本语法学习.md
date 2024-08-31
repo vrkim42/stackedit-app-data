@@ -450,33 +450,13 @@ fn main() {
     let five = Some(5);
     let six = plus_one(five); //可以用这种方式对some类型进行讨论
     let none = plus_one(None);
-}//rust中没有null的概念  防止使用非null值那样使用null时出现错误
-//但是null存在时有意义的，， -- Option<T> => Some(T),None本家null
-//可以使用Some(i8)对数据进行假设值，假设的值与i8不是同类型，不可直接进行计算，确定后可以将其转化为对应的值进行计算
-//// 避免了null的乱用
-// fn main(){
-//     let some_number = Some(5);
-//     let some_string = Some("s b");
-
-//     let abcent: Option<i32> = None;
-// }
-fn plus_one(x: Option<i8>) -> Option<i8> {
-    // rust的match必须穷举所有可能性，或者使用- => (),进行代替
-    match x { // 对于不同的x类型进行分类讨论
-        None => None,
-        Some(i) => Some(i + 1),
-    }
-}
-
-fn main() { 
-    let five = Some(5);
-    let six = plus_one(five); //可以用这种方式对some类型进行讨论
-    let none = plus_one(None);
 }
 ```
+
+### if let 模块对于一个细节进行处理
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTcxMjgzMywtMTI0MjMzNjc0NSwxMT
-ExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLDc2MjQwNTQw
-MCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQyOTQ1LC0xND
-g1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3MTc0MDMyNjYsLTEyNDIzMzY3NDUsMT
+ExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0
+MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
+Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
