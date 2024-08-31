@@ -453,9 +453,21 @@ fn main() {
 }
 ```
 
-### if let 模块对于一个细节进行处理
+### if let 模块对于一个细节进行布尔判断处理
+
+```rust
+//只针对一种匹配可以使用iflet模块，但是放弃了穷举的可能
+
+// if let Some(3) = v {
+//     println!("three");
+// } else {
+//     priintln!("others")
+// }  只对v等于三的情况进行处理
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc0MDMyNjYsLTEyNDIzMzY3NDUsMT
+eyJoaXN0b3J5IjpbLTEzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMT
 ExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0
 MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
 Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
