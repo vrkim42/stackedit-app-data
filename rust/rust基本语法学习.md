@@ -2,6 +2,49 @@
 
  - crate::front_of_house::hosting::add_to_waitlist(); // 绝对路径调用
  - front_of_house::hosting::add_to_waitlist();  //相对路径
+```rust
+pub fn refresh() {
+
+fn front() {
+
+fn clean() {
+
+super::clean_room(); // 调用父模块(第十二行)中的 clean_room 函数,上一级只能有一个函数才能用
+
+}
+
+}
+
+crate::front_of_house::hosting::add_to_waitlist(); // 绝对路径调用
+
+front_of_house::hosting::add_to_waitlist(); // 相对路径调用，前提是它们在同一级别
+
+}
+
+  
+
+fn clean_room() {} // 当前模块中的 clean_room 函数pub fn refresh() {
+
+fn front() {
+
+fn clean() {
+
+super::clean_room(); // 调用父模块(第十二行)中的 clean_room 函数,上一级只能有一个函数才能用
+
+}
+
+}
+
+crate::front_of_house::hosting::add_to_waitlist(); // 绝对路径调用
+
+front_of_house::hosting::add_to_waitlist(); // 相对路径调用，前提是它们在同一级别
+
+}
+
+  
+
+fn clean_room() {} // 当前模块中的 clean_room 函数
+```
 
 ### 数据类型
 
@@ -210,7 +253,7 @@ mod back_of_house {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyND
-A1NDAwLDY1OTg0ODI5LC04ODUxMDY5OTEsLTE4NTI2NDI5NDUs
-LTE0ODUxMTE3MjEsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMzIxMjM4MTU4LDc2MTAzNzMxNCwtNzM2MT
+czNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2OTkxLC0x
+ODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
 -->
