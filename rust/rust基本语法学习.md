@@ -369,9 +369,34 @@ fn main(){
 
 // }
 ```
+
+```rust
+enum Message {
+    Quit,
+    Move { x: i32, y: i32 },
+    Write(String),
+    ChangeColor(i32, i32, i32),
+}
+
+impl Message {//对于enum类型的枚举，我们也使用impl进行方法的定义
+    fn call(&self){}
+}
+
+fn main(){
+    let q = Message::Quit;
+    let m = Message::Move { x: 12, y: 24 };
+    let w = Message::Write(String::from("Hello"));
+    let c = Message::ChangeColor(0, 255, 255);
+
+    m.call();
+}
+```
+
+```rust
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY1MjM1MzcsLTEyNDIzMzY3NDUsMT
-ExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0
-MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
-Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzU0MDEzNDE3LC0xMjQyMzM2NzQ1LDExMT
+ExNjMzOTAsNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAw
+LDY1OTg0ODI5LC04ODUxMDY5OTEsLTE4NTI2NDI5NDUsLTE0OD
+UxMTE3MjEsLTIwODg3NDY2MTJdfQ==
 -->
