@@ -326,9 +326,52 @@ fn main() {
             rect.width * rect.length //更直观的看出长和宽
         }
 ```
+
+
+### 枚举
+```rust
+// 枚举的讲解学习
+// ip地址举例
+
+// 定义方法一:
+enum IpAddrKind {
+    V4,
+    V6,
+}
+struct IpAddr{
+    kind: IpAddrKind,
+    address: String,
+}
+// 定义方法二:
+// enum IpAddKind{
+//     V4(u8, u8, u8, u8),
+//     V6(String),
+// }这样做可以节省一个结构体，而且类型更清晰，每个变体可以拥有不同类型以及关联的数据量
+
+fn main(){
+    let home: IpAddr = IpAddr{
+        kind: IpAddrKind::V4,
+        address: String::from("127.0.0.1"),
+    };
+
+    let loopback: IpAddr = IpAddr {
+        kind: IpAddrKind::V6,// enum类型使用::进行相关的访问，而结构体使用.进行访问，相比于c.cpp,rust只有(*指针).方法的访问办法
+        address: String::from("::1"),
+    };
+    //let four: IpAddKind = IpAddKind::V4;
+    //let six: IpAddKind = IpAddKind::V6;
+
+    // route(four);
+    // route(six);
+    // route(IpAddKind::V6);
+}
+// fn route(ip_kind: IpAddKind){
+
+// }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjYxODY3NiwtMTI0MjMzNjc0NSwxMT
-ExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLDc2MjQwNTQw
-MCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQyOTQ1LC0xND
-g1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTIxMjY1MjM1MzcsLTEyNDIzMzY3NDUsMT
+ExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0
+MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
+Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
