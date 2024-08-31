@@ -187,30 +187,30 @@ println!("The value is : {}", element);
 // rust所有的条目一般都是私有的，除非标记，父级模块无法访问子模块的私有条目，子模块随便看祖辈的
 
 ```rsut
-mod front_of_house{
+// 公共结构体
+mod back_of_house {
+    pub struct Breakfast { //默认结构体也是私有的(所有条目)，所以要进行声明
+        pub toast:String, //即便是结构体里面的内容也是私有的，要进行公开
+        seasonal_fruit: String,
+    }
 
-pub mod hosting {
+    impl Breakfast { //针对上面的结构体构建的方法
+        pub fn summer(toast: &str) -> Breakfast {
+            Breakfast {
+                toast: String::from(toast),
+                seasonal_fruit: String::from("peaches"),
+            }
+        }
+    }
 
-pub fn add_to_waitlist(){}
-
-fn seat_at_table(){}
-
-}
-
-mod serving {
-
-fn take_order() {}
-
-fn serve_order() {}
-
-pub fn take_payment() {}
-
-}
-
+    pub enum Appetizer { //与结构体不同，枚举声明以后所有的都是公共的，不用再一个个加pub
+        Soup,
+        Salad,
+    }
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM5MDc3MDYsLTczNjE3Mzc4Miw3Nj
-I0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0
-NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyND
+A1NDAwLDY1OTg0ODI5LC04ODUxMDY5OTEsLTE4NTI2NDI5NDUs
+LTE0ODUxMTE3MjEsLTIwODg3NDY2MTJdfQ==
 -->
