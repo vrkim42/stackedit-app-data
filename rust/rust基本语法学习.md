@@ -178,8 +178,39 @@ println!("The value is : {}", element);
 * 当两个变量同时离开就会释放两次heap上的内存，出现bug，为了防止这个问题，第二个变量声明后第一个变量失效，除非深度克隆
 
 * 所有需要分配内存和资源的是浅层copy，例如&str,(i32,String),反例i32,(i32,i32),bool,char
+
+### pub, mod
+// 定义module来控制作用域和私有性
+
+// 在一个create中将代码进行分组，增加可读性，易于复用，控制项目私有性，public,private
+
+// rust所有的条目一般都是私有的，除非标记，父级模块无法访问子模块的私有条目，子模块随便看祖辈的
+
+```rsut
+mod front_of_house{
+
+pub mod hosting {
+
+pub fn add_to_waitlist(){}
+
+fn seat_at_table(){}
+
+}
+
+mod serving {
+
+fn take_order() {}
+
+fn serve_order() {}
+
+pub fn take_payment() {}
+
+}
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5OD
-Q4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcy
-MSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3ODM5MDc3MDYsLTczNjE3Mzc4Miw3Nj
+I0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0
+NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
