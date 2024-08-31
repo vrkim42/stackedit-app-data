@@ -465,10 +465,12 @@ fn main() {
 // }  只对v等于三的情况进行处理
 ```
 
+### use关键字
 
+use +路径  将相应的函数引入到该模块下，遵循私有制原则
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMT
-ExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0
-MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMT
-Q4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE5MDg3NDA1NTIsLTEzMjUzNzMzMDMsLT
+EyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3
+Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMT
+g1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
 -->
