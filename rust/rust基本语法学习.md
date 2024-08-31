@@ -461,7 +461,7 @@ fn main() {
 // if let Some(3) = v {
 //     println!("three");
 // } else {
-//     priintln!("others")
+//     println!("others")
 // }  只对v等于三的情况进行处理
 ```
 
@@ -470,7 +470,7 @@ fn main() {
 use +路径  将相应的函数引入到该模块下，遵循私有制原则
 `use std::collection::HashMap;`之类的方法调用hashmap到当前目录。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI3ODc2MjMsLTEzMjUzNzMzMDMsLT
+eyJoaXN0b3J5IjpbLTE2MTg3Njg4NzgsLTEzMjUzNzMzMDMsLT
 EyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3
 Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMT
 g1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
