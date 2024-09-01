@@ -487,8 +487,10 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 #### vector
 1. 创建新变量：let 名字:Vec<i32> = Vec::new(); 创建了一个`名字`变量
 2. 使用宏：let `名字` = vec![1,2,3]; 创建变量
+3. 添加元素 v.push(1); 无需声明类型
+4. vector离开作用域以后就会被qing'li
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkwMjg4NjMsLTE2MTg3Njg4NzgsLT
+eyJoaXN0b3J5IjpbLTE0NzY1Mjk0OTIsLTE2MTg3Njg4NzgsLT
 EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
 MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
 g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
