@@ -491,10 +491,68 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 4. vector离开作用域以后就会被清理掉，所含元素也一样
 5. 读取vector里的元素`let three: &i32 = &v[2]`将对应数值转移到`three`中，第二种方法我们可以使用`get`方法，`get`方法返回的是`option<T>`类型，所以我们可以使用`match`对其进行引用。
 6. 不可发生同时含有可变借用和不可变借用的情况，可以存在多个不可变借用，但是不能指向同一个数据，不可以存在多个可变借用，也不能同时存在可变借用和不可变借用。
+
+```rust
+
+
+#### string
+* rust将正确处理string类型数据作为所有rust程序的默认行为，程序员必须在处理utf-8数据上投入更多的精力
+
+* 字符串:可以将字符串作为字符的集合来处理
+
+* string类型是UTF-8编码的可变字符串
+
+* String类型是可变的，String类型的数据被存储在堆上
+
+* 通常说的字符串就是指String和&str类型
+
+* &str是字符串切片，它是一个指向内存中字符串的引用
+
+* 字符串切片是只读的，不能修改
+
+* 字符串切片是字符串字面量，它是一个不可变的字符串
+
+* rust有三种看待字符串的方式：字节,标量值,字形簇
+
+* 字节:字符串的字节表示，它是一个字节数组
+
+* 标量值:字符串的标量值表示，它是一个字符数组
+
+* 字形簇:字符串的字形簇表示，它是一个字形簇数组
+
+* 字形簇是一个用户可以阅读的字符，它可能由多个Unicode标量值组成
+
+* rust不允许对string进行索引操作，因为字符串是UTF-8编码的，索引操作可能会导致乱码//索引操作需要消耗一个常量时间O(1),而string无法保证这个时间复杂度
+
+```rust
+fn main() {
+
+let mut s = String::new(); //这是一个函数，它创建了一个新的空字符串
+
+s.push_str("hello"); //这是一个方法，它将字符串字面量添加到字符串的末尾
+
+s.push(' '); //这是一个方法，它将字符添加到字符串的末尾
+
+// 也可以使用+运算符来连接字符串
+
+let s1 = String::from("hello");
+
+let s2 = String::from("world");
+
+let s3 = s1 + &s2; // 注意 s1 被移动了，不能继续使用
+
+let s = &s2[0..2]; // 这是一个字符串切片，它是一个指向字符串的引用
+
+// 切割必须按照UTF-8编码的字符来切割,不能按照字节来切割,即按照字符边界进行切割
+
+format!("{} {}", s3, s2); // 注意 s2 是字符串切片，不是 String 类型，不能调用 push_str 方法
+
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwODgzMjE0LDE5NzY2MDI4MDEsLTE2MT
-g3Njg4NzgsLTEzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2
-MzM5MCw3NjEwMzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNj
-U5ODQ4MjksLTg4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTEx
-MTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTcwNDEwMTY5Myw2NjA4ODMyMTQsMTk3Nj
+YwMjgwMSwtMTYxODc2ODg3OCwtMTMyNTM3MzMwMywtMTI0MjMz
+Njc0NSwxMTExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLD
+c2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQy
+OTQ1LC0xNDg1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
 -->
