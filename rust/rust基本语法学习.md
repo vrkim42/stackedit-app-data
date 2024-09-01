@@ -700,15 +700,33 @@ println!("{}: {}", key, value);
 
 
 ### rust错误处理
+* rust大部分情况下都是安全的，但是也有不安全的情况，比如直接访问内存地址，或者调用不安全的函数
 
+* 不安全的rust代码需要使用unsafe关键字进行标记，并且不保证内存安全
+
+* panic!宏：当panic!宏被调用时，程序会立即停止执行，并开始 unwind，unwind过程中会释放所有分配的资源
+
+* unwrap()：unwrap()方法会返回Option或Result中的值，如果Option或Result是None或Err，则会调用panic!宏
+
+* 可恢复错误: Result<T, E>，E是错误类型，T是成功类型， 不可恢复错误: panic!宏
+
+* panic!宏执行时，程序会打印错误信息，然后停止执行，并开始 unwind，unwind过程中会释放所有分配的资源，清理调用栈，退出程序
+
+* 默认情况下，当panic发生，程序展开调用栈(工作量大)，沿着调用栈往回走，清理每个遇到的函数中的数据
+
+* 或者立即中止调用栈，不进行清理，直接停止程序，内存需要OS进行清理
+
+* 想要二进制文件更小，把设置从展开改为中止：在cargo.toml中适当的profile部分添加panic = 'abort'
+
+* panic可能出现在我们写的代码或者我们所依赖的代码中，可通过调用panic!的函数的回溯信息来定位引起问题的代码，通过设置RUST_BACKTRACE环境变量来查看回溯信息
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0ODI5MzEsLTE4NjM0NTY3MzQsMTU2NT
-gwNTAxMywtMTg3MTQyMzk3NSwxNDI4MjQwMTgxLDY2MDg4MzIx
-NCwxOTc2NjAyODAxLC0xNjE4NzY4ODc4LC0xMzI1MzczMzAzLC
-0xMjQyMzM2NzQ1LDExMTExNjMzOTAsNzYxMDM3MzE0LC03MzYx
-NzM3ODIsNzYyNDA1NDAwLDY1OTg0ODI5LC04ODUxMDY5OTEsLT
-E4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3NDY2MTJdfQ==
-
+eyJoaXN0b3J5IjpbLTI1NDI2MzIyMiw0NDQ4MjkzMSwtMTg2Mz
+Q1NjczNCwxNTY1ODA1MDEzLC0xODcxNDIzOTc1LDE0MjgyNDAx
+ODEsNjYwODgzMjE0LDE5NzY2MDI4MDEsLTE2MTg3Njg4NzgsLT
+EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
+MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
+g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
+ODc0NjYxMl19
 -->
