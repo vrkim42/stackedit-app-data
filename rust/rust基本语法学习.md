@@ -483,11 +483,11 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 3. 对于子模块（二级以下）时，需要新建目录，从目录下进行文件的引入。
 
 ### 集合
-
+常用的集合有三种：向量（Vector）、哈希映射（HashMap）和链表（LinkedList），string
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDkwNDQxLC0xNjE4NzY4ODc4LC0xMz
-I1MzczMzAzLC0xMjQyMzM2NzQ1LDExMTExNjMzOTAsNzYxMDM3
-MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAwLDY1OTg0ODI5LC04OD
-UxMDY5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTU1NDc0OTYyNSwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
