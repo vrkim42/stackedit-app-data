@@ -700,6 +700,7 @@ println!("{}: {}", key, value);
 
 
 ### rust错误处理
+
 * rust大部分情况下都是安全的，但是也有不安全的情况，比如直接访问内存地址，或者调用不安全的函数
 
 * 不安全的rust代码需要使用unsafe关键字进行标记，并且不保证内存安全
@@ -720,13 +721,21 @@ println!("{}: {}", key, value);
 
 * panic可能出现在我们写的代码或者我们所依赖的代码中，可通过调用panic!的函数的回溯信息来定位引起问题的代码，通过设置RUST_BACKTRACE环境变量来查看回溯信息
 
+```rust
+fn main() {
+
+panic!("crash and burn");
+
+}
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDI2MzIyMiw0NDQ4MjkzMSwtMTg2Mz
-Q1NjczNCwxNTY1ODA1MDEzLC0xODcxNDIzOTc1LDE0MjgyNDAx
-ODEsNjYwODgzMjE0LDE5NzY2MDI4MDEsLTE2MTg3Njg4NzgsLT
-EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
-MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
-g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbOTI0NjEwMjUzLDQ0NDgyOTMxLC0xODYzND
+U2NzM0LDE1NjU4MDUwMTMsLTE4NzE0MjM5NzUsMTQyODI0MDE4
+MSw2NjA4ODMyMTQsMTk3NjYwMjgwMSwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
