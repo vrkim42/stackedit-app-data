@@ -614,7 +614,7 @@ scores.insert(String::from("Blue"), 10);
 
 scores.insert(String::from("Yellow"), 50);
 
-// 使用update方法更新键值对
+// 使用update方法更新键值对  
 
 scores.update(String::from("Blue"), 25);
 
@@ -696,10 +696,10 @@ println!("{}: {}", key, value);
 ```rust
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE0MjM5NzUsMTQyODI0MDE4MSw2Nj
-A4ODMyMTQsMTk3NjYwMjgwMSwtMTYxODc2ODg3OCwtMTMyNTM3
-MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAzNzMxNC
-wtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2
-OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4NzQ2Nj
-EyXX0=
+eyJoaXN0b3J5IjpbMTc4Mzc4Mzk2MSwtMTg3MTQyMzk3NSwxND
+I4MjQwMTgxLDY2MDg4MzIxNCwxOTc2NjAyODAxLC0xNjE4NzY4
+ODc4LC0xMzI1MzczMzAzLC0xMjQyMzM2NzQ1LDExMTExNjMzOT
+AsNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAwLDY1OTg0
+ODI5LC04ODUxMDY5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3Mj
+EsLTIwODg3NDY2MTJdfQ==
 -->
