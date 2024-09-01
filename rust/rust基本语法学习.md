@@ -489,11 +489,11 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 2. 使用宏：let `名字` = vec![1,2,3]; 创建vector数组
 3. 添加元素 v.push(1); 无需声明类型
 4. vector离开作用域以后就会被清理掉，所含元素也一样
-5. 读取vector里的元素
+5. 读取vector里的元素`let three: &i32 = &v[2]`将对应数值转移到`three`中，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTkyNjY0NDEsLTE2MTg3Njg4NzgsLT
-EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
-MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
-g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTI3NDAyNzU5NCwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
