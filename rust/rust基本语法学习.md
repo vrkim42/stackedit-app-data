@@ -477,9 +477,10 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 3. 嵌套引用 ；use std::{cmp::Ordering, io}即相同路径{不同路径,}
 4. use std::*将所有std标准库下的所有函数进行引用
 
-### 
+### 模块化
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5MTIyNDIzLC0xNjE4NzY4ODc4LC0xMz
+eyJoaXN0b3J5IjpbNDcyNjU4NTM5LC0xNjE4NzY4ODc4LC0xMz
 I1MzczMzAzLC0xMjQyMzM2NzQ1LDExMTExNjMzOTAsNzYxMDM3
 MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAwLDY1OTg0ODI5LC04OD
 UxMDY5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3
