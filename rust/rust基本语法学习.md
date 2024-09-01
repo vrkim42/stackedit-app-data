@@ -614,7 +614,7 @@ scores.insert(String::from("Blue"), 10);
 
 scores.insert(String::from("Yellow"), 50);
 
-// 使用update方法更新键值对  
+// 使用update方法更新键值对  也可以重新定义一次更新
 
 scores.update(String::from("Blue"), 25);
 
@@ -696,7 +696,7 @@ println!("{}: {}", key, value);
 ```rust
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4Mzc4Mzk2MSwtMTg3MTQyMzk3NSwxND
+eyJoaXN0b3J5IjpbMTU2NTgwNTAxMywtMTg3MTQyMzk3NSwxND
 I4MjQwMTgxLDY2MDg4MzIxNCwxOTc2NjAyODAxLC0xNjE4NzY4
 ODc4LC0xMzI1MzczMzAzLC0xMjQyMzM2NzQ1LDExMTExNjMzOT
 AsNzYxMDM3MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAwLDY1OTg0
