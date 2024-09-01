@@ -485,11 +485,12 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 ### 集合
 常用的集合有三种：向量（Vector）、哈希映射（HashMap）和链表（LinkedList），string
 #### vector
-1. 创建新变量：let 名字:Vec<i32> = Vec::new(); 创建了一个
+1. 创建新变量：let 名字:Vec<i32> = Vec::new(); 创建了一个`名字`变量
+2. 使用宏：let `名字` = vec![1,2,3]; 创建变量
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzODI3NDY1MCwtMTYxODc2ODg3OCwtMT
-MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
-NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
-g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
-NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTExMjkwMjg4NjMsLTE2MTg3Njg4NzgsLT
+EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
+MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
+g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
+ODc0NjYxMl19
 -->
