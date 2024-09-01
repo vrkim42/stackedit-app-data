@@ -469,9 +469,15 @@ fn main() {
 
 use +路径  将相应的函数引入到该模块下，遵循私有制原则
 `use std::collection::HashMap;`之类的方法调用hashmap到当前目录。
+
+
+### 使用外部包
+1. 在toml文件中完成对包的引用，比如rand='0.5.5'
+2. 之后在主函数中use rand::Rng;进行
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg3Njg4NzgsLTEzMjUzNzMzMDMsLT
-EyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEwMzczMTQsLTczNjE3
-Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLTg4NTEwNjk5MSwtMT
-g1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTcyMzg5NjE5MiwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
