@@ -474,9 +474,12 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 ### 使用外部包
 1. 在toml文件中完成对包的引用，比如rand='0.5.5'
 2. 之后在主函数中use rand::Rng;进行引用
-3. 嵌套引用 ；use std::{cmp::
+3. 嵌套引用 ；use std::{cmp::Ordering, io}即相同路径{不同路径,}
+4. use std::*将所有std标准库下的所有函数进行引用
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODY3NzQ3NiwtMTYxODc2ODg3OCwtMT
+eyJoaXN0b3J5IjpbMTk4Mjc0ODE4MCwtMTYxODc2ODg3OCwtMT
 MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
 NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
 g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
