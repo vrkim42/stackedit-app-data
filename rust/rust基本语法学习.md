@@ -490,10 +490,11 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 3. 添加元素 v.push(1); 无需声明类型
 4. vector离开作用域以后就会被清理掉，所含元素也一样
 5. 读取vector里的元素`let three: &i32 = &v[2]`将对应数值转移到`three`中，第二种方法我们可以使用`get`方法，`get`方法返回的是`option<T>`类型，所以我们可以使用`match`对其进行引用。
+6. 不可发生同时含有可变借用和不可变借用的情况
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTg1MTQyNTQsLTE2MTg3Njg4NzgsLT
-EzMjUzNzMzMDMsLTEyNDIzMzY3NDUsMTExMTE2MzM5MCw3NjEw
-MzczMTQsLTczNjE3Mzc4Miw3NjI0MDU0MDAsNjU5ODQ4MjksLT
-g4NTEwNjk5MSwtMTg1MjY0Mjk0NSwtMTQ4NTExMTcyMSwtMjA4
-ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTk3NjYwMjgwMSwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
