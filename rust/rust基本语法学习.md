@@ -493,7 +493,46 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 6. 不可发生同时含有可变借用和不可变借用的情况，可以存在多个不可变借用，但是不能指向同一个数据，不可以存在多个可变借用，也不能同时存在可变借用和不可变借用。
 
 ```rust
+fn main() {
 
+// 常用的集合有三种：向量（Vector）、哈希映射（HashMap）和链表（LinkedList），string
+
+// 向量（Vector）
+
+// 向量是动态数组，可以存储多个值，并且这些值类型必须相同
+
+// 向量是可增长的，当向向量中添加元素时，如果向量没有足够的空间来存储新元素，向量会自动扩容
+
+// 向量是可变的，可以修改向量中的元素，但是不可发生同时含有可变借用和不可变借用的情况
+
+let v: Vec<i32> = Vec::new(); // 创建一个空的向量
+
+let v = vec![1, 2, 3]; // 创建一个包含三个元素的向量
+
+let mut v = Vec::new(); // 创建一个空的向量
+
+v.push(5); // 向向量中添加元素
+
+v.push(6);
+
+v.push(7);
+
+v.push(8);
+
+let third: &i32 = &v[2]; // 获取向量中的第三个元素 超出vector长度会恐慌
+
+let third: Option<&i32> = v.get(2); // 获取向量中的第三个元素，如果存在则返回Some(&i32)，否则返回None
+
+match v.get(2) { // 使用match匹配Option<&i32>类型 超出vector长度会返回None不会恐慌
+
+Some(third) => println!("The third element is {}", third),
+
+None => println!("There is no third element."),
+
+}
+
+}
+```
 
 #### string
 * rust将正确处理string类型数据作为所有rust程序的默认行为，程序员必须在处理utf-8数据上投入更多的精力
@@ -549,8 +588,12 @@ format!("{} {}", s3, s2); // 注意 s2 是字符串切片，不是 String 类型
 
 }
 ```
+
+#### HashMap
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDEwMTY5Myw2NjA4ODMyMTQsMTk3Nj
+eyJoaXN0b3J5IjpbMTQyODI0MDE4MSw2NjA4ODMyMTQsMTk3Nj
 YwMjgwMSwtMTYxODc2ODg3OCwtMTMyNTM3MzMwMywtMTI0MjMz
 Njc0NSwxMTExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLD
 c2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQy
