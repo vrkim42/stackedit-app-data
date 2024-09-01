@@ -478,11 +478,13 @@ use +路径  将相应的函数引入到该模块下，遵循私有制原则
 4. use std::*将所有std标准库下的所有函数进行引用
 
 ### 模块化
-
+1. 如果一个模块定义后面是分号，而不是代码块，rust会从模块的父路径下寻找同名文件作为模块的内容。
+2. 这时我们需要新建一个rust文件对该模块进行定义，定义的内容就是引入的内容
+3. 对于子模块（er'ji
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNjU4NTM5LC0xNjE4NzY4ODc4LC0xMz
-I1MzczMzAzLC0xMjQyMzM2NzQ1LDExMTExNjMzOTAsNzYxMDM3
-MzE0LC03MzYxNzM3ODIsNzYyNDA1NDAwLDY1OTg0ODI5LC04OD
-UxMDY5OTEsLTE4NTI2NDI5NDUsLTE0ODUxMTE3MjEsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTY4MzAzOTUzNSwtMTYxODc2ODg3OCwtMT
+MyNTM3MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAz
+NzMxNCwtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtOD
+g1MTA2OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4
+NzQ2NjEyXX0=
 -->
