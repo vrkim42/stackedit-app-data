@@ -591,11 +591,115 @@ format!("{} {}", s3, s2); // 注意 s2 是字符串切片，不是 String 类型
 
 #### HashMap
 
+* hashmap用键值对的形式存储数据，键值对在hashmap中是无序的，并且每个键都是唯一的
+
+* 数据存储在heap上
+
+* 所有的键和值都必须是同一类型
+
+```rust
+use std::collections::HashMap;
+
+  
+
+fn main() {
+
+// 创建一个空的hashmap
+
+let mut scores = HashMap::new();
+
+// 插入键值对
+
+scores.insert(String::from("Blue"), 10);
+
+scores.insert(String::from("Yellow"), 50);
+
+// 使用update方法更新键值对
+
+scores.update(String::from("Blue"), 25);
+
+  
+  
+
+let teams = vec![String::from("Blue"), String::from("Yellow")];
+
+let initial_scores = vec![10, 50];
+
+// 使用zip方法将两个向量合并成一个迭代器，然后使用collect方法将迭代器转换成hashmap
+
+let scores: HashMap<_, _> = teams.iter().zip(initial_scores.iter()).collect();
+
+// colect方法会根据迭代器的元素类型推断出hashmap的键和值的类型，所以不需要显式地指定类型
+
+  
+  
+
+let field_name = String::from("Favorite color");
+
+let field_value = String::from("Blue");
+
+let mut map = HashMap::new();
+
+// 使用entry方法插入键值对
+
+map.insert(field_name, field_value);
+
+// entry方法返回一个Entry对象，可以使用or_insert方法插入键值对
+
+map.entry(String::from("Favorite color")).or_insert(String::from("Blue"));
+
+// 如果键已经存在，or_insert方法不会覆盖原来的值
+
+map.entry(String::from("Favorite food")).or_insert(String::from("Pizza"));
+
+println!("{:?}", map);
+
+  
+  
+
+// 使用get方法获取键对应的值
+
+let mut scores = HashMap::new();
+
+scores.insert(String::from("Blue"), 10);
+
+scores.insert(String::from("Yellow"), 50);
+
+let team_name = String::from("Blue");
+
+let score = scores.get(&team_name);
+
+  
+
+match score {
+
+Some(s) => println!("The score of {} is {}", team_name, s),
+
+None => println!("{} is not in the scores map", team_name),
+
+};
+
+  
+  
+
+// 使用for循环遍历hashmap
+
+for (key, value) in &scores {
+
+println!("{}: {}", key, value);
+
+}
+
+}
+```
+
+```rust
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODI0MDE4MSw2NjA4ODMyMTQsMTk3Nj
-YwMjgwMSwtMTYxODc2ODg3OCwtMTMyNTM3MzMwMywtMTI0MjMz
-Njc0NSwxMTExMTYzMzkwLDc2MTAzNzMxNCwtNzM2MTczNzgyLD
-c2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2OTkxLC0xODUyNjQy
-OTQ1LC0xNDg1MTExNzIxLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE4NzE0MjM5NzUsMTQyODI0MDE4MSw2Nj
+A4ODMyMTQsMTk3NjYwMjgwMSwtMTYxODc2ODg3OCwtMTMyNTM3
+MzMwMywtMTI0MjMzNjc0NSwxMTExMTYzMzkwLDc2MTAzNzMxNC
+wtNzM2MTczNzgyLDc2MjQwNTQwMCw2NTk4NDgyOSwtODg1MTA2
+OTkxLC0xODUyNjQyOTQ1LC0xNDg1MTExNzIxLC0yMDg4NzQ2Nj
+EyXX0=
 -->
