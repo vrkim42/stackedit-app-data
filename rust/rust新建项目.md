@@ -43,7 +43,9 @@ cargo run，编译代码 + 执行结果
 为发布创建
 cargo build --release编译时会进行优化，运行更快但是编译时间更长，会在target/release创建可执行文件（与开发时的配置不同）
 
+#### 消除重复代码
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzA0NTI4Ml19
+eyJoaXN0b3J5IjpbLTE2Njk0OTg2OTYsLTQzNzA0NTI4Ml19
 -->
