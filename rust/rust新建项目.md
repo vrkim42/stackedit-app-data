@@ -45,9 +45,9 @@ cargo build --release编译时会进行优化，运行更快但是编译时间�
 
 #### 消除重复代码
 * 识别重复代码
-* 提取重复代码到函数中
-* 将重复代码shiyong
+* 提取重复代码到函数中，并在函数中指定函数的输入和返回值
+* 将重复代码使用函数调用进行替换
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjYwOTk1NTAsLTQzNzA0NTI4Ml19
+eyJoaXN0b3J5IjpbMjAyODMzNzM2MiwtNDM3MDQ1MjgyXX0=
 -->
