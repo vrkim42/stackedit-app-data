@@ -1,3 +1,5 @@
+# 对于`_`类
+
 ```python
 class Queue:
   def __init__(self, contents):
@@ -62,6 +64,65 @@ def __repr__(self):
 
 这段代码展示了如何使用类的封装来提供一个简单的抽象（队列），同时也展示了 Python 的灵活性和封装的不完全强制性。
 
+# 对于`__`类
+```python
+class Spam:
+  __egg = 7
+  def print_egg(self):
+    print(self.__egg)
+ 
+s = Spam()
+s.print_egg()
+print(s._Spam__egg)
+print(s.__egg)class Spam:
+  __egg = 7
+  def print_egg(self):
+    print(self.__egg)
+ 
+s = Spam()
+s.print_egg()
+print(s._Spam__egg)
+print(s.__egg)
+```
+<br>
+<hr>
+
+让我们一步步分析这个代码，特别是其中的“封装”和“私有属性”机制：
+
+### 1. **私有属性 `__egg`**
+```python
+class Spam:
+  __egg = 7
+  def print_egg(self):
+    print(self.__egg)
+```
+- `__egg` 前面用了双下划线（`__`），这是 Python 中的一种私有属性的约定。Python 会自动对这种双下划线开头的属性进行“**名称改写（name mangling）**”，将属性名修改为 `_类名__属性名`。这样可以避免外部直接访问私有属性，从而实现一种更强的封装机制。
+
+### 2. **调用 `print_egg()` 方法**
+```python
+s = Spam()
+s.print_egg()  # 输出 7
+```
+- `print_egg()` 方法可以访问类中的私有属性 `__egg`，因为它在类的内部。输出结果会是 `7`。
+
+### 3. **通过名称改写访问私有属性**
+```python
+print(s._Spam__egg)  # 输出 7
+```
+- 虽然 `__egg` 是私有的，但你可以通过 Python 的名称改写机制直接访问它。名称改写的规则是将 `__egg` 改成 `_Spam__egg`。所以，`s._Spam__egg` 能正确访问这个私有属性，输出结果为 `7`。
+  
+### 4. **尝试直接访问 `__egg`**
+```python
+print(s.__egg)  # 报错：AttributeError
+```
+- 这行代码试图直接访问 `s.__egg`，但因为 Python 对其进行了名称改写，类外部无法直接访问原始的 `__egg` 名称。所以会引发一个 `AttributeError`，提示找不到这个属性。
+
+### 总结
+- **双下划线（`__`）前缀**：这种写法会触发 Python 的名称改写机制，实际上是将属性改成 `_类名__属性名`，从而隐藏属性，防止直接访问。
+- **访问方式**：类内可以直接访问私有属性，但类外需要通过改写后的名称访问（如 `_Spam__egg`）。
+- **限制**：虽然名称改写增加了访问的难度，但它并不是一种绝对的保护机制（不像 C++ 或 Java 的 `private` 修饰符那样严格）。如果你知道改写规则，仍然可以通过 `_Spam__egg` 这种方式访问到私有属性。
+
+所以，这种封装机制主要是为了避免意外访问和修改，而不是为了绝对禁止。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzODkxMjRdfQ==
+eyJoaXN0b3J5IjpbMzU0NDEyNzI3LDMxMzg5MTI0XX0=
 -->
