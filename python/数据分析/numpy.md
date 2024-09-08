@@ -25,7 +25,7 @@ numpy 的数值类型实际上是 dtype 对象的实例，并对应唯一的字�
 
 dtype 对象是使用以下语法构造的：
 
-numpy.dtype(object, align, copy)
+`numpy.dtype(object, align, copy)`
 
 object - 要转换为的数据类型对象
 
@@ -35,5 +35,5 @@ copy - 复制 dtype 对象 ，如果为 false，则是对内置数据类型对�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTUxNTgzNV19
+eyJoaXN0b3J5IjpbODQ0MDE1MDg1XX0=
 -->
