@@ -1,16 +1,20 @@
 ```
-def is_even(x):
- 	if x == 0:
- 		return True
- 	else:
-	    return is_odd(x-1)
- 
-def is_odd(x):
-	return not is_even(x)
- 
-print(is_odd(17)) # the final output is True
-print(is_even(23))  # the final output is False
-``````````
+file = open("newfile.txt", "r")
+print("初始化读写内容")
+print(file.read())
+print("完成")
+file.close()
+ 
+file = open("newfile.txt", "w")
+file.write("新的内容")
+file.close()
+ 
+file = open("newfile.txt", "r")
+print("写入新的内容")
+print(file.read())
+print("结束")
+file.close()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI5NTg4OTZdfQ==
+eyJoaXN0b3J5IjpbLTExODI4NTk3NThdfQ==
 -->
