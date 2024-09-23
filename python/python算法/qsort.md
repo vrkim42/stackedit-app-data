@@ -1,4 +1,6 @@
 ### qsort
+
+	quicksort
 ```python
 def qsort(array):
 	if len(array) < 2:
@@ -12,5 +14,5 @@ def qsort(array):
 print(qsort([10, 3, 4, 5]))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjcwOTEwMV19
+eyJoaXN0b3J5IjpbLTEzODI5NzE2NTRdfQ==
 -->
