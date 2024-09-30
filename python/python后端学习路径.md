@@ -61,7 +61,7 @@
 
 #### 6.2 学习调试工具
 - [ ] 学习 pdb（Python Debugger）基础
-- [ ] 学习 IDE 调试工具（如 PyCharm 调试器）
+- [x] 学习 IDE 调试工具（如 PyCharm 调试器）
 
 ### 7. 部署和运维
 
@@ -107,5 +107,5 @@
 
 通过这条学习路线，你可以系统地掌握 Python 后端开发的知识和技能，并能够实际应用
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MzkyMTc5XX0=
+eyJoaXN0b3J5IjpbLTEwNTA2ODIzNDEsNDg2MzkyMTc5XX0=
 -->
