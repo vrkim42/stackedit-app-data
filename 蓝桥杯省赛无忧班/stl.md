@@ -76,10 +76,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 13. `swap` 交换两个集合
 14. `set<int, greater<int>> mySet;`
 
-### multiset多重集合
-1. 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzU4ODg5OCw2NjI5MDY1NzksNjM2Nz
-Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
+### multiset多重集合(允许存在重复元素的set)
+1. 与上方一致
 
+### unordered_set
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2NDU2MjA3MDgsNjYyOTA2NTc5LDYzNj
+c2NDcyNiw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjld
+fQ==
 -->
