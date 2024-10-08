@@ -16,13 +16,13 @@
 #### cin 和 cout
 当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数，而是单单输出哪个你输入的整数
 除非 `cout << fixed <<setprecision(3) << a << " ";`，这样的话会为你转化出一个三位小数的输出结果。
-
+cin也是遇到空格或者回车时停止输入，对此我们可以使用getline(cin, s)的方法读取一行数据
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NT
-AxMDY5XX0=
+eyJoaXN0b3J5IjpbLTE2MTc3MDcwMzUsNjgyNDU5MjEzLDExMj
+YwODkzMzQsNTg4NTAxMDY5XX0=
 -->
