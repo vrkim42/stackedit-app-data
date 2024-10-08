@@ -17,6 +17,7 @@
 当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数，而是单单输出哪个你输入的整数
 除非 `cout << fixed <<setprecision(3) << a << " ";`，这样的话会为你转化出一个三位小数的输出结果。
 cin也是遇到空格或者回车时停止输入，对此我们可以使用getline(cin, s)的方法读取一行数据
+输出时，可以使用cout << a << " \n"
 
 ### 取消同步流
 `ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)`
@@ -41,6 +42,6 @@ sort(起始地址，终止地址下一位， *排序方式)
 ### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM2NzY0NzI2LDY4MjQ1OTIxMywxMTI2MD
-g5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbOTA4MTkzODk4LDYzNjc2NDcyNiw2ODI0NT
+kyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
