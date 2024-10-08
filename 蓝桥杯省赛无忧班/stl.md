@@ -28,12 +28,13 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 ### tolower()/toupper()函数
 将字符进行大小写转换，不会转换其他字符和空格
 
-### lowerbound
+### lower_bound()/upper_bound()函数
+返回第一个大于目标数的位置或者第一个小于目标数的位置，shiyong
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMjQ2NjEwLDY4MjQ1OTIxMywxMTI2MD
-g5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbMTI0NzUzOTQ3NCw2ODI0NTkyMTMsMTEyNj
+A4OTMzNCw1ODg1MDEwNjldfQ==
 -->
