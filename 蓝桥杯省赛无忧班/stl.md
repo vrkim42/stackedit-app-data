@@ -114,9 +114,9 @@ priority_queue<int, vector<int>, greater<int>> 声明
 
 ### pair
 `pair<int, int> p1 = {1, 2}`
-使用p1.first检查
+使用p1.first检查第一个元素，p1.second检查第二个元素
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjc2MjIzOCwxMTgxNTU2ODM1LDE3NT
+eyJoaXN0b3J5IjpbLTQ1NDMzMDA0NCwxMTgxNTU2ODM1LDE3NT
 c5MTY1NTUsLTM0NzQ1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2
 LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 -->
