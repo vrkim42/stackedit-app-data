@@ -34,9 +34,13 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 
 ### sort函数的使用
 sort(起始地址，终止地址下一位， *排序方式)
+`sort(v.begin()，v.end(),[](const int &u,const int &v){return u>v} `
+这里使用[]进行匿名函数声明，也可以使用自定义函数，方法类似
 
+
+### 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTY1MjYzNyw2ODI0NTkyMTMsMTEyNj
-A4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbNjM2NzY0NzI2LDY4MjQ1OTIxMywxMTI2MD
+g5MzM0LDU4ODUwMTA2OV19
 -->
