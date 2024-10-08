@@ -29,12 +29,12 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 将字符进行大小写转换，不会转换其他字符和空格
 
 ### lower_bound()/upper_bound()函数
-返回第一个大于目标数的位置或者第一个小于目标数的位置，shiyong
+返回第一个大于目标数的位置或者第一个小于目标数的地址（一般要减去开始位置得到索引），使用方法是lower_bound(起始位置，终止位置，目标数)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NzUzOTQ3NCw2ODI0NTkyMTMsMTEyNj
-A4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbLTEzMDYwMjY5NDQsNjgyNDU5MjEzLDExMj
+YwODkzMzQsNTg4NTAxMDY5XX0=
 -->
