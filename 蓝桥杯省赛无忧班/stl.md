@@ -11,8 +11,11 @@
 #### scanf 和 printf
 读取 a:b
 `scanf("%c:%c", &a, &b);`
+使用%s进行读取时遇到*空格*或者*回车*，读取会**停止**。
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTA1Njg4NCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
