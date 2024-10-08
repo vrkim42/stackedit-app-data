@@ -65,9 +65,13 @@ sort(起始地址，终止地址下一位， *排序方式)
 2. `erase()` 移除
 3. `find()` 查找
 4. `lower_bound` 返回第一个不小于目标数的迭代器
-5. `upper_boun
+5. `upper_bound`第一个大于给定值迭代器
+6. `size` 元素个数
+7. `empty` 判断是否为空
+8. `clear` 清空
+9. begin
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjQwODgxOCw2NjI5MDY1NzksNjM2Nz
-Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
-
+eyJoaXN0b3J5IjpbLTE3NzMyNzkzMzgsNjYyOTA2NTc5LDYzNj
+c2NDcyNiw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjld
+fQ==
 -->
