@@ -74,9 +74,22 @@ sort(起始地址，终止地址下一位， *排序方式)
 1. insert, erase, find, size
 2. count 某元素出现的次数
 
-### 
+### stack（先入先出）
+1. push(x) 栈顶插入元素x
+2. pop() 弹出栈顶元素
+3. top() 返回栈顶元素
+4. empty() 检查栈是否为空
+5. size() 返回栈中元素个数   
+6. `stack<int> myStack`初始化
+7. `myStack.empty()` 检查是否为空
+8. `myStack.size()` 栈的大小
+
+### queue
+1. push(x) 队尾插入元素x
+2. pop() 弹出队首元素
+3. front() 返回
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDg5Njc4NCwxNzU3OTE2NTU1LC0zND
-c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
-MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbOTc5NDcxNjE2LDE3NTc5MTY1NTUsLTM0Nz
+Q1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2LDY4MjQ1OTIxMywx
+MTI2MDg5MzM0LDU4ODUwMTA2OV19
 -->
