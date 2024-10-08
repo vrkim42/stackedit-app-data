@@ -6,9 +6,13 @@
 - [ ] **提取字符串**使用substr函数，返回提取到的字符串，.subStr(开始位置，长度)开始位置从0开始
 - [ ] **字符串比较大小**使用compare函数,str1.compare(str2)返回一个数，是0相等，小于0 则str1小于str2，大于0 则str1大于str2。
 
+### 输入和输出
 
+#### scanf 和 printf
+读取 a:b
+`scanf("%c:%c", &a, &b);`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxOTcxNDk4NCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbMTY1OTA1Njg4NCw1ODg1MDEwNjldfQ==
 -->
