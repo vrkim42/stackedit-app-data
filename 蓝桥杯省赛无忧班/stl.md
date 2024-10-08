@@ -50,16 +50,6 @@ sort(起始地址，终止地址下一位， *排序方式)
 8. `numbers.clear()`清空向量
 9. `numbers.size()`向量大小
 
-### stack（先入先出）
-1. push(x) 栈顶插入元素x
-2. pop() 弹出栈顶元素
-3. top() 返回栈顶元素
-4. empty() 检查栈是否为空
-5. size() 返回栈中元素个数   
-6. `stack<int> myStack`初始化
-7. `myStack.empty()` 检查是否为空
-8. `myStack.size()` 栈的大小
-
 ### set容器 （不允许重复，默认升序排序）
 1. `insert()` 插入
 2. `erase()` 移除
@@ -86,7 +76,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjg1NzU3NCwxNzU3OTE2NTU1LC0zND
+eyJoaXN0b3J5IjpbLTQ5MDg5Njc4NCwxNzU3OTE2NTU1LC0zND
 c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
 MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
