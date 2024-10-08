@@ -13,9 +13,10 @@
 `scanf("%c:%c", &a, &b);`
 使用%s进行读取时遇到*空格*或者*回车*，读取会**停止**。
 
-
+当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbLTE4NjA4MzIxNDUsMTEyNjA4OTMzNCw1OD
+g1MDEwNjldfQ==
 -->
