@@ -69,9 +69,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 6. `size` 元素个数
 7. `empty` 判断是否为空
 8. `clear` 清空
-9. begin
+9. `begin` 返回起始位置迭代器
+10. `end` 末端迭代器
+11. `rbegin` 返回指向集合末尾位置的逆向迭代器
+12. `rae
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzMyNzkzMzgsNjYyOTA2NTc5LDYzNj
-c2NDcyNiw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjld
-fQ==
+eyJoaXN0b3J5IjpbMTcxOTI2MjI1MCw2NjI5MDY1NzksNjM2Nz
+Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
+
 -->
