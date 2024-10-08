@@ -76,7 +76,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### stack（先入后出）
 1. push(x) 栈顶插入元素x  #
-2. pop() 弹出栈顶元素  
+2. pop() 弹出栈顶元素  #
 3. top() 返回栈顶元素
 4. empty() 检查栈是否为空  #
 5. size() 返回栈中元素个数    #
@@ -92,8 +92,11 @@ sort(起始地址，终止地址下一位， *排序方式)
 5. empty() 检查队列是否为空  #
 6. size() 返回队列中元素的个数  #
 
+### priority_queue（优先队列，自带排序）
+1. push(x) 将元素插入到优先队列中
+2. pop() 弹出
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTMyNTcxMiwxNzU3OTE2NTU1LC0zND
+eyJoaXN0b3J5IjpbLTc4NTMyMTE4MiwxNzU3OTE2NTU1LC0zND
 c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
 MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
