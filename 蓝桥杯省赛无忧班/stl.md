@@ -72,9 +72,13 @@ sort(起始地址，终止地址下一位， *排序方式)
 9. `begin` 返回起始位置迭代器
 10. `end` 末端迭代器
 11. `rbegin` 返回指向集合末尾位置的逆向迭代器
-12. `rae
+12. `rend` 返回指向初始位置的逆向迭代器
+13. `swap` 交换两个集合
+14. 
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTI2MjI1MCw2NjI5MDY1NzksNjM2Nz
-Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbMjQzOTIyMTk2LDY2MjkwNjU3OSw2MzY3Nj
+Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
 
 -->
