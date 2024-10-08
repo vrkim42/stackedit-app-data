@@ -110,9 +110,13 @@ priority_queue<int, vector<int>, greater<int>> 声明
 7. empty() 检查空
 8. size() 返回大小
 9. clear() 清空内容
-10. insert, 
+10. insert, erase 
+
+### pair
+`pair<int, int> p1 = {1, 2}`
+使用p1.first检查
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Mzg3MDIzOSwxMTgxNTU2ODM1LDE3NT
+eyJoaXN0b3J5IjpbMTcwMjc2MjIzOCwxMTgxNTU2ODM1LDE3NT
 c5MTY1NTUsLTM0NzQ1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2
 LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 -->
