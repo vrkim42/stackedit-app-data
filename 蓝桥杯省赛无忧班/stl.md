@@ -13,10 +13,14 @@
 `scanf("%c:%c", &a, &b);`
 使用%s进行读取时遇到*空格*或者*回车*，读取会**停止**。
 
-当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数
+#### cin 和 cout
+当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数，而是单单输出哪个你输入的整数
+除非 `cout << fix
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA4MzIxNDUsMTEyNjA4OTMzNCw1OD
-g1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbLTE4OTA1ODA0MCwxMTI2MDg5MzM0LDU4OD
+UwMTA2OV19
 -->
