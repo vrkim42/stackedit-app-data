@@ -20,12 +20,17 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 
 ### 取消同步流
 `ios::sync_with_stdio(0),cin.tie(0),cout.tie(0)`
-加速cpp的shuru
+加速cpp的输入和输出到和c一致
+
+### islower()/isupper()函数
+返回一个布尔值，是返回true
+
+### 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMDc0MjU1Niw2ODI0NTkyMTMsMTEyNj
+eyJoaXN0b3J5IjpbMTg5NTY0NDEyNiw2ODI0NTkyMTMsMTEyNj
 A4OTMzNCw1ODg1MDEwNjldfQ==
 -->
