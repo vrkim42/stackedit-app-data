@@ -55,9 +55,11 @@ sort(起始地址，终止地址下一位， *排序方式)
 2. pop() 弹出栈顶元素
 3. top() 返回栈顶元素
 4. empty() 检查栈是否为空
-5. size   
+5. size() 返回栈中元素个数   
+6. `stack<int> myStack`初始化
+7.`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTYwNTEwNyw2NjI5MDY1NzksNjM2Nz
+eyJoaXN0b3J5IjpbLTU3ODI3NjMyNCw2NjI5MDY1NzksNjM2Nz
 Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 
 -->
