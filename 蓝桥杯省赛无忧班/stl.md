@@ -39,7 +39,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 这里使用[]进行匿名函数声明，也可以使用自定义函数，方法类似
 
 
-### vector向量
+### vector向量（动态数组，可扩列）
 1. `std::vector<int> numbers;`创建vector对象
 2. `push_back`添加元素
 3. `for(const auto& number in numbers)`打印元素
@@ -60,9 +60,10 @@ sort(起始地址，终止地址下一位， *排序方式)
 7. `myStack.empty()` 检查是否为空
 8. `myStack.size()` 栈的大小
 
-### set容器 （）
+### set容器 （不允许重复，排序）
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE5MTIwNzY5LDY2MjkwNjU3OSw2MzY3Nj
-Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
-
+eyJoaXN0b3J5IjpbLTE2NDk2MzQ0NzAsNjYyOTA2NTc5LDYzNj
+c2NDcyNiw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjld
+fQ==
 -->
