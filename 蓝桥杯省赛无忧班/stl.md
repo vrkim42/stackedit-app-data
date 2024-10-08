@@ -33,10 +33,10 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 返回第一个大于目标数的位置或者第一个小于目标数的地址（一般要减去开始位置得到索引），使用方法是lower_bound(起始位置，终止位置，目标数)
 
 ### sort函数的使用
-
+sort(起始地址，终止地址下一位， *排序方式)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODU5NDI1LDY4MjQ1OTIxMywxMTI2MD
-g5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbMTQxNTY1MjYzNyw2ODI0NTkyMTMsMTEyNj
+A4OTMzNCw1ODg1MDEwNjldfQ==
 -->
