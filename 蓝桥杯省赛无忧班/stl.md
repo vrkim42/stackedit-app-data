@@ -84,12 +84,16 @@ sort(起始地址，终止地址下一位， *排序方式)
 7. `myStack.empty()` 检查是否为空
 8. `myStack.size()` 栈的大小
 
-### queue
+### queue（）
 1. push(x) 队尾插入元素x
 2. pop() 弹出队首元素
-3. front() 返回
+3. front() 返回队首元素
+4. back() 返回队尾元素
+5. empty() 检查队列是否为空
+6. size() 返回队列中元素的个数
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5NDcxNjE2LDE3NTc5MTY1NTUsLTM0Nz
-Q1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2LDY4MjQ1OTIxMywx
-MTI2MDg5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbMTA3ODU0OTU5NiwxNzU3OTE2NTU1LC0zND
+c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
+MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
