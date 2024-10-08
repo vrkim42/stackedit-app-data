@@ -63,7 +63,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 ### set容器 （不允许重复，默认升序排序）
 1. `insert()` 插入
 2. `erase()` 移除
-3. `find()` 查找
+3. `find()` 查找,返回迭代器，!= set的end()就算找到了
 4. `lower_bound` 返回第一个不小于目标数的迭代器
 5. `upper_bound`第一个大于给定值迭代器
 6. `size` 元素个数
@@ -85,7 +85,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzQ1NTQyMSw2NjI5MDY1NzksNjM2Nz
-Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
-
+eyJoaXN0b3J5IjpbMTc1NzkxNjU1NSwtMzQ3NDU1NDIxLDY2Mj
+kwNjU3OSw2MzY3NjQ3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQs
+NTg4NTAxMDY5XX0=
 -->
