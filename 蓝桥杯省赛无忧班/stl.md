@@ -47,9 +47,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 5. `numbers.erase(unique(numbers.begin(),numbers.end()),numbers.end());`去除重复元素
 6. `numbers.insert(numbers.begin()+2, 3)`插入元素
 7. `numbers.empty()`判断是否为空
-8. `nu
+8. `numbers.clear()`清空向量
+9. `numbers.size()`向量大小
+
+###    
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODk1MjI1NzcsNjYyOTA2NTc5LDYzNj
-c2NDcyNiw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjld
-fQ==
+eyJoaXN0b3J5IjpbNTk0OTIxODk1LDY2MjkwNjU3OSw2MzY3Nj
+Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
+
 -->
