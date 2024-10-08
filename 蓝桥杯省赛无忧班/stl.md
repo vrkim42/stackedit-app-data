@@ -100,8 +100,14 @@ sort(起始地址，终止地址下一位， *排序方式)
 5. size 返回元素个数
 priority_queue<int, vector<int>, greater<int>> 声明
 
+### deque
+1. push_back(x) 尾插x
+2. push_front(x) 手插x
+3. pop_back() 弹出尾部元素
+4. pop_front() 弹出手部元素
+5. front
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTAwMDE2NjcsMTE4MTU1NjgzNSwxNz
-U3OTE2NTU1LC0zNDc0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcy
-Niw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbMTYzMTA4MTk3MiwxMTgxNTU2ODM1LDE3NT
+c5MTY1NTUsLTM0NzQ1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2
+LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 -->
