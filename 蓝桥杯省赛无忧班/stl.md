@@ -43,10 +43,10 @@ sort(起始地址，终止地址下一位， *排序方式)
 1. `std::vector<int> numbers;`创建vector对象
 2. `push_back`添加元素
 3. `for(const auto& number in numbers)`打印元素
-4. 
-
+4. `sort(numbers.begin(), numbers.end())`排序
+5. `numbers.erase(unique(numbers.begin()))
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc2MzM0LDY2MjkwNjU3OSw2MzY3Nj
+eyJoaXN0b3J5IjpbLTc2MzU4OTA0LDY2MjkwNjU3OSw2MzY3Nj
 Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
 
 -->
