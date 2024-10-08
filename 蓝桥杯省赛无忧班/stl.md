@@ -78,6 +78,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### multiset多重集合(允许存在重复元素的set)
 1. 与上方一致
+2. erase(value)之后会删除所有这个值的元素，可以使用set.st.erase(st.set.find(2))删除其中一个
 
 ### unordered_set 无序集合
 1. insert, erase, find, size
@@ -85,7 +86,7 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzkxNjU1NSwtMzQ3NDU1NDIxLDY2Mj
-kwNjU3OSw2MzY3NjQ3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQs
-NTg4NTAxMDY5XX0=
+eyJoaXN0b3J5IjpbMTcwNjg1NzU3NCwxNzU3OTE2NTU1LC0zND
+c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
+MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
