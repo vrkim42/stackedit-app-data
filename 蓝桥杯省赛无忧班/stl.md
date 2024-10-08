@@ -44,9 +44,11 @@ sort(起始地址，终止地址下一位， *排序方式)
 2. `push_back`添加元素
 3. `for(const auto& number in numbers)`打印元素
 4. `sort(numbers.begin(), numbers.end())`排序
-5. `numbers.erase(unique(numbers.begin()))
+5. `numbers.erase(unique(numbers.begin(),numbers.end()),numbers.end());`去除重复元素
+6. `numbers.insert(numbers.begin()+2, 3)`插入元素
+7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzU4OTA0LDY2MjkwNjU3OSw2MzY3Nj
-Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
+eyJoaXN0b3J5IjpbMTUxMDgxNTA0MCw2NjI5MDY1NzksNjM2Nz
+Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 
 -->
