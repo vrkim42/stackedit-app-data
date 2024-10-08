@@ -105,9 +105,14 @@ priority_queue<int, vector<int>, greater<int>> 声明
 2. push_front(x) 手插x
 3. pop_back() 弹出尾部元素
 4. pop_front() 弹出手部元素
-5. front
+5. front() 返回头部元素
+6. back() 返回尾部元素
+7. empty() 检查空
+8. size() 返回大小
+9. clear() 清空内容
+10. insert, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTA4MTk3MiwxMTgxNTU2ODM1LDE3NT
+eyJoaXN0b3J5IjpbLTk4Mzg3MDIzOSwxMTgxNTU2ODM1LDE3NT
 c5MTY1NTUsLTM0NzQ1NTQyMSw2NjI5MDY1NzksNjM2NzY0NzI2
 LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 -->
