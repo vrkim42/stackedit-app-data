@@ -41,10 +41,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 
 ### vector向量
 1. `std::vector<int> numbers;`创建vector对象
-2. `
+2. `push_back`添加元素
+3. `for(const auto& number in numbers)`打印元素
+4. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjgzNzY4Nyw2NjI5MDY1NzksNjM2Nz
-Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
+eyJoaXN0b3J5IjpbLTExMDc2MzM0LDY2MjkwNjU3OSw2MzY3Nj
+Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
 
 -->
