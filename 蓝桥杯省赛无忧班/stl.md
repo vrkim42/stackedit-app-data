@@ -50,9 +50,14 @@ sort(起始地址，终止地址下一位， *排序方式)
 8. `numbers.clear()`清空向量
 9. `numbers.size()`向量大小
 
-###    
+### stack
+1. push(x) 栈顶插入元素x
+2. pop() 弹出栈顶元素
+3. top() 返回栈顶元素
+4. empty() 检查栈是否为空
+5. size   
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0OTIxODk1LDY2MjkwNjU3OSw2MzY3Nj
-Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
+eyJoaXN0b3J5IjpbMTY3OTYwNTEwNyw2NjI5MDY1NzksNjM2Nz
+Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 
 -->
