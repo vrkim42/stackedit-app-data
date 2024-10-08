@@ -25,12 +25,15 @@ cin也是遇到空格或者回车时停止输入，对此我们可以使用getli
 ### islower()/isupper()函数
 返回一个布尔值，是返回true
 
-### 
+### tolower()/toupper()函数
+将字符进行大小写转换，不会转换其他字符和空格
+
+### lowerbound
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTY0NDEyNiw2ODI0NTkyMTMsMTEyNj
-A4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbODExMjQ2NjEwLDY4MjQ1OTIxMywxMTI2MD
+g5MzM0LDU4ODUwMTA2OV19
 -->
