@@ -15,12 +15,14 @@
 
 #### cin 和 cout
 当cin的类型为double但是输入的为整数，cout的时候不会为你转化小数，而是单单输出哪个你输入的整数
-除非 `cout << fix
+除非 `cout << fixed <<setprecision(3) << a << " ";`，这样的话会为你转化出一个三位小数的输出结果。
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA1ODA0MCwxMTI2MDg5MzM0LDU4OD
-UwMTA2OV19
+eyJoaXN0b3J5IjpbNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NT
+AxMDY5XX0=
 -->
