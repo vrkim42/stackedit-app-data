@@ -39,9 +39,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 这里使用[]进行匿名函数声明，也可以使用自定义函数，方法类似
 
 
-### 
+### vector向量
+1. `std::vector<int> numbers;`创建vector对象
+2. `
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NT
-kyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbMTQyMjgzNzY4Nyw2NjI5MDY1NzksNjM2Nz
+Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
+
 -->
