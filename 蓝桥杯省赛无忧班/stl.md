@@ -74,11 +74,12 @@ sort(起始地址，终止地址下一位， *排序方式)
 11. `rbegin` 返回指向集合末尾位置的逆向迭代器
 12. `rend` 返回指向初始位置的逆向迭代器
 13. `swap` 交换两个集合
-14. 
+14. `set<int, greater<int>> mySet;`
 
-### 
+### multiset多重集合
+1. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzOTIyMTk2LDY2MjkwNjU3OSw2MzY3Nj
-Q3MjYsNjgyNDU5MjEzLDExMjYwODkzMzQsNTg4NTAxMDY5XX0=
+eyJoaXN0b3J5IjpbMTU3MzU4ODg5OCw2NjI5MDY1NzksNjM2Nz
+Y0NzI2LDY4MjQ1OTIxMywxMTI2MDg5MzM0LDU4ODUwMTA2OV19
 
 -->
