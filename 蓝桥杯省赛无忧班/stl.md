@@ -98,10 +98,10 @@ sort(起始地址，终止地址下一位， *排序方式)
 3. top() 返回优先队列的顶部元素
 4. empty() 判断是否为空
 5. size 返回元素个数
-
+priority_queue<int, vector<int>, greater<int>> 声明
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTU1NjgzNSwxNzU3OTE2NTU1LC0zND
-c0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcyNiw2ODI0NTkyMTMs
-MTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
+eyJoaXN0b3J5IjpbLTE0MTAwMDE2NjcsMTE4MTU1NjgzNSwxNz
+U3OTE2NTU1LC0zNDc0NTU0MjEsNjYyOTA2NTc5LDYzNjc2NDcy
+Niw2ODI0NTkyMTMsMTEyNjA4OTMzNCw1ODg1MDEwNjldfQ==
 -->
