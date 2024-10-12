@@ -5,8 +5,8 @@
 - del a[2] 删除列表指定位置的元素
 - pop() 删除并返回指定位置元素，默认是最后一个，可以在小括号内加入索引
 - remove(value) 删除指定值元素
-- 
+- len()函数返回长度  max()函数
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODk2MDYyMSwtMTkxNTk1MTQzOSwxNT
-QzMjQzMDI2XX0=
+eyJoaXN0b3J5IjpbNjYzOTIxNDksLTE5MTU5NTE0MzksMTU0Mz
+I0MzAyNl19
 -->
