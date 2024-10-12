@@ -3,8 +3,10 @@
 - insert()将目标插入函数中
 - index(value,[start,[end]]) 获得指定元素首次出现的索引位置
 - del a[2] 删除列表指定位置的元素
-- pop() shanchubingfanh
+- pop() 删除并返回指定位置元素，默认是最后一个，可以在小括号内加入索引
+- remove(value) 删除指定值元素
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzQyMTc2NSwtMTkxNTk1MTQzOSwxNT
+eyJoaXN0b3J5IjpbLTI0ODk2MDYyMSwtMTkxNTk1MTQzOSwxNT
 QzMjQzMDI2XX0=
 -->
