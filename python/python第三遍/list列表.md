@@ -12,8 +12,9 @@
 - sort() 对列表进行排序，会改变原来的列表
 - sorted() 对列表进行排序，返回新列表，原列表不变
 - clear() 用于清空列表的内容
-- en
+- enumerate()函数的使用`for i,element in enumerate(list)     print(i, element)`
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTQyODAyMiwtMjgwNDYxMDU3LC0xOT
-E1OTUxNDM5LDE1NDMyNDMwMjZdfQ==
+eyJoaXN0b3J5IjpbNTUxODIyNDYyLC0yODA0NjEwNTcsLTE5MT
+U5NTE0MzksMTU0MzI0MzAyNl19
 -->
