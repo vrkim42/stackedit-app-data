@@ -12,8 +12,8 @@
 - sort() 对列表进行排序，会改变原来的列表
 - sorted() 对列表进行排序，返回新列表，原列表不变
 - clear() 用于清空列表的内容
-
+- 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQxNjUzNDI2LC0xOTE1OTUxNDM5LDE1ND
-MyNDMwMjZdfQ==
+eyJoaXN0b3J5IjpbLTI4MDQ2MTA1NywtMTkxNTk1MTQzOSwxNT
+QzMjQzMDI2XX0=
 -->
