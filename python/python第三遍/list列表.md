@@ -8,8 +8,12 @@
 - len()函数返回长度  max()函数返回最大值    min()函数返回最小值
 - copy() 用于赋值一个列表
 - count()  统计某个元素在列表的出现次数
-- reverse() 用于将列表的元素fanxiang
+- reverse() 用于将列表的元素反向存放
+- sort() 对列表进行排序，会改变原来的列表
+- sorted() 对列表进行排序，返回新列表，原列表不变
+- clear() 用于清空列表的内容
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTkwMTYzOTgsLTE5MTU5NTE0MzksMT
-U0MzI0MzAyNl19
+eyJoaXN0b3J5IjpbMjQxNjUzNDI2LC0xOTE1OTUxNDM5LDE1ND
+MyNDMwMjZdfQ==
 -->
