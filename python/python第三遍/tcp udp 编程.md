@@ -6,7 +6,8 @@ ip地址标识网络中一个通信实体的地址，通信实体可以是计算
 ipv4是一个32位整数，ipv6是一个128位整数（字符串表示）
 
 
+### osi模型
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbLTU2ODYwODgzMywtNzkzMjczMjk1XX0=
 -->
