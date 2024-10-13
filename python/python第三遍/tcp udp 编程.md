@@ -10,7 +10,7 @@ ipv4是一个32位整数，ipv6是一个128位整数（字符串表示）
 应用层，表示层，会话层，传输层，网络层，数据链路层，物理层
 
 ### tcp/ip协议
-协议族
+协议族，按照层次划分，共四层：应用层，传输层，互联网络层，网络接口层
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNjA5MDgyNSwtNzkzMjczMjk1XX0=
+eyJoaXN0b3J5IjpbLTEzMTA0NjA0OTEsLTc5MzI3MzI5NV19
 -->
