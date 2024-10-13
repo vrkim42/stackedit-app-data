@@ -13,9 +13,10 @@ ipv4是一个32位整数，ipv6是一个128位整数（字符串表示）
 协议族，按照层次划分，共四层：应用层（对应osi的应用层，表示层，会话层），传输层（tcp/udp），互联网络层（ip），网络接口层（物理数据链路）
 
 ### socket编程
-Socket 编程就分为 TCP 编程和 UDP 编程两类。
+Socket 编程就分为 **TCP 编程**和 **UDP 编程**两类。
 在网络通讯中，**TCP 方式就类似于拨打电话**，使用该种方式进行网络通讯时，需要建立专门的虚拟连接，然后进行可靠的数据传输，如果数据发送失败，则客户端会自动重发该数据。而 **UDP 方式就类似于发送短信**，使用这种方式进行网络通讯时，不需要建立专门的虚拟连接，传输也不是很可靠，如果发送失败则客户端无法获得。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDk4NjMyLC0xNzgzOTIxODA0LC03OT
+eyJoaXN0b3J5IjpbMTg5OTY0NDcwLC0xNzgzOTIxODA0LC03OT
 MyNzMyOTVdfQ==
 -->
