@@ -8,6 +8,9 @@ ipv4是一个32位整数，ipv6是一个128位整数（字符串表示）
 
 ### osi模型
 应用层，表示层，会话层，传输层，网络层，数据链路层，物理层
+
+### tcp/ip协议
+协议族
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjg3NzQyMzgsLTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbMjAyNjA5MDgyNSwtNzkzMjczMjk1XX0=
 -->
