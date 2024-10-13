@@ -1,7 +1,7 @@
 ## 综述
 python语言在网络通信方面的优点特别突出，远远领先其他语言。
 
-
+ip地址标识网络中一个通信实体的地址，通信实体可以是计算机，路由器等。计算机要通信也必须配置ip地址，路由器是连接两个或多个wangluo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1ODgyNzIxXX0=
+eyJoaXN0b3J5IjpbLTE3NTkyNzc2NzFdfQ==
 -->
