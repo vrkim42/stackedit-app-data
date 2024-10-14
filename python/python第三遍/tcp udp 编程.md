@@ -31,10 +31,13 @@ udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 [使用udp传递数据 - Pastebin.com](https://pastebin.com/UhaXnpBp)
 [多线程udp传输信息 - Pastebin.com](https://pastebin.com/s6Ba10bZ)
 
-### 使用tcp传递数据
+### 使用tftp传递文件
+![输入图片说明](/imgs/2024-10-14/7V5VOEu9j32VKOcQ.png)
+![输入图片说明](/imgs/2024-10-14/llwIx2jbgMoMxDgD.png)
+![输入图片说明](/imgs/2024-10-14/2nOR61lVDvXqclGA.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1Nzc1MDEsNjA2NTgzMzk4LC0xMTYyOT
-I2MzU4LDk2NTk4NzA4MCwtMTc4MzkyMTgwNCwtNzkzMjczMjk1
-XX0=
+eyJoaXN0b3J5IjpbNzMwNzQ3Nzk0LDMxNTc3NTAxLDYwNjU4Mz
+M5OCwtMTE2MjkyNjM1OCw5NjU5ODcwODAsLTE3ODM5MjE4MDQs
+LTc5MzI3MzI5NV19
 -->
