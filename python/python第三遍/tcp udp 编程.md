@@ -45,9 +45,12 @@ tcpSocket=socket.socket(AF_INET,SOCK_STREAM)原型定义
 ![输入图片说明](/imgs/2024-10-14/QGZwTjdPwbyQK7CC.png)
 [使用socket创建tcp服务端 - Pastebin.com](https://pastebin.com/Aa46XSca)
 [使用socket实现tcp客户端 - Pastebin.com](https://pastebin.com/d3Ak6YHB)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4OTI4NjY3NywtMTc1MDI3NTQ4MSwxMz
-A5ODU2NzU4LDEwNDk3NDY5OTQsLTE5MTg2MDE3NzYsNzMwNzQ3
-Nzk0LDMxNTc3NTAxLDYwNjU4MzM5OCwtMTE2MjkyNjM1OCw5Nj
-U5ODcwODAsLTE3ODM5MjE4MDQsLTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbMTA5NTU5MjA0OSwxMDg5Mjg2Njc3LC0xNz
+UwMjc1NDgxLDEzMDk4NTY3NTgsMTA0OTc0Njk5NCwtMTkxODYw
+MTc3Niw3MzA3NDc3OTQsMzE1Nzc1MDEsNjA2NTgzMzk4LC0xMT
+YyOTI2MzU4LDk2NTk4NzA4MCwtMTc4MzkyMTgwNCwtNzkzMjcz
+Mjk1XX0=
 -->
