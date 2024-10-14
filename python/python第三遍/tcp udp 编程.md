@@ -22,7 +22,9 @@ Socket 编程就分为 **TCP 编程**和 **UDP 编程**两类。
 ### socket
 socket.socket([family[, type[, proto]]])
 其中参数 family: 套接字家族可以使 AF_UNIX 或者 AF_INET；type: 套接字类型可以根据是面向连接的还是非连接分为 SOCK_STREAM 或 SOCK_DGRAM；protocol: 一般不填默认为 0。
+tcpSocket=socket.socket(AF_INET,SOCK_STREAM)
+socket 主要分为面向连接的 socket 和无连接的 socket。面向连接的 socket 使用的主要协议是传输控制协议，也就是常说的 TCP，TCP 的 socket 名称是SOCK_STREAM。创建套接字 TCP/IP 套接字，可以调用 socket.socket()。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MjQ5MjI3OSw5NjU5ODcwODAsLTE3OD
+eyJoaXN0b3J5IjpbMTMzMzM1NzE0Niw5NjU5ODcwODAsLTE3OD
 M5MjE4MDQsLTc5MzI3MzI5NV19
 -->
