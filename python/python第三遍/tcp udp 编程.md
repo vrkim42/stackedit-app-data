@@ -19,8 +19,10 @@ Socket 编程就分为 **TCP 编程**和 **UDP 编程**两类。
 - TCP 是面向连接的，传输数据安全，稳定，效率相对较低。 
 - UDP 是面向无连接的，传输数据不安全，效率较高。
 
-### 
+### socket
+socket.socket([family[, type[, proto]]])
+其中参数 family: 套接字家族可以使 AF_UNIX 或者 AF_INET；type: 套接字类型可以根据是面向连接的还是非连接分为 SOCK_STREAM 或 SOCK_DGRAM；protocol: 一般不填默认为 0。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY1OTg3MDgwLC0xNzgzOTIxODA0LC03OT
-MyNzMyOTVdfQ==
+eyJoaXN0b3J5IjpbLTM4MjQ5MjI3OSw5NjU5ODcwODAsLTE3OD
+M5MjE4MDQsLTc5MzI3MzI5NV19
 -->
