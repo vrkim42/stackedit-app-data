@@ -32,12 +32,13 @@ udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 [多线程udp传输信息 - Pastebin.com](https://pastebin.com/s6Ba10bZ)
 
 ### 使用tftp传递文件
+使用struct模块进行传输
 ![输入图片说明](/imgs/2024-10-14/7V5VOEu9j32VKOcQ.png)
 ![输入图片说明](/imgs/2024-10-14/llwIx2jbgMoMxDgD.png)
 ![输入图片说明](/imgs/2024-10-14/2nOR61lVDvXqclGA.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwNzQ3Nzk0LDMxNTc3NTAxLDYwNjU4Mz
-M5OCwtMTE2MjkyNjM1OCw5NjU5ODcwODAsLTE3ODM5MjE4MDQs
-LTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbLTIwMzI1NzE1NzYsNzMwNzQ3Nzk0LDMxNT
+c3NTAxLDYwNjU4MzM5OCwtMTE2MjkyNjM1OCw5NjU5ODcwODAs
+LTE3ODM5MjE4MDQsLTc5MzI3MzI5NV19
 -->
