@@ -43,9 +43,10 @@ udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 tcpSocket=socket.socket(AF_INET,SOCK_STREAM)原型定义
 ![输入图片说明](/imgs/2024-10-14/QGZwTjdPwbyQK7CC.png)
 [使用socket创建tcp服务端 - Pastebin.com](https://pastebin.com/Aa46XSca)
+[使用socket实现tcp客户端 - Pastebin.com](https://pastebin.com/d3Ak6YHB)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwOTg1Njc1OCwxMDQ5NzQ2OTk0LC0xOT
-E4NjAxNzc2LDczMDc0Nzc5NCwzMTU3NzUwMSw2MDY1ODMzOTgs
-LTExNjI5MjYzNTgsOTY1OTg3MDgwLC0xNzgzOTIxODA0LC03OT
-MyNzMyOTVdfQ==
+eyJoaXN0b3J5IjpbLTE3NTAyNzU0ODEsMTMwOTg1Njc1OCwxMD
+Q5NzQ2OTk0LC0xOTE4NjAxNzc2LDczMDc0Nzc5NCwzMTU3NzUw
+MSw2MDY1ODMzOTgsLTExNjI5MjYzNTgsOTY1OTg3MDgwLC0xNz
+gzOTIxODA0LC03OTMyNzMyOTVdfQ==
 -->
