@@ -27,8 +27,12 @@ socket 主要分为面向连接的 socket 和无连接的 socket。面向连接�
 udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 
 
+### 使用udp传递数据
+[使用udp传递数据 - Pastebin.com](https://pastebin.com/UhaXnpBp)
+
+### 使用tcp传递数据
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMzQwMjY5NCwtMTE2MjkyNjM1OCw5Nj
-U5ODcwODAsLTE3ODM5MjE4MDQsLTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbNjA2NTgzMzk4LC0xMTYyOTI2MzU4LDk2NT
+k4NzA4MCwtMTc4MzkyMTgwNCwtNzkzMjczMjk1XX0=
 -->
