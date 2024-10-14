@@ -39,9 +39,11 @@ udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 [使用socket和struct实现tftp文件传输 - Pastebin.com](https://pastebin.com/nWAhvshP)
 这个是tftp客户端的代码实现，但是想要实现服务端就需要下载相应的服务端软件进行操作
 
-
+### tcp协议进行通信
+tcpSocket=socket.socket(AF_INET,SOCK_STREAM)原型定义
+![输入图片说明](/imgs/2024-10-14/QGZwTjdPwbyQK7CC.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTg2MDE3NzYsNzMwNzQ3Nzk0LDMxNT
-c3NTAxLDYwNjU4MzM5OCwtMTE2MjkyNjM1OCw5NjU5ODcwODAs
-LTE3ODM5MjE4MDQsLTc5MzI3MzI5NV19
+eyJoaXN0b3J5IjpbMTA0OTc0Njk5NCwtMTkxODYwMTc3Niw3Mz
+A3NDc3OTQsMzE1Nzc1MDEsNjA2NTgzMzk4LC0xMTYyOTI2MzU4
+LDk2NTk4NzA4MCwtMTc4MzkyMTgwNCwtNzkzMjczMjk1XX0=
 -->
