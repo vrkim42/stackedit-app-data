@@ -26,7 +26,7 @@ tcpSocket=socket.socket(AF_INET,SOCK_STREAM)
 socket 主要分为面向连接的 socket 和无连接的 socket。面向连接的 socket 使用的主要协议是传输控制协议，也就是常说的 TCP，TCP 的 socket 名称是 SOCK_STREAM。创建套接字 TCP/IP 套接字，可以调用 socket.socket()。
 udpSocket=socket.socket (AF_INET,SOCK_DGRAM)
 
-
+![输入图片说明](/imgs/2024-10-14/zDKYXtGTdg8axwkj.png)
 
 ### 使用udp传递数据
 [使用udp传递数据 - Pastebin.com](https://pastebin.com/UhaXnpBp)
@@ -48,9 +48,9 @@ tcpSocket=socket.socket(AF_INET,SOCK_STREAM)原型定义
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTU5MjA0OSwxMDg5Mjg2Njc3LC0xNz
-UwMjc1NDgxLDEzMDk4NTY3NTgsMTA0OTc0Njk5NCwtMTkxODYw
-MTc3Niw3MzA3NDc3OTQsMzE1Nzc1MDEsNjA2NTgzMzk4LC0xMT
-YyOTI2MzU4LDk2NTk4NzA4MCwtMTc4MzkyMTgwNCwtNzkzMjcz
-Mjk1XX0=
+eyJoaXN0b3J5IjpbNTczMTU5NzkxLDEwOTU1OTIwNDksMTA4OT
+I4NjY3NywtMTc1MDI3NTQ4MSwxMzA5ODU2NzU4LDEwNDk3NDY5
+OTQsLTE5MTg2MDE3NzYsNzMwNzQ3Nzk0LDMxNTc3NTAxLDYwNj
+U4MzM5OCwtMTE2MjkyNjM1OCw5NjU5ODcwODAsLTE3ODM5MjE4
+MDQsLTc5MzI3MzI5NV19
 -->
