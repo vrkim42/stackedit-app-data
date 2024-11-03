@@ -159,10 +159,10 @@ LIFO 使用`stack`
 排序，去重使用`set`
 排序使用`multiset`
 去重使用`unordered_set`
-对于bufen
+将元素进行捆绑`pair`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDcwNzg5OTksLTE0ODUyOTkxNDYsMT
-UwODY3Mjk5NF19
+eyJoaXN0b3J5IjpbMTM4NzAyNzA1MSwtMTQ4NTI5OTE0NiwxNT
+A4NjcyOTk0XX0=
 -->
