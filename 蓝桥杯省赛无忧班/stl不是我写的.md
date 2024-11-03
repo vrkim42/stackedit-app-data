@@ -151,6 +151,13 @@ int random_number = dis(gen);
 ![输入图片说明](/imgs/2024-11-03/pQxsDjeDwD6pF3tg.png)
 
 
+一般情况下使用`vector`
+双端操作频繁使用`deque`
+最值操作使用`priority_queue`
+FIFO 使用`queue`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODUyOTkxNDYsMTUwODY3Mjk5NF19
+eyJoaXN0b3J5IjpbLTcwMjQzOTMzMCwtMTQ4NTI5OTE0NiwxNT
+A4NjcyOTk0XX0=
 -->
