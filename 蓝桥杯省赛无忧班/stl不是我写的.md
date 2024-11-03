@@ -147,6 +147,10 @@ int random_number = dis(gen);
 - O(2^n): 指数时间,如递归斐波那契
 
 注意: 在实际应用中,根据具体问题选择合适的数据结构和算法至关重要。
+
+![输入图片说明](/imgs/2024-11-03/pQxsDjeDwD6pF3tg.png)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwODY3Mjk5NF19
+eyJoaXN0b3J5IjpbLTE0ODUyOTkxNDYsMTUwODY3Mjk5NF19
 -->
