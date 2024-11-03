@@ -155,9 +155,14 @@ int random_number = dis(gen);
 双端操作频繁使用`deque`
 最值操作使用`priority_queue`
 FIFO 使用`queue`
+LIFO 使用`stack`
+排序，去重使用`set`
+排序使用`multiset`
+去重使用`unordered_set`
+对于bufen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMjQzOTMzMCwtMTQ4NTI5OTE0NiwxNT
-A4NjcyOTk0XX0=
+eyJoaXN0b3J5IjpbLTE1MDcwNzg5OTksLTE0ODUyOTkxNDYsMT
+UwODY3Mjk5NF19
 -->
