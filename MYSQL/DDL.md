@@ -21,7 +21,6 @@ show tables from 库名
 
 查看创建库的信息和语句
 show create database 库名	
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjI2MzQ2NF19
+eyJoaXN0b3J5IjpbMTU3NDg2MzI3NF19
 -->
