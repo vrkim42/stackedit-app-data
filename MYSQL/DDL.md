@@ -10,10 +10,18 @@ show variables like 'collation_database'
 ### practice
 create database if not exists ddl_d1 caracter set utf8 collate utf8mb4_0900_as_cs
 ## 1.2 数据库查看
-	查看所有库
-	show databases;
+查看所有库
+show databases;
+
 查看当前使用库
-select database())
+select database();
+
+查看库下所有表
+show tables from 库名
+
+查看创建库的信息和语句
+show create database 库名	
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMTY0MzcwN119
+eyJoaXN0b3J5IjpbLTY0NjI2MzQ2NF19
 -->
