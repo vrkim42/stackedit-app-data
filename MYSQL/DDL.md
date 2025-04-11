@@ -8,8 +8,12 @@ create Name character set <> collate <>
 show variables like 'character_set_database'
 show variables like 'collation_database'
 ### practice
-create database ddl_d1 caracter set utf8 collate utf8mb4_0900_as_cs
-## 1.2 
+create database if not exists ddl_d1 caracter set utf8 collate utf8mb4_0900_as_cs
+## 1.2 数据库查看
+	查看所有库
+	show databases;
+查看当前使用库
+select database())
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNzI2Mjc4OV19
+eyJoaXN0b3J5IjpbMTcwMTY0MzcwN119
 -->
