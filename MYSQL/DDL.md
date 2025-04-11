@@ -9,6 +9,7 @@ show variables like 'character_set_database'
 show variables like 'collation_database'
 ### practice
 create database if not exists ddl_d1 caracter set utf8 collate utf8mb4_0900_as_cs
+
 ## 1.2 数据库查看
 查看所有库
 show databases;
@@ -20,12 +21,19 @@ select database();
 show tables from 库名
 
 查看创建库的信息和语句
-show create database 库名	
+show create database 库名
+	
 ## 1.3 数据库修改
 修改字符集
 alter database 数据库 character set 字符集
 alter database 数据库 collate 排序方式
 
+## 1.4 数据库删除
+直接删除
+drop database 数据库名
+判断删除
+drop database if exists 数据库名
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTkzMTM1MV19
+eyJoaXN0b3J5IjpbLTEyOTA4NzAwMTZdfQ==
 -->
